@@ -1,0 +1,74 @@
+seed: 123
+output_dir: outputs/mnist_noniid_cnn_realnet
+dataset:
+  name: MNIST
+  data_dir: data
+  iid: false
+  shards_per_client: 2
+  max_train_samples: 3000
+  max_test_samples: 1000
+federated:
+  clients: 5
+  rounds: 5
+  threshold: 3
+  local_epochs: 1
+  batch_size: 64
+  local_lr: 0.1
+  server_lr: 1.0
+  dropout:
+    3:
+    - 5
+model:
+  name: tiny_cnn
+encoding:
+  scale: 10000
+  q: 1000000007
+crypto:
+  paillier_bits: 512
+  pedersen_prime_bits: 521
+  pedersen_window: 0
+blockchain:
+  enabled: true
+  rpc_url: http://127.0.0.1:8545
+  contract_json: outputs/contract.json
+communication:
+  enabled: true
+  bandwidth_mbps: 100
+  latency_ms: 5
+  apply_delay: false
+  topology: logical_links
+  mode: real_socket
+  timeout_seconds: 120
+  fallback_to_estimate: false
+  endpoints:
+    CS:
+      host: 127.0.0.1
+      port: 9101
+    KGC:
+      host: 127.0.0.1
+      port: 9102
+    C1:
+      host: 127.0.0.1
+      port: 9111
+    C2:
+      host: 127.0.0.1
+      port: 9112
+    C3:
+      host: 127.0.0.1
+      port: 9113
+    C4:
+      host: 127.0.0.1
+      port: 9114
+    C5:
+      host: 127.0.0.1
+      port: 9115
+logging:
+  verbose: true
+  save_trace: true
+runtime:
+  device: auto
+  parallel_clients: true
+  max_client_workers: 5
+  num_workers: 0
+  pin_memory: false
+  test_batch_size: 256
