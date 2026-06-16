@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\Thesis_project\fpa4\scripts\run_client_server.py", line 13, in <module>
+    import torch
+  File "E:\Thesis_project\.venv\Lib\site-packages\torch\__init__.py", line 14, in <module>
+    import ctypes
+  File "C:\Users\22453\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 8, in <module>
+    from _ctypes import Union, Structure, Array
+ImportError: DLL load failed while importing _ctypes: 出现了内部错误。
