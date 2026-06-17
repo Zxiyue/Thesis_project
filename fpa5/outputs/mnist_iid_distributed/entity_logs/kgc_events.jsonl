@@ -1,0 +1,45 @@
+{"time": 1781627830.3685899, "event": "setup", "modelHash0": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4", "U": [1, 2, 3, 4, 5]}
+{"time": 1781627831.537266, "event": "round_init", "round": 1, "alpha": "0x0e5f8464f598daca974f6bba8350eed4828f556f6a7ae64641fdcd09cda92f96", "modelHash": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4"}
+{"time": 1781627872.028383, "event": "upload_copy", "round": 1, "client_id": 4}
+{"time": 1781627872.1225321, "event": "upload_copy", "round": 1, "client_id": 1}
+{"time": 1781627872.2630315, "event": "upload_copy", "round": 1, "client_id": 3}
+{"time": 1781627872.459155, "event": "upload_copy", "round": 1, "client_id": 5}
+{"time": 1781627872.6218371, "event": "upload_copy", "round": 1, "client_id": 2}
+{"time": 1781627872.8177102, "event": "verify_uploads", "round": 1, "valid_clients": [4, 1, 3, 5, 2], "rootUp": "0xa813e8343c9ebff53928004a3ddab12844db8ed827aec4bfddba2bcf8fef7388"}
+{"time": 1781627872.9408398, "event": "compensation", "round": 1, "D_r": []}
+{"time": 1781627887.7199936, "event": "final_confirm", "round": 1, "modelHashNext": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0", "auditRoot": "0x579fe63f3935f1c68c410a544338944b25ad9f2cf2739a14050098da73100ec6"}
+{"time": 1781627888.0702562, "event": "round_init", "round": 2, "alpha": "0xbe93608672e58e2bfa957a368e5180768246c72f19bff5e7074938a883d4f4d5", "modelHash": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0"}
+{"time": 1781627922.0470912, "event": "upload_copy", "round": 2, "client_id": 3}
+{"time": 1781627922.1258745, "event": "upload_copy", "round": 2, "client_id": 1}
+{"time": 1781627922.2473516, "event": "upload_copy", "round": 2, "client_id": 4}
+{"time": 1781627922.3039281, "event": "upload_copy", "round": 2, "client_id": 2}
+{"time": 1781627922.4173484, "event": "upload_copy", "round": 2, "client_id": 5}
+{"time": 1781627922.6148918, "event": "verify_uploads", "round": 2, "valid_clients": [3, 1, 4, 2, 5], "rootUp": "0x8eec4ac7bcd7fcd31c4f17af64cc6a696139c60e221208f8737276ea8cf3b95d"}
+{"time": 1781627922.7455983, "event": "compensation", "round": 2, "D_r": []}
+{"time": 1781627937.9437487, "event": "final_confirm", "round": 2, "modelHashNext": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16", "auditRoot": "0x029db91914e440375a5a0b6c719c3830dbe1faf5d8dd4fd5dbfc99e94f9d51e0"}
+{"time": 1781627938.364461, "event": "round_init", "round": 3, "alpha": "0x05ac60c543dad68f278a4b186d47358905c24a95335fda1353cb6bbcd4932270", "modelHash": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16"}
+{"time": 1781627968.972128, "event": "upload_copy", "round": 3, "client_id": 1}
+{"time": 1781627969.000261, "event": "upload_copy", "round": 3, "client_id": 4}
+{"time": 1781627969.090662, "event": "upload_copy", "round": 3, "client_id": 3}
+{"time": 1781627969.289077, "event": "upload_copy", "round": 3, "client_id": 5}
+{"time": 1781627969.4451988, "event": "verify_uploads", "round": 3, "valid_clients": [1, 4, 3, 5], "rootUp": "0x671d089ad21314adc42ee4475f81c146a9c0e80767baddf61e3339863dda31b9"}
+{"time": 1781627987.451433, "event": "compensation", "round": 3, "D_r": [2]}
+{"time": 1781628001.6493044, "event": "final_confirm", "round": 3, "modelHashNext": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b", "auditRoot": "0xecdbc411743623bdb5ae29d4f06c0c25b0d11a54b9224682d598fe2681479905"}
+{"time": 1781628002.015467, "event": "round_init", "round": 4, "alpha": "0xca574945a9fa1d3b8ac0f120a0d62d3f8214dbeb5f489350da7286dd8fec03d4", "modelHash": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b"}
+{"time": 1781628041.1496344, "event": "upload_copy", "round": 4, "client_id": 3}
+{"time": 1781628041.3069158, "event": "upload_copy", "round": 4, "client_id": 1}
+{"time": 1781628041.3252265, "event": "upload_copy", "round": 4, "client_id": 2}
+{"time": 1781628041.3655622, "event": "upload_copy", "round": 4, "client_id": 4}
+{"time": 1781628041.705561, "event": "upload_copy", "round": 4, "client_id": 5}
+{"time": 1781628041.8926926, "event": "verify_uploads", "round": 4, "valid_clients": [3, 1, 2, 4, 5], "rootUp": "0xe4cff72bff509d07e16a4583870114d98a0f8887f570fa1bf063b92f7363fdd1"}
+{"time": 1781628042.0116775, "event": "compensation", "round": 4, "D_r": []}
+{"time": 1781628057.811199, "event": "final_confirm", "round": 4, "modelHashNext": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a", "auditRoot": "0xa488eedb366705b3bb85f7787a8eaf926ab039fed595a4d725ffadef4ccb85f4"}
+{"time": 1781628058.1952627, "event": "round_init", "round": 5, "alpha": "0xb8d4c6c301b45ff423ae35ced28b339c97ce105ba6fe303abb86cc2037f65021", "modelHash": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a"}
+{"time": 1781628091.595934, "event": "upload_copy", "round": 5, "client_id": 2}
+{"time": 1781628091.7919238, "event": "upload_copy", "round": 5, "client_id": 1}
+{"time": 1781628091.957022, "event": "upload_copy", "round": 5, "client_id": 3}
+{"time": 1781628091.9973226, "event": "upload_copy", "round": 5, "client_id": 4}
+{"time": 1781628092.1134958, "event": "upload_copy", "round": 5, "client_id": 5}
+{"time": 1781628092.2951453, "event": "verify_uploads", "round": 5, "valid_clients": [2, 1, 3, 4, 5], "rootUp": "0x84c061f20ee3fe42c2a7a5b495b87387c75fcf03473c0242898fea475e2bd970"}
+{"time": 1781628092.421622, "event": "compensation", "round": 5, "D_r": []}
+{"time": 1781628106.0315642, "event": "final_confirm", "round": 5, "modelHashNext": "0x7fb9aa7f0ae69d3ed2fa98d7e30e428521ae5ce87c64288f84e19b76823dfd68", "auditRoot": "0xbd8cc39266566e970f115c5158e4c3a3b0e36a52ac866a5d2262343f5a2b89ae"}

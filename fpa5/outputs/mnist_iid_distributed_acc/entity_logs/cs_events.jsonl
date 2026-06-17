@@ -1,0 +1,110 @@
+{"time": 1781632993.6717148, "event": "start_experiment"}
+{"time": 1781633027.6748736, "event": "upload", "round": 1, "client_id": 2}
+{"time": 1781633027.7088535, "event": "upload", "round": 1, "client_id": 5}
+{"time": 1781633027.733349, "event": "upload", "round": 1, "client_id": 4}
+{"time": 1781633027.7820556, "event": "upload", "round": 1, "client_id": 3}
+{"time": 1781633027.9861267, "event": "upload", "round": 1, "client_id": 1}
+{"time": 1781633028.6262522, "event": "share", "round": 1, "client_id": 1}
+{"time": 1781633028.6979005, "event": "share", "round": 1, "client_id": 2}
+{"time": 1781633028.7714381, "event": "share", "round": 1, "client_id": 3}
+{"time": 1781633028.844504, "event": "share", "round": 1, "client_id": 4}
+{"time": 1781633028.9210594, "event": "share", "round": 1, "client_id": 5}
+{"time": 1781633045.6349874, "event": "round_complete", "round": 1, "acc": 0.124, "effective": 5, "dropout": []}
+{"time": 1781633079.4308455, "event": "upload", "round": 2, "client_id": 2}
+{"time": 1781633079.5404434, "event": "upload", "round": 2, "client_id": 1}
+{"time": 1781633079.5661898, "event": "upload", "round": 2, "client_id": 5}
+{"time": 1781633079.5591905, "event": "upload", "round": 2, "client_id": 3}
+{"time": 1781633079.59467, "event": "upload", "round": 2, "client_id": 4}
+{"time": 1781633080.2919693, "event": "share", "round": 2, "client_id": 1}
+{"time": 1781633080.3720891, "event": "share", "round": 2, "client_id": 2}
+{"time": 1781633080.449009, "event": "share", "round": 2, "client_id": 3}
+{"time": 1781633080.4966712, "event": "share", "round": 2, "client_id": 4}
+{"time": 1781633080.5781286, "event": "share", "round": 2, "client_id": 5}
+{"time": 1781633095.5220637, "event": "round_complete", "round": 2, "acc": 0.198, "effective": 5, "dropout": []}
+{"time": 1781633127.2737007, "event": "upload", "round": 3, "client_id": 3}
+{"time": 1781633127.325367, "event": "upload", "round": 3, "client_id": 4}
+{"time": 1781633127.455748, "event": "upload", "round": 3, "client_id": 5}
+{"time": 1781633127.5204973, "event": "upload", "round": 3, "client_id": 1}
+{"time": 1781633147.609417, "event": "share", "round": 3, "client_id": 1}
+{"time": 1781633147.6800098, "event": "share", "round": 3, "client_id": 3}
+{"time": 1781633147.7718923, "event": "share", "round": 3, "client_id": 4}
+{"time": 1781633147.8650267, "event": "share", "round": 3, "client_id": 5}
+{"time": 1781633162.7370827, "event": "round_complete", "round": 3, "acc": 0.224, "effective": 4, "dropout": [2]}
+{"time": 1781633162.939019, "event": "model_sync", "round": 4, "client_id": 2, "old_hash": "0xff995409e00fc5da7e736b79f489a4d8eb0666f8a6ba77584f07d149ed8a21d2", "target": "0xf90cb2fba99c887247f6ce871df8b5f72f390bb70024cee765988cd6b1373f7b"}
+{"time": 1781633196.973724, "event": "upload", "round": 4, "client_id": 1}
+{"time": 1781633197.1474645, "event": "upload", "round": 4, "client_id": 4}
+{"time": 1781633197.2574599, "event": "upload", "round": 4, "client_id": 3}
+{"time": 1781633197.344322, "event": "upload", "round": 4, "client_id": 2}
+{"time": 1781633197.6707685, "event": "upload", "round": 4, "client_id": 5}
+{"time": 1781633198.3063307, "event": "share", "round": 4, "client_id": 1}
+{"time": 1781633198.3802698, "event": "share", "round": 4, "client_id": 2}
+{"time": 1781633198.458358, "event": "share", "round": 4, "client_id": 3}
+{"time": 1781633198.525126, "event": "share", "round": 4, "client_id": 4}
+{"time": 1781633198.5976548, "event": "share", "round": 4, "client_id": 5}
+{"time": 1781633213.271643, "event": "round_complete", "round": 4, "acc": 0.23, "effective": 5, "dropout": []}
+{"time": 1781633247.9880881, "event": "upload", "round": 5, "client_id": 5}
+{"time": 1781633248.0960252, "event": "upload", "round": 5, "client_id": 2}
+{"time": 1781633248.253683, "event": "upload", "round": 5, "client_id": 1}
+{"time": 1781633248.3534021, "event": "upload", "round": 5, "client_id": 4}
+{"time": 1781633248.5394638, "event": "upload", "round": 5, "client_id": 3}
+{"time": 1781633249.2077098, "event": "share", "round": 5, "client_id": 1}
+{"time": 1781633249.277052, "event": "share", "round": 5, "client_id": 2}
+{"time": 1781633249.355204, "event": "share", "round": 5, "client_id": 3}
+{"time": 1781633249.4262354, "event": "share", "round": 5, "client_id": 4}
+{"time": 1781633249.499076, "event": "share", "round": 5, "client_id": 5}
+{"time": 1781633264.3068206, "event": "round_complete", "round": 5, "acc": 0.224, "effective": 5, "dropout": []}
+{"time": 1781633299.1016908, "event": "upload", "round": 6, "client_id": 2}
+{"time": 1781633299.129617, "event": "upload", "round": 6, "client_id": 1}
+{"time": 1781633299.1376214, "event": "upload", "round": 6, "client_id": 4}
+{"time": 1781633299.2098787, "event": "upload", "round": 6, "client_id": 3}
+{"time": 1781633299.3286839, "event": "upload", "round": 6, "client_id": 5}
+{"time": 1781633300.0362954, "event": "share", "round": 6, "client_id": 1}
+{"time": 1781633300.1115222, "event": "share", "round": 6, "client_id": 2}
+{"time": 1781633300.1881523, "event": "share", "round": 6, "client_id": 3}
+{"time": 1781633300.2639189, "event": "share", "round": 6, "client_id": 4}
+{"time": 1781633300.3435967, "event": "share", "round": 6, "client_id": 5}
+{"time": 1781633314.6873689, "event": "round_complete", "round": 6, "acc": 0.214, "effective": 5, "dropout": []}
+{"time": 1781633349.364942, "event": "upload", "round": 7, "client_id": 2}
+{"time": 1781633349.3911583, "event": "upload", "round": 7, "client_id": 1}
+{"time": 1781633349.409444, "event": "upload", "round": 7, "client_id": 4}
+{"time": 1781633349.562197, "event": "upload", "round": 7, "client_id": 3}
+{"time": 1781633349.6467583, "event": "upload", "round": 7, "client_id": 5}
+{"time": 1781633350.3339233, "event": "share", "round": 7, "client_id": 1}
+{"time": 1781633350.408257, "event": "share", "round": 7, "client_id": 2}
+{"time": 1781633350.483908, "event": "share", "round": 7, "client_id": 3}
+{"time": 1781633350.558128, "event": "share", "round": 7, "client_id": 4}
+{"time": 1781633350.6472235, "event": "share", "round": 7, "client_id": 5}
+{"time": 1781633365.7301865, "event": "round_complete", "round": 7, "acc": 0.254, "effective": 5, "dropout": []}
+{"time": 1781633399.8022487, "event": "upload", "round": 8, "client_id": 4}
+{"time": 1781633400.0307028, "event": "upload", "round": 8, "client_id": 3}
+{"time": 1781633400.046904, "event": "upload", "round": 8, "client_id": 2}
+{"time": 1781633400.0710864, "event": "upload", "round": 8, "client_id": 1}
+{"time": 1781633400.184992, "event": "upload", "round": 8, "client_id": 5}
+{"time": 1781633400.8445613, "event": "share", "round": 8, "client_id": 1}
+{"time": 1781633400.9172597, "event": "share", "round": 8, "client_id": 2}
+{"time": 1781633400.989424, "event": "share", "round": 8, "client_id": 3}
+{"time": 1781633401.0622387, "event": "share", "round": 8, "client_id": 4}
+{"time": 1781633401.1407788, "event": "share", "round": 8, "client_id": 5}
+{"time": 1781633417.0606415, "event": "round_complete", "round": 8, "acc": 0.234, "effective": 5, "dropout": []}
+{"time": 1781633451.1787302, "event": "upload", "round": 9, "client_id": 2}
+{"time": 1781633451.306294, "event": "upload", "round": 9, "client_id": 4}
+{"time": 1781633451.5064452, "event": "upload", "round": 9, "client_id": 3}
+{"time": 1781633451.5227811, "event": "upload", "round": 9, "client_id": 1}
+{"time": 1781633451.5515032, "event": "upload", "round": 9, "client_id": 5}
+{"time": 1781633452.2195432, "event": "share", "round": 9, "client_id": 1}
+{"time": 1781633452.2965217, "event": "share", "round": 9, "client_id": 2}
+{"time": 1781633452.363277, "event": "share", "round": 9, "client_id": 3}
+{"time": 1781633452.4375672, "event": "share", "round": 9, "client_id": 4}
+{"time": 1781633452.512233, "event": "share", "round": 9, "client_id": 5}
+{"time": 1781633467.9654033, "event": "round_complete", "round": 9, "acc": 0.182, "effective": 5, "dropout": []}
+{"time": 1781633502.9726832, "event": "upload", "round": 10, "client_id": 1}
+{"time": 1781633503.081238, "event": "upload", "round": 10, "client_id": 2}
+{"time": 1781633503.1524074, "event": "upload", "round": 10, "client_id": 4}
+{"time": 1781633503.1844254, "event": "upload", "round": 10, "client_id": 3}
+{"time": 1781633503.3615632, "event": "upload", "round": 10, "client_id": 5}
+{"time": 1781633504.0551605, "event": "share", "round": 10, "client_id": 1}
+{"time": 1781633504.1440845, "event": "share", "round": 10, "client_id": 2}
+{"time": 1781633504.2205873, "event": "share", "round": 10, "client_id": 3}
+{"time": 1781633504.288267, "event": "share", "round": 10, "client_id": 4}
+{"time": 1781633504.331632, "event": "share", "round": 10, "client_id": 5}
+{"time": 1781633520.2948697, "event": "round_complete", "round": 10, "acc": 0.292, "effective": 5, "dropout": []}

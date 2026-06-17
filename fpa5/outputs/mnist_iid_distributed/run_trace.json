@@ -1,0 +1,827 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "alpha": "0x0e5f8464f598daca974f6bba8350eed4828f556f6a7ae64641fdcd09cda92f96",
+      "U_r1": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "D_r": [],
+      "rootUp": "0xa813e8343c9ebff53928004a3ddab12844db8ed827aec4bfddba2bcf8fef7388",
+      "ComAggHash": "0xf12e888a34cf353246ccad8519bbed1cfba560007560635af4928b9610559fff",
+      "modelHashNext": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+      "auditRoot": "0x579fe63f3935f1c68c410a544338944b25ad9f2cf2739a14050098da73100ec6",
+      "clientStats": [
+        {
+          "cid": 1,
+          "local_loss": 2.321843679833156,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.005100814627371209,
+          "x_l1": 1172,
+          "xmask_l1": 171451,
+          "timings": {
+            "client_weight_compute": 1.3700000636163168e-05,
+            "client_local_train": 0.15751300000010815,
+            "client_model_delta": 0.0006762000011804048,
+            "client_quant_encode": 0.00046769999971729703,
+            "client_masking": 4.090000038559083e-05,
+            "client_paillier_encrypt": 36.31127840000045,
+            "client_cipher_hash": 0.03226600000016333,
+            "client_pedersen_commit": 3.718789399999878,
+            "client_receipt_sign": 0.0013567999994847924,
+            "client_upload_pack": 0.021806099999594153
+          }
+        },
+        {
+          "cid": 2,
+          "local_loss": 2.298233585944237,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.00660805839887872,
+          "x_l1": 1498,
+          "xmask_l1": 172358,
+          "timings": {
+            "client_weight_compute": 7.5000007200287655e-06,
+            "client_local_train": 0.1566934999991645,
+            "client_model_delta": 0.0007636000009370036,
+            "client_quant_encode": 0.0007953000003908528,
+            "client_masking": 4.740000076708384e-05,
+            "client_paillier_encrypt": 36.61779430000024,
+            "client_cipher_hash": 0.04133480000018608,
+            "client_pedersen_commit": 3.912748000000647,
+            "client_receipt_sign": 0.0008460000008199131,
+            "client_upload_pack": 0.01873189999969327
+          }
+        },
+        {
+          "cid": 3,
+          "local_loss": 2.2909273132947954,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006613344294468862,
+          "x_l1": 1421,
+          "xmask_l1": 173122,
+          "timings": {
+            "client_weight_compute": 8.600000001024455e-06,
+            "client_local_train": 0.15319909999925585,
+            "client_model_delta": 0.0007518000002164626,
+            "client_quant_encode": 0.0005739999996876577,
+            "client_masking": 6.049999865354039e-05,
+            "client_paillier_encrypt": 36.40240679999988,
+            "client_cipher_hash": 0.04186370000024908,
+            "client_pedersen_commit": 3.737219599999662,
+            "client_receipt_sign": 0.0015823999983695103,
+            "client_upload_pack": 0.020204400001603062
+          }
+        },
+        {
+          "cid": 4,
+          "local_loss": 2.3085587830759198,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.005325651745947804,
+          "x_l1": 1086,
+          "xmask_l1": 170396,
+          "timings": {
+            "client_weight_compute": 8.700000762473792e-06,
+            "client_local_train": 0.14817070000026433,
+            "client_model_delta": 0.0030401000003621448,
+            "client_quant_encode": 0.001680700001088553,
+            "client_masking": 6.860000030428637e-05,
+            "client_paillier_encrypt": 36.22342489999937,
+            "client_cipher_hash": 0.040747500001089065,
+            "client_pedersen_commit": 3.665089699999953,
+            "client_receipt_sign": 0.0010951000003842637,
+            "client_upload_pack": 0.01876270000138902
+          }
+        },
+        {
+          "cid": 5,
+          "local_loss": 2.320955245054071,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.007102589670857494,
+          "x_l1": 1380,
+          "xmask_l1": 319498,
+          "timings": {
+            "client_weight_compute": 8.700000762473792e-06,
+            "client_local_train": 0.1537399999997433,
+            "client_model_delta": 0.0007027999999991152,
+            "client_quant_encode": 0.00019210000027669594,
+            "client_masking": 2.5699999241624027e-05,
+            "client_paillier_encrypt": 36.61148320000029,
+            "client_cipher_hash": 0.033481999998912215,
+            "client_pedersen_commit": 3.766346899999917,
+            "client_receipt_sign": 0.0007131000002118526,
+            "client_upload_pack": 0.02241909999975178
+          }
+        }
+      ],
+      "modelSync": [
+        {
+          "round": 1,
+          "client_id": 4,
+          "old_local_model_hash": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "target_modelHash_r": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 1,
+          "client_id": 1,
+          "old_local_model_hash": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "target_modelHash_r": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 1,
+          "client_id": 3,
+          "old_local_model_hash": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "target_modelHash_r": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 1,
+          "client_id": 5,
+          "old_local_model_hash": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "target_modelHash_r": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 1,
+          "client_id": 2,
+          "old_local_model_hash": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "target_modelHash_r": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "alpha": "0xbe93608672e58e2bfa957a368e5180768246c72f19bff5e7074938a883d4f4d5",
+      "U_r1": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "D_r": [],
+      "rootUp": "0x8eec4ac7bcd7fcd31c4f17af64cc6a696139c60e221208f8737276ea8cf3b95d",
+      "ComAggHash": "0x2d7532066388dde65ce91361b4c0d3d7f5eb565fd7b25124fcae44b35632186a",
+      "modelHashNext": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+      "auditRoot": "0x029db91914e440375a5a0b6c719c3830dbe1faf5d8dd4fd5dbfc99e94f9d51e0",
+      "clientStats": [
+        {
+          "cid": 1,
+          "local_loss": 2.3006004117386576,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006244221884076846,
+          "x_l1": 1413,
+          "xmask_l1": 172202,
+          "timings": {
+            "client_weight_compute": 5.800000508315861e-06,
+            "client_local_train": 0.11333310000009078,
+            "client_model_delta": 0.0006358000009640818,
+            "client_quant_encode": 6.299999949987978e-05,
+            "client_masking": 1.5699999494245276e-05,
+            "client_paillier_encrypt": 29.751750900000843,
+            "client_cipher_hash": 0.04514800000106334,
+            "client_pedersen_commit": 3.9744938999992883,
+            "client_receipt_sign": 0.00040889999945648015,
+            "client_upload_pack": 0.024183399998946697
+          }
+        },
+        {
+          "cid": 2,
+          "local_loss": 2.296623338813899,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.009602307297466282,
+          "x_l1": 2289,
+          "xmask_l1": 171771,
+          "timings": {
+            "client_weight_compute": 6.099999154685065e-06,
+            "client_local_train": 0.11360699999931967,
+            "client_model_delta": 0.00038750000021536835,
+            "client_quant_encode": 6.100000064179767e-05,
+            "client_masking": 1.3099999705445953e-05,
+            "client_paillier_encrypt": 29.67822520000118,
+            "client_cipher_hash": 0.04679789999863715,
+            "client_pedersen_commit": 4.247653000000355,
+            "client_receipt_sign": 0.00036899999940942507,
+            "client_upload_pack": 0.0232149000003119
+          }
+        },
+        {
+          "cid": 3,
+          "local_loss": 2.2840899484585284,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.005303605439876803,
+          "x_l1": 1243,
+          "xmask_l1": 172619,
+          "timings": {
+            "client_weight_compute": 8.000000889296643e-06,
+            "client_local_train": 0.11675370000011753,
+            "client_model_delta": 0.00046289999954751693,
+            "client_quant_encode": 6.009999924572185e-05,
+            "client_masking": 1.680000059423037e-05,
+            "client_paillier_encrypt": 29.53735239999878,
+            "client_cipher_hash": 0.039642100000492064,
+            "client_pedersen_commit": 4.109005500000421,
+            "client_receipt_sign": 0.0004764000004797708,
+            "client_upload_pack": 0.02466889999959676
+          }
+        },
+        {
+          "cid": 4,
+          "local_loss": 2.321373136083386,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006535088681008787,
+          "x_l1": 1213,
+          "xmask_l1": 172053,
+          "timings": {
+            "client_weight_compute": 7.200000254670158e-06,
+            "client_local_train": 0.1027713000003132,
+            "client_model_delta": 0.0006434999995690305,
+            "client_quant_encode": 8.429999979853164e-05,
+            "client_masking": 2.4599999960628338e-05,
+            "client_paillier_encrypt": 29.656445200000235,
+            "client_cipher_hash": 0.04433170000083919,
+            "client_pedersen_commit": 4.157030100001066,
+            "client_receipt_sign": 0.00039570000080857426,
+            "client_upload_pack": 0.02189869999892835
+          }
+        },
+        {
+          "cid": 5,
+          "local_loss": 2.2915821807332866,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006142040825422519,
+          "x_l1": 1564,
+          "xmask_l1": 325681,
+          "timings": {
+            "client_weight_compute": 8.400000297115184e-06,
+            "client_local_train": 0.10567880000053265,
+            "client_model_delta": 0.00040520000038668513,
+            "client_quant_encode": 6.350000148813706e-05,
+            "client_masking": 1.799999881768599e-05,
+            "client_paillier_encrypt": 29.911829699998634,
+            "client_cipher_hash": 0.0492365999998583,
+            "client_pedersen_commit": 4.134961000001567,
+            "client_receipt_sign": 0.00026530000104685314,
+            "client_upload_pack": 0.019355399999767542
+          }
+        }
+      ],
+      "modelSync": [
+        {
+          "round": 2,
+          "client_id": 3,
+          "old_local_model_hash": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "target_modelHash_r": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 2,
+          "client_id": 1,
+          "old_local_model_hash": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "target_modelHash_r": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 2,
+          "client_id": 4,
+          "old_local_model_hash": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "target_modelHash_r": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 2,
+          "client_id": 2,
+          "old_local_model_hash": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "target_modelHash_r": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 2,
+          "client_id": 5,
+          "old_local_model_hash": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "target_modelHash_r": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "alpha": "0x05ac60c543dad68f278a4b186d47358905c24a95335fda1353cb6bbcd4932270",
+      "U_r1": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "D_r": [
+        2
+      ],
+      "rootUp": "0x671d089ad21314adc42ee4475f81c146a9c0e80767baddf61e3339863dda31b9",
+      "ComAggHash": "0xa35991365dae8b575728ea804cc273c97001896ccc72da767be5ac5ced55545f",
+      "modelHashNext": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+      "auditRoot": "0xecdbc411743623bdb5ae29d4f06c0c25b0d11a54b9224682d598fe2681479905",
+      "clientStats": [
+        {
+          "cid": 1,
+          "local_loss": 2.277665810478503,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.005556115561998748,
+          "x_l1": 1268,
+          "xmask_l1": 171673,
+          "timings": {
+            "client_weight_compute": 5.199999577598646e-06,
+            "client_local_train": 0.07374940000045171,
+            "client_model_delta": 0.0005155999988346593,
+            "client_quant_encode": 7.29000003047986e-05,
+            "client_masking": 1.9799999790848233e-05,
+            "client_paillier_encrypt": 26.81134199999906,
+            "client_cipher_hash": 0.03755699999965145,
+            "client_pedersen_commit": 3.5040370999995503,
+            "client_receipt_sign": 0.0004996000006940449,
+            "client_upload_pack": 0.022461499998826184
+          }
+        },
+        {
+          "cid": 3,
+          "local_loss": 2.3006819305014052,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.00545807058280913,
+          "x_l1": 1238,
+          "xmask_l1": 170597,
+          "timings": {
+            "client_weight_compute": 7.1000013122102246e-06,
+            "client_local_train": 0.08538130000124511,
+            "client_model_delta": 0.00032590000046184286,
+            "client_quant_encode": 4.380000063974876e-05,
+            "client_masking": 9.699999282020144e-06,
+            "client_paillier_encrypt": 26.898734600001262,
+            "client_cipher_hash": 0.0320847999992111,
+            "client_pedersen_commit": 3.566736700000547,
+            "client_receipt_sign": 0.0004881999993813224,
+            "client_upload_pack": 0.01858650000031048
+          }
+        },
+        {
+          "cid": 4,
+          "local_loss": 2.2897468721650305,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006011197944296918,
+          "x_l1": 1389,
+          "xmask_l1": 172643,
+          "timings": {
+            "client_weight_compute": 7.699998604948632e-06,
+            "client_local_train": 0.0846164000013232,
+            "client_model_delta": 0.00033489999987068586,
+            "client_quant_encode": 5.599999894911889e-05,
+            "client_masking": 1.1199999789823778e-05,
+            "client_paillier_encrypt": 26.93212229999881,
+            "client_cipher_hash": 0.03238530000089668,
+            "client_pedersen_commit": 3.421815499999866,
+            "client_receipt_sign": 0.0005862999987584772,
+            "client_upload_pack": 0.02359470000010333
+          }
+        },
+        {
+          "cid": 5,
+          "local_loss": 2.2909109990460887,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006074924143154726,
+          "x_l1": 1305,
+          "xmask_l1": 317460,
+          "timings": {
+            "client_weight_compute": 6.399999620043673e-06,
+            "client_local_train": 0.07736900000054447,
+            "client_model_delta": 0.00036999999974796083,
+            "client_quant_encode": 6.719999873894267e-05,
+            "client_masking": 1.5999999959603883e-05,
+            "client_paillier_encrypt": 27.177577500000552,
+            "client_cipher_hash": 0.03687349999927392,
+            "client_pedersen_commit": 3.521445300000778,
+            "client_receipt_sign": 0.00040660000013303943,
+            "client_upload_pack": 0.01640629999928933
+          }
+        }
+      ],
+      "modelSync": [
+        {
+          "round": 3,
+          "client_id": 1,
+          "old_local_model_hash": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "target_modelHash_r": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 3,
+          "client_id": 4,
+          "old_local_model_hash": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "target_modelHash_r": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 3,
+          "client_id": 3,
+          "old_local_model_hash": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "target_modelHash_r": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 3,
+          "client_id": 5,
+          "old_local_model_hash": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "target_modelHash_r": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "alpha": "0xca574945a9fa1d3b8ac0f120a0d62d3f8214dbeb5f489350da7286dd8fec03d4",
+      "U_r1": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "D_r": [],
+      "rootUp": "0xe4cff72bff509d07e16a4583870114d98a0f8887f570fa1bf063b92f7363fdd1",
+      "ComAggHash": "0xb74d74165eb4636b6cab3273f88f8daa87793185da7f9f6daafe85e891bfedf0",
+      "modelHashNext": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+      "auditRoot": "0xa488eedb366705b3bb85f7787a8eaf926ab039fed595a4d725ffadef4ccb85f4",
+      "clientStats": [
+        {
+          "cid": 1,
+          "local_loss": 2.2923331012312445,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006781710715738631,
+          "x_l1": 1609,
+          "xmask_l1": 173629,
+          "timings": {
+            "client_weight_compute": 7.3999999585794285e-06,
+            "client_local_train": 0.11097590000099444,
+            "client_model_delta": 0.000602299998718081,
+            "client_quant_encode": 8.08000004326459e-05,
+            "client_masking": 1.8700000509852543e-05,
+            "client_paillier_encrypt": 34.190620899998976,
+            "client_cipher_hash": 0.05640510000012,
+            "client_pedersen_commit": 4.757746999999654,
+            "client_receipt_sign": 0.0003880000003846362,
+            "client_upload_pack": 0.023413900000377907
+          }
+        },
+        {
+          "cid": 2,
+          "local_loss": 2.2930808643590916,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006530792698583269,
+          "x_l1": 1597,
+          "xmask_l1": 171460,
+          "timings": {
+            "client_weight_compute": 8.699998943484388e-06,
+            "client_local_train": 0.11240269999871089,
+            "client_model_delta": 0.0004532999992079567,
+            "client_quant_encode": 7.419999928970356e-05,
+            "client_masking": 1.8200000340584666e-05,
+            "client_paillier_encrypt": 34.11960030000046,
+            "client_cipher_hash": 0.059590900000330294,
+            "client_pedersen_commit": 4.791842600001473,
+            "client_receipt_sign": 0.00040950000038719736,
+            "client_upload_pack": 0.025759599999219063
+          }
+        },
+        {
+          "cid": 3,
+          "local_loss": 2.323244872086113,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.00593720265455958,
+          "x_l1": 1387,
+          "xmask_l1": 170381,
+          "timings": {
+            "client_weight_compute": 6.100000973674469e-06,
+            "client_local_train": 0.12171909999960917,
+            "client_model_delta": 0.000442000000475673,
+            "client_quant_encode": 7.03999994584592e-05,
+            "client_masking": 1.6099998902063817e-05,
+            "client_paillier_encrypt": 33.9656214000006,
+            "client_cipher_hash": 0.05584900000030757,
+            "client_pedersen_commit": 4.771947600000203,
+            "client_receipt_sign": 0.0004768999988300493,
+            "client_upload_pack": 0.022083500000007916
+          }
+        },
+        {
+          "cid": 4,
+          "local_loss": 2.305671098421576,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.005960940835073488,
+          "x_l1": 1333,
+          "xmask_l1": 170634,
+          "timings": {
+            "client_weight_compute": 7.700000423938036e-06,
+            "client_local_train": 0.11386320000019623,
+            "client_model_delta": 0.0005333000008249655,
+            "client_quant_encode": 7.790000017848797e-05,
+            "client_masking": 1.9600000086938962e-05,
+            "client_paillier_encrypt": 34.23437340000055,
+            "client_cipher_hash": 0.06682809999983874,
+            "client_pedersen_commit": 4.756670500000837,
+            "client_receipt_sign": 0.0004012000008515315,
+            "client_upload_pack": 0.024009900000237394
+          }
+        },
+        {
+          "cid": 5,
+          "local_loss": 2.294212259804369,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006771239907729635,
+          "x_l1": 1394,
+          "xmask_l1": 318790,
+          "timings": {
+            "client_weight_compute": 7.5000007200287655e-06,
+            "client_local_train": 0.11179939999965427,
+            "client_model_delta": 0.0005844000006618444,
+            "client_quant_encode": 0.000103599999420112,
+            "client_masking": 2.4900000425986946e-05,
+            "client_paillier_encrypt": 34.57932199999959,
+            "client_cipher_hash": 0.06157859999984794,
+            "client_pedersen_commit": 4.774433399999907,
+            "client_receipt_sign": 0.00037040000097476877,
+            "client_upload_pack": 0.016700199999831966
+          }
+        }
+      ],
+      "modelSync": [
+        {
+          "round": 4,
+          "client_id": 3,
+          "old_local_model_hash": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "target_modelHash_r": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 4,
+          "client_id": 1,
+          "old_local_model_hash": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "target_modelHash_r": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 4,
+          "client_id": 2,
+          "old_local_model_hash": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16",
+          "target_modelHash_r": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "sync_performed": true,
+          "sigSyncCS_verified": true
+        },
+        {
+          "round": 4,
+          "client_id": 4,
+          "old_local_model_hash": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "target_modelHash_r": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 4,
+          "client_id": 5,
+          "old_local_model_hash": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "target_modelHash_r": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "alpha": "0xb8d4c6c301b45ff423ae35ced28b339c97ce105ba6fe303abb86cc2037f65021",
+      "U_r1": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "D_r": [],
+      "rootUp": "0x84c061f20ee3fe42c2a7a5b495b87387c75fcf03473c0242898fea475e2bd970",
+      "ComAggHash": "0x9b00e1aed7cd12a2c47eb68b2be24d462538be29cfd91802a452f24d79e92546",
+      "modelHashNext": "0x7fb9aa7f0ae69d3ed2fa98d7e30e428521ae5ce87c64288f84e19b76823dfd68",
+      "auditRoot": "0xbd8cc39266566e970f115c5158e4c3a3b0e36a52ac866a5d2262343f5a2b89ae",
+      "clientStats": [
+        {
+          "cid": 1,
+          "local_loss": 2.2832435003797986,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.006201876285025493,
+          "x_l1": 1469,
+          "xmask_l1": 170795,
+          "timings": {
+            "client_weight_compute": 6.7999990278622136e-06,
+            "client_local_train": 0.10203199999887147,
+            "client_model_delta": 0.0005098999990877928,
+            "client_quant_encode": 5.5300000894931145e-05,
+            "client_masking": 1.489999885961879e-05,
+            "client_paillier_encrypt": 29.139084500000536,
+            "client_cipher_hash": 0.04161720000047353,
+            "client_pedersen_commit": 4.118026099999042,
+            "client_receipt_sign": 0.0004189000010228483,
+            "client_upload_pack": 0.023825400001442176
+          }
+        },
+        {
+          "cid": 2,
+          "local_loss": 2.293550218062755,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.010996068043096054,
+          "x_l1": 2830,
+          "xmask_l1": 172656,
+          "timings": {
+            "client_weight_compute": 7.099999493220821e-06,
+            "client_local_train": 0.09677919999921869,
+            "client_model_delta": 0.0006579000000783708,
+            "client_quant_encode": 9.239999963028822e-05,
+            "client_masking": 2.519999907235615e-05,
+            "client_paillier_encrypt": 29.04962379999961,
+            "client_cipher_hash": 0.046777100000326755,
+            "client_pedersen_commit": 4.024593099999038,
+            "client_receipt_sign": 0.0004747000002680579,
+            "client_upload_pack": 0.024104099999021855
+          }
+        },
+        {
+          "cid": 3,
+          "local_loss": 2.2911001819390604,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.005373584625762281,
+          "x_l1": 1327,
+          "xmask_l1": 170106,
+          "timings": {
+            "client_weight_compute": 6.599999323952943e-06,
+            "client_local_train": 0.0999004999994213,
+            "client_model_delta": 0.0004414999984874157,
+            "client_quant_encode": 6.579999899258837e-05,
+            "client_masking": 2.869999843824189e-05,
+            "client_paillier_encrypt": 29.281204300001264,
+            "client_cipher_hash": 0.040938500000265776,
+            "client_pedersen_commit": 4.152435300000434,
+            "client_receipt_sign": 0.00043700000060198363,
+            "client_upload_pack": 0.0208466000003682
+          }
+        },
+        {
+          "cid": 4,
+          "local_loss": 2.284710907118103,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.005859367476676959,
+          "x_l1": 1241,
+          "xmask_l1": 172490,
+          "timings": {
+            "client_weight_compute": 5.300000339047983e-06,
+            "client_local_train": 0.1009818999991694,
+            "client_model_delta": 0.00030309999965538736,
+            "client_quant_encode": 5.3699999625678174e-05,
+            "client_masking": 1.1400001312722452e-05,
+            "client_paillier_encrypt": 29.374484800000573,
+            "client_cipher_hash": 0.04299570000148378,
+            "client_pedersen_commit": 4.1226064000002225,
+            "client_receipt_sign": 0.00035990000105812214,
+            "client_upload_pack": 0.019054899999900954
+          }
+        },
+        {
+          "cid": 5,
+          "local_loss": 2.3037497291815754,
+          "weight": 0.2,
+          "device": "cpu",
+          "u_norm": 0.005367067655297416,
+          "x_l1": 1369,
+          "xmask_l1": 320707,
+          "timings": {
+            "client_weight_compute": 6.000000212225132e-06,
+            "client_local_train": 0.1010403000000224,
+            "client_model_delta": 0.0004898999995930353,
+            "client_quant_encode": 7.00999989931006e-05,
+            "client_masking": 1.6799998775240965e-05,
+            "client_paillier_encrypt": 29.644910199998776,
+            "client_cipher_hash": 0.03738119999979972,
+            "client_pedersen_commit": 4.005604099998891,
+            "client_receipt_sign": 0.0004589000000123633,
+            "client_upload_pack": 0.01745370000026014
+          }
+        }
+      ],
+      "modelSync": [
+        {
+          "round": 5,
+          "client_id": 2,
+          "old_local_model_hash": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "target_modelHash_r": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 5,
+          "client_id": 1,
+          "old_local_model_hash": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "target_modelHash_r": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 5,
+          "client_id": 3,
+          "old_local_model_hash": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "target_modelHash_r": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 5,
+          "client_id": 4,
+          "old_local_model_hash": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "target_modelHash_r": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        },
+        {
+          "round": 5,
+          "client_id": 5,
+          "old_local_model_hash": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "target_modelHash_r": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a",
+          "sync_performed": false,
+          "sigSyncCS_verified": false
+        }
+      ]
+    }
+  ],
+  "runtime": {
+    "distributed": true,
+    "client_mode": "individual"
+  },
+  "initTx": {
+    "sysParaHash": "0xc59b9a4a8f10733b05300aee822f1bd750e8657c04b23952d88ed8140306ec34",
+    "Uroot": "0x87c43182a9f0d6a27da243d47afd28df4aea35dad1b9870a62f6c4255f43f216",
+    "modelHash0": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4",
+    "auditRoot0": "0x167f0078ef71d79377b5018412b11da42d2f9d0f2790aec22b9c744b8a0e1a1d",
+    "sigInit": "304602210084bef4a1126dd18cbf53c3c038c5f242fb8a6b3b391170b00ac271ad8bda5bfd022100f6e0c142878388d6be237e985ae25651aef6e572578850aa8af560ce4ff85b7f"
+  },
+  "entity_logs": [
+    "outputs\\mnist_iid_distributed\\entity_logs\\client_1_events.jsonl",
+    "outputs\\mnist_iid_distributed\\entity_logs\\client_2_events.jsonl",
+    "outputs\\mnist_iid_distributed\\entity_logs\\client_3_events.jsonl",
+    "outputs\\mnist_iid_distributed\\entity_logs\\client_4_events.jsonl",
+    "outputs\\mnist_iid_distributed\\entity_logs\\client_5_events.jsonl",
+    "outputs\\mnist_iid_distributed\\entity_logs\\cs_events.jsonl",
+    "outputs\\mnist_iid_distributed\\entity_logs\\kgc_events.jsonl"
+  ],
+  "communication_outputs": {
+    "all": "outputs\\mnist_iid_distributed\\communication_cost.csv",
+    "network_only": "outputs\\mnist_iid_distributed\\communication_network_only.csv",
+    "processing_requests": "outputs\\mnist_iid_distributed\\communication_processing_requests.csv",
+    "summary_by_type": "outputs\\mnist_iid_distributed\\communication_summary_by_type.csv"
+  }
+}

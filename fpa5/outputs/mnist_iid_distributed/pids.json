@@ -1,0 +1,126 @@
+{
+  "processes": [
+    {
+      "name": "kgc",
+      "pid": 16072,
+      "cmd": [
+        "e:\\Thesis_project\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_kgc_server.py",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9200",
+        "--config",
+        "configs/mnist_iid_distributed.yaml"
+      ],
+      "log": "outputs\\mnist_iid_distributed\\logs\\kgc.stdout.log"
+    },
+    {
+      "name": "cs",
+      "pid": 18136,
+      "cmd": [
+        "e:\\Thesis_project\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_cs_server.py",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9300",
+        "--config",
+        "configs/mnist_iid_distributed.yaml"
+      ],
+      "log": "outputs\\mnist_iid_distributed\\logs\\cs.stdout.log"
+    },
+    {
+      "name": "client_1",
+      "pid": 19536,
+      "cmd": [
+        "e:\\Thesis_project\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "1",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9401",
+        "--config",
+        "configs/mnist_iid_distributed.yaml"
+      ],
+      "log": "outputs\\mnist_iid_distributed\\logs\\client_1.stdout.log"
+    },
+    {
+      "name": "client_2",
+      "pid": 3360,
+      "cmd": [
+        "e:\\Thesis_project\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "2",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9402",
+        "--config",
+        "configs/mnist_iid_distributed.yaml"
+      ],
+      "log": "outputs\\mnist_iid_distributed\\logs\\client_2.stdout.log"
+    },
+    {
+      "name": "client_3",
+      "pid": 15588,
+      "cmd": [
+        "e:\\Thesis_project\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "3",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9403",
+        "--config",
+        "configs/mnist_iid_distributed.yaml"
+      ],
+      "log": "outputs\\mnist_iid_distributed\\logs\\client_3.stdout.log"
+    },
+    {
+      "name": "client_4",
+      "pid": 9284,
+      "cmd": [
+        "e:\\Thesis_project\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "4",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9404",
+        "--config",
+        "configs/mnist_iid_distributed.yaml"
+      ],
+      "log": "outputs\\mnist_iid_distributed\\logs\\client_4.stdout.log"
+    },
+    {
+      "name": "client_5",
+      "pid": 13176,
+      "cmd": [
+        "e:\\Thesis_project\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "5",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9405",
+        "--config",
+        "configs/mnist_iid_distributed.yaml"
+      ],
+      "log": "outputs\\mnist_iid_distributed\\logs\\client_5.stdout.log"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{"time": 1781632994.2485795, "event": "init_model", "client_id": 1, "modelHash": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4"}
+{"time": 1781632994.815334, "event": "receive_mask", "round": 1, "client_id": 1}
+{"time": 1781633028.0517046, "event": "train_upload", "round": 1, "client_id": 1, "sync_performed": false}
+{"time": 1781633028.628299, "event": "receive_agg", "round": 1, "client_id": 1}
+{"time": 1781633045.4444413, "event": "receive_model", "round": 1, "client_id": 1, "modelHashNext": "0xbd1eb14efee295af81b37ce09d2bcc05eeb59d853a6fa044a6245dd17fe4aeef"}
+{"time": 1781633045.6846633, "event": "receive_mask", "round": 2, "client_id": 1}
+{"time": 1781633079.6119273, "event": "train_upload", "round": 2, "client_id": 1, "sync_performed": false}
+{"time": 1781633080.296686, "event": "receive_agg", "round": 2, "client_id": 1}
+{"time": 1781633095.3266883, "event": "receive_model", "round": 2, "client_id": 1, "modelHashNext": "0xff995409e00fc5da7e736b79f489a4d8eb0666f8a6ba77584f07d149ed8a21d2"}
+{"time": 1781633095.591915, "event": "receive_mask", "round": 3, "client_id": 1}
+{"time": 1781633127.6080494, "event": "train_upload", "round": 3, "client_id": 1, "sync_performed": false}
+{"time": 1781633147.6114314, "event": "receive_agg", "round": 3, "client_id": 1}
+{"time": 1781633162.5776093, "event": "receive_model", "round": 3, "client_id": 1, "modelHashNext": "0xf90cb2fba99c887247f6ce871df8b5f72f390bb70024cee765988cd6b1373f7b"}
+{"time": 1781633162.8059351, "event": "receive_mask", "round": 4, "client_id": 1}
+{"time": 1781633197.0403538, "event": "train_upload", "round": 4, "client_id": 1, "sync_performed": false}
+{"time": 1781633198.3093472, "event": "receive_agg", "round": 4, "client_id": 1}
+{"time": 1781633213.0711448, "event": "receive_model", "round": 4, "client_id": 1, "modelHashNext": "0x37b543e0a11b680b728b3f4264cb108642f1a98367e4cc3e9e3854f2c2b0a843"}
+{"time": 1781633213.3336246, "event": "receive_mask", "round": 5, "client_id": 1}
+{"time": 1781633248.311961, "event": "train_upload", "round": 5, "client_id": 1, "sync_performed": false}
+{"time": 1781633249.2095435, "event": "receive_agg", "round": 5, "client_id": 1}
+{"time": 1781633264.087071, "event": "receive_model", "round": 5, "client_id": 1, "modelHashNext": "0xe23bc96f3e7f4eaca50aabc2f6c81c6cf2af91d20e069ca8c9de87f88e676f56"}
+{"time": 1781633264.368036, "event": "receive_mask", "round": 6, "client_id": 1}
+{"time": 1781633299.2118795, "event": "train_upload", "round": 6, "client_id": 1, "sync_performed": false}
+{"time": 1781633300.0362954, "event": "receive_agg", "round": 6, "client_id": 1}
+{"time": 1781633314.4808667, "event": "receive_model", "round": 6, "client_id": 1, "modelHashNext": "0x875b546b058a45bbae4363bf064892147ef209c3e3641d2807a99feb430ed68a"}
+{"time": 1781633314.7533498, "event": "receive_mask", "round": 7, "client_id": 1}
+{"time": 1781633349.4666126, "event": "train_upload", "round": 7, "client_id": 1, "sync_performed": false}
+{"time": 1781633350.3361886, "event": "receive_agg", "round": 7, "client_id": 1}
+{"time": 1781633365.5129871, "event": "receive_model", "round": 7, "client_id": 1, "modelHashNext": "0x945108f39eeee6c439ada4d7364e2ec9155e64499dc322ba5d9f86918ceb91d5"}
+{"time": 1781633365.8021572, "event": "receive_mask", "round": 8, "client_id": 1}
+{"time": 1781633400.1335592, "event": "train_upload", "round": 8, "client_id": 1, "sync_performed": false}
+{"time": 1781633400.8465738, "event": "receive_agg", "round": 8, "client_id": 1}
+{"time": 1781633416.861717, "event": "receive_model", "round": 8, "client_id": 1, "modelHashNext": "0x033c33b39d3217c5fcf5f28a2537fb2976cc73f81c8866c39fbf58a2051af6ab"}
+{"time": 1781633417.1334755, "event": "receive_mask", "round": 9, "client_id": 1}
+{"time": 1781633451.5760164, "event": "train_upload", "round": 9, "client_id": 1, "sync_performed": false}
+{"time": 1781633452.2208786, "event": "receive_agg", "round": 9, "client_id": 1}
+{"time": 1781633467.7835634, "event": "receive_model", "round": 9, "client_id": 1, "modelHashNext": "0x6c5ad1e814640825266020b1bbabccd62832852e54c89ef82c7997f62ad8430f"}
+{"time": 1781633468.0093734, "event": "receive_mask", "round": 10, "client_id": 1}
+{"time": 1781633503.0702696, "event": "train_upload", "round": 10, "client_id": 1, "sync_performed": false}
+{"time": 1781633504.059103, "event": "receive_agg", "round": 10, "client_id": 1}
+{"time": 1781633520.063669, "event": "receive_model", "round": 10, "client_id": 1, "modelHashNext": "0x4a40cc12e3c02fe26f6cff38dd998138f3af7eebacefc7e8fac14a9177e9385c"}

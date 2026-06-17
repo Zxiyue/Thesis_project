@@ -1,0 +1,21 @@
+{"time": 1781627830.8075426, "event": "init_model", "client_id": 4, "modelHash": "0x4aab5806c11282e8ae0e6067d2bbd5ef39c09d8dcabf5ca84c9ee52c85f813d4"}
+{"time": 1781627831.4880648, "event": "receive_mask", "round": 1, "client_id": 4}
+{"time": 1781627872.03109, "event": "train_upload", "round": 1, "client_id": 4, "sync_performed": false}
+{"time": 1781627873.4378905, "event": "receive_agg", "round": 1, "client_id": 4}
+{"time": 1781627887.7896762, "event": "receive_model", "round": 1, "client_id": 4, "modelHashNext": "0xd997ec12130b51b15b7f984b1b67f15e0ee1e51fc1b1021c6a43e2e847b515f0"}
+{"time": 1781627888.0534618, "event": "receive_mask", "round": 2, "client_id": 4}
+{"time": 1781627922.2473516, "event": "train_upload", "round": 2, "client_id": 4, "sync_performed": false}
+{"time": 1781627923.270293, "event": "receive_agg", "round": 2, "client_id": 4}
+{"time": 1781627938.0748372, "event": "receive_model", "round": 2, "client_id": 4, "modelHashNext": "0x279bd1d333c9af13c68993eb735f0017a154b3331781b281360aafe67509bc16"}
+{"time": 1781627938.3340485, "event": "receive_mask", "round": 3, "client_id": 4}
+{"time": 1781627969.005302, "event": "train_upload", "round": 3, "client_id": 4, "sync_performed": false}
+{"time": 1781627987.8812976, "event": "receive_agg", "round": 3, "client_id": 4}
+{"time": 1781628001.7276192, "event": "receive_model", "round": 3, "client_id": 4, "modelHashNext": "0x00bf776a6e06652d99999264f6839534efcb36da6603032a62ac71b11d6ebc8b"}
+{"time": 1781628001.9951065, "event": "receive_mask", "round": 4, "client_id": 4}
+{"time": 1781628041.3685606, "event": "train_upload", "round": 4, "client_id": 4, "sync_performed": false}
+{"time": 1781628042.5568511, "event": "receive_agg", "round": 4, "client_id": 4}
+{"time": 1781628057.9227903, "event": "receive_model", "round": 4, "client_id": 4, "modelHashNext": "0xb6e972ef87f3f9bd97b90cb439bf9b89ff440df912cb70bef789a8f3f5b8814a"}
+{"time": 1781628058.1648395, "event": "receive_mask", "round": 5, "client_id": 4}
+{"time": 1781628091.9993558, "event": "train_upload", "round": 5, "client_id": 4, "sync_performed": false}
+{"time": 1781628092.8821254, "event": "receive_agg", "round": 5, "client_id": 4}
+{"time": 1781628106.1394436, "event": "receive_model", "round": 5, "client_id": 4, "modelHashNext": "0x7fb9aa7f0ae69d3ed2fa98d7e30e428521ae5ce87c64288f84e19b76823dfd68"}

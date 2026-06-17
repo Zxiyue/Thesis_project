@@ -20,6 +20,8 @@ from fl_audit.distributed.state_store import append_jsonl
 PROCESSING_TYPES = {
     "StartExperiment",
     "TrainUploadReq",
+    "SetupReq",
+    "RoundInitReq",
     "VerifyUploadsReq",
     "CompensationReq",
     "AggregateReq",
