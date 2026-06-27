@@ -1,0 +1,64 @@
+seed: 20260627
+output_dir: outputs/fashion_mnist_noniid_50r_main
+
+dataset:
+  name: FashionMNIST
+  data_dir: /mnt/fpa5/data
+  iid: false
+  shards_per_client: 2
+  download: false
+
+federated:
+  clients: 5
+  rounds: 50
+  threshold: 3
+  local_epochs: 1
+  batch_size: 64
+  local_lr: 0.05
+  server_lr: 1.0
+  dropout:
+    10: [2]
+    25: [4]
+
+model:
+  name: tiny_cnn
+
+encoding:
+  scale: 10000
+  q: 1000000007
+
+crypto:
+  paillier_bits: 512
+  pedersen_prime_bits: 521
+  pedersen_window: 0
+
+blockchain:
+  enabled: true
+  rpc_url: http://127.0.0.1:8545
+  contract_json: outputs/contract.json
+
+communication:
+  enabled: true
+  mode: http
+  record_actual_time: true
+  timeout_seconds: 1800
+
+distributed:
+  enabled: true
+  client_mode: individual
+  host: 127.0.0.1
+  kgc_port: 9200
+  cs_port: 9300
+  client_base_port: 9400
+
+logging:
+  verbose: true
+  save_trace: true
+
+runtime:
+  device: cpu
+  parallel_clients: true
+  max_client_workers: 5
+  num_workers: 0
+  pin_memory: false
+  test_batch_size: 256

@@ -1,0 +1,28 @@
+# fpa5 上传服务器打包排除清单
+# 用法示例：zip -r /mnt/fpa5_upload.zip . -x@server_upload_exclude.txt
+
+node_modules/*
+artifacts/*
+cache/*
+outputs/*
+data/*
+.venv/*
+venv/*
+env/*
+__pycache__/*
+*/__pycache__/*
+.pytest_cache/*
+.git/*
+.vscode/*
+.idea/*
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+configs/_archive_old_configs/*
