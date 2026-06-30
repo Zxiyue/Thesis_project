@@ -1,0 +1,126 @@
+{
+  "processes": [
+    {
+      "name": "kgc",
+      "pid": 383894,
+      "cmd": [
+        "/root/fpa5/.venv/bin/python3",
+        "-B",
+        "scripts/run_kgc_server.py",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9200",
+        "--config",
+        "configs/fashion_mnist_noniid_50r_main.yaml"
+      ],
+      "log": "outputs/fashion_mnist_noniid_50r_main/logs/kgc.stdout.log"
+    },
+    {
+      "name": "cs",
+      "pid": 383895,
+      "cmd": [
+        "/root/fpa5/.venv/bin/python3",
+        "-B",
+        "scripts/run_cs_server.py",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9300",
+        "--config",
+        "configs/fashion_mnist_noniid_50r_main.yaml"
+      ],
+      "log": "outputs/fashion_mnist_noniid_50r_main/logs/cs.stdout.log"
+    },
+    {
+      "name": "client_1",
+      "pid": 383896,
+      "cmd": [
+        "/root/fpa5/.venv/bin/python3",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "1",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9401",
+        "--config",
+        "configs/fashion_mnist_noniid_50r_main.yaml"
+      ],
+      "log": "outputs/fashion_mnist_noniid_50r_main/logs/client_1.stdout.log"
+    },
+    {
+      "name": "client_2",
+      "pid": 383897,
+      "cmd": [
+        "/root/fpa5/.venv/bin/python3",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "2",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9402",
+        "--config",
+        "configs/fashion_mnist_noniid_50r_main.yaml"
+      ],
+      "log": "outputs/fashion_mnist_noniid_50r_main/logs/client_2.stdout.log"
+    },
+    {
+      "name": "client_3",
+      "pid": 383898,
+      "cmd": [
+        "/root/fpa5/.venv/bin/python3",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "3",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9403",
+        "--config",
+        "configs/fashion_mnist_noniid_50r_main.yaml"
+      ],
+      "log": "outputs/fashion_mnist_noniid_50r_main/logs/client_3.stdout.log"
+    },
+    {
+      "name": "client_4",
+      "pid": 383899,
+      "cmd": [
+        "/root/fpa5/.venv/bin/python3",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "4",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9404",
+        "--config",
+        "configs/fashion_mnist_noniid_50r_main.yaml"
+      ],
+      "log": "outputs/fashion_mnist_noniid_50r_main/logs/client_4.stdout.log"
+    },
+    {
+      "name": "client_5",
+      "pid": 383900,
+      "cmd": [
+        "/root/fpa5/.venv/bin/python3",
+        "-B",
+        "scripts/run_client_server.py",
+        "--cid",
+        "5",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "9405",
+        "--config",
+        "configs/fashion_mnist_noniid_50r_main.yaml"
+      ],
+      "log": "outputs/fashion_mnist_noniid_50r_main/logs/client_5.stdout.log"
+    }
+  ]
+}

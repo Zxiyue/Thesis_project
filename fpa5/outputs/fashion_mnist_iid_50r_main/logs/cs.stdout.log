@@ -1,0 +1,87 @@
+CS listening on 127.0.0.1:9300
+ROUND 1
+ROUND 2
+ROUND 3
+ROUND 4
+ROUND 5
+ROUND 6
+ROUND 7
+ROUND 8
+ROUND 9
+ROUND 10
+ROUND 11
+ROUND 12
+ROUND 13
+ROUND 14
+ROUND 15
+ROUND 16
+ROUND 17
+ROUND 18
+ROUND 19
+ROUND 20
+ROUND 21
+ROUND 22
+ROUND 23
+ROUND 24
+ROUND 25
+ROUND 26
+ROUND 27
+ROUND 28
+ROUND 29
+ROUND 30
+ROUND 31
+ROUND 32
+ROUND 33
+ROUND 34
+ROUND 35
+ROUND 36
+ROUND 37
+ROUND 38
+ROUND 39
+ROUND 40
+ROUND 41
+ROUND 42
+ROUND 43
+ROUND 44
+ROUND 45
+ROUND 46
+ROUND 47
+ROUND 48
+ROUND 49
+ROUND 50
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 47358)
+Traceback (most recent call last):
+  File "/root/fpa5/fl_audit/distributed/endpoints.py", line 51, in do_POST
+    self._send(200, {
+  File "/root/fpa5/fl_audit/distributed/endpoints.py", line 25, in _send
+    self.wfile.write(raw)
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/usr/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.10/http/server.py", line 421, in handle_one_request
+    method()
+  File "/root/fpa5/fl_audit/distributed/endpoints.py", line 59, in do_POST
+    self._send(500, {
+  File "/root/fpa5/fl_audit/distributed/endpoints.py", line 24, in _send
+    self.end_headers()
+  File "/usr/lib/python3.10/http/server.py", line 535, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.10/http/server.py", line 539, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------

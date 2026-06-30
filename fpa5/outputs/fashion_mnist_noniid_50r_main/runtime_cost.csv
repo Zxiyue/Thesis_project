@@ -1,0 +1,2532 @@
+﻿round,stage,detail,cid,seconds
+1,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.82237797603011
+1,client_weight_compute,client aggregation weight,5,1.1984258890151978e-05
+1,client_local_train,local SGD training,5,3.5777286291122437
+1,client_model_delta,weighted local model delta,5,0.000471651554107666
+1,client_quant_encode,fixed-point quantization and signed encoding,5,9.662657976150513e-05
+1,client_masking,xMask = x + m,5,4.208087921142578e-05
+1,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.303399302065372
+1,client_cipher_hash,hash encrypted vector,5,0.023282013833522797
+1,client_pedersen_commit,Pedersen vector commitment,5,2.458184588700533
+1,client_receipt_sign,sign upload receipt,5,0.0006798170506954193
+1,client_upload_pack,build upload message,5,0.012632444500923157
+1,client_weight_compute,client aggregation weight,3,9.927898645401001e-06
+1,client_local_train,local SGD training,3,3.729586146771908
+1,client_model_delta,weighted local model delta,3,0.00046541541814804077
+1,client_quant_encode,fixed-point quantization and signed encoding,3,9.541958570480347e-05
+1,client_masking,xMask = x + m,3,4.3686479330062866e-05
+1,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.230094853788614
+1,client_cipher_hash,hash encrypted vector,3,0.023419618606567383
+1,client_pedersen_commit,Pedersen vector commitment,3,2.399922300130129
+1,client_receipt_sign,sign upload receipt,3,0.0006251372396945953
+1,client_upload_pack,build upload message,3,0.012649528682231903
+1,client_weight_compute,client aggregation weight,2,9.559094905853271e-06
+1,client_local_train,local SGD training,2,3.626402508467436
+1,client_model_delta,weighted local model delta,2,0.0004886798560619354
+1,client_quant_encode,fixed-point quantization and signed encoding,2,0.0001039355993270874
+1,client_masking,xMask = x + m,2,4.529207944869995e-05
+1,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.316177494823933
+1,client_cipher_hash,hash encrypted vector,2,0.02362263947725296
+1,client_pedersen_commit,Pedersen vector commitment,2,2.4453184828162193
+1,client_receipt_sign,sign upload receipt,2,0.0006241723895072937
+1,client_upload_pack,build upload message,2,0.012574143707752228
+1,client_weight_compute,client aggregation weight,4,1.0609626770019531e-05
+1,client_local_train,local SGD training,4,3.675729986280203
+1,client_model_delta,weighted local model delta,4,0.000474490225315094
+1,client_quant_encode,fixed-point quantization and signed encoding,4,9.592995047569275e-05
+1,client_masking,xMask = x + m,4,4.145503044128418e-05
+1,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.37404176965356
+1,client_cipher_hash,hash encrypted vector,4,0.02327624335885048
+1,client_pedersen_commit,Pedersen vector commitment,4,2.495322037488222
+1,client_receipt_sign,sign upload receipt,4,0.0006238371133804321
+1,client_upload_pack,build upload message,4,0.012636121362447739
+1,client_weight_compute,client aggregation weight,1,8.303672075271606e-06
+1,client_local_train,local SGD training,1,3.647531285881996
+1,client_model_delta,weighted local model delta,1,0.0004773847758769989
+1,client_quant_encode,fixed-point quantization and signed encoding,1,0.00010079517960548401
+1,client_masking,xMask = x + m,1,4.2848289012908936e-05
+1,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.462722398340702
+1,client_cipher_hash,hash encrypted vector,1,0.023366503417491913
+1,client_pedersen_commit,Pedersen vector commitment,1,2.5559198781847954
+1,client_receipt_sign,sign upload receipt,1,0.0006324835121631622
+1,client_upload_pack,build upload message,1,0.012608237564563751
+2,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.918483152985573
+2,client_weight_compute,client aggregation weight,3,4.124268889427185e-05
+2,client_local_train,local SGD training,3,3.50691282376647
+2,client_model_delta,weighted local model delta,3,0.0003638230264186859
+2,client_quant_encode,fixed-point quantization and signed encoding,3,7.057562470436096e-05
+2,client_masking,xMask = x + m,3,3.1381845474243164e-05
+2,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.403355721384287
+2,client_cipher_hash,hash encrypted vector,3,0.023243505507707596
+2,client_pedersen_commit,Pedersen vector commitment,3,2.4981818571686745
+2,client_receipt_sign,sign upload receipt,3,0.000644538551568985
+2,client_upload_pack,build upload message,3,0.012171793729066849
+2,client_weight_compute,client aggregation weight,2,5.7775527238845825e-05
+2,client_local_train,local SGD training,2,3.4442308358848095
+2,client_model_delta,weighted local model delta,2,0.0003746598958969116
+2,client_quant_encode,fixed-point quantization and signed encoding,2,7.225945591926575e-05
+2,client_masking,xMask = x + m,2,2.985447645187378e-05
+2,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.467786513268948
+2,client_cipher_hash,hash encrypted vector,2,0.023530103266239166
+2,client_pedersen_commit,Pedersen vector commitment,2,2.5432588793337345
+2,client_receipt_sign,sign upload receipt,2,0.0005930811166763306
+2,client_upload_pack,build upload message,2,0.012052543461322784
+2,client_weight_compute,client aggregation weight,1,4.972144961357117e-05
+2,client_local_train,local SGD training,1,3.421057030558586
+2,client_model_delta,weighted local model delta,1,0.000378388911485672
+2,client_quant_encode,fixed-point quantization and signed encoding,1,6.962567567825317e-05
+2,client_masking,xMask = x + m,1,3.0230730772018433e-05
+2,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.527408692985773
+2,client_cipher_hash,hash encrypted vector,1,0.023053664714097977
+2,client_pedersen_commit,Pedersen vector commitment,1,2.6029123589396477
+2,client_receipt_sign,sign upload receipt,1,0.0005966238677501678
+2,client_upload_pack,build upload message,1,0.0116049125790596
+2,client_weight_compute,client aggregation weight,5,4.236400127410889e-05
+2,client_local_train,local SGD training,5,3.4100193418562412
+2,client_model_delta,weighted local model delta,5,0.0003983043134212494
+2,client_quant_encode,fixed-point quantization and signed encoding,5,7.945671677589417e-05
+2,client_masking,xMask = x + m,5,3.178790211677551e-05
+2,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.562584184110165
+2,client_cipher_hash,hash encrypted vector,5,0.023353252559900284
+2,client_pedersen_commit,Pedersen vector commitment,5,2.6143047995865345
+2,client_receipt_sign,sign upload receipt,5,0.0006279945373535156
+2,client_upload_pack,build upload message,5,0.012112878262996674
+2,client_weight_compute,client aggregation weight,4,5.6881457567214966e-05
+2,client_local_train,local SGD training,4,3.428493794053793
+2,client_model_delta,weighted local model delta,4,0.00039330124855041504
+2,client_quant_encode,fixed-point quantization and signed encoding,4,7.788464426994324e-05
+2,client_masking,xMask = x + m,4,3.259629011154175e-05
+2,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.658048447221518
+2,client_cipher_hash,hash encrypted vector,4,0.023213203996419907
+2,client_pedersen_commit,Pedersen vector commitment,4,2.684547808021307
+2,client_receipt_sign,sign upload receipt,4,0.0006404928863048553
+2,client_upload_pack,build upload message,4,0.012071695178747177
+3,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.128152891993523
+3,client_weight_compute,client aggregation weight,3,4.0061771869659424e-05
+3,client_local_train,local SGD training,3,3.518413219600916
+3,client_model_delta,weighted local model delta,3,0.0003639496862888336
+3,client_quant_encode,fixed-point quantization and signed encoding,3,7.209926843643188e-05
+3,client_masking,xMask = x + m,3,3.1225383281707764e-05
+3,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.488931976258755
+3,client_cipher_hash,hash encrypted vector,3,0.023213915526866913
+3,client_pedersen_commit,Pedersen vector commitment,3,2.564510550349951
+3,client_receipt_sign,sign upload receipt,3,0.000606093555688858
+3,client_upload_pack,build upload message,3,0.012040648609399796
+3,client_weight_compute,client aggregation weight,2,3.192201256752014e-05
+3,client_local_train,local SGD training,2,3.4665169306099415
+3,client_model_delta,weighted local model delta,2,0.00036602094769477844
+3,client_quant_encode,fixed-point quantization and signed encoding,2,6.692484021186829e-05
+3,client_masking,xMask = x + m,2,3.14861536026001e-05
+3,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.533790189772844
+3,client_cipher_hash,hash encrypted vector,2,0.023239009082317352
+3,client_pedersen_commit,Pedersen vector commitment,2,2.582129590213299
+3,client_receipt_sign,sign upload receipt,2,0.0005693361163139343
+3,client_upload_pack,build upload message,2,0.012607026845216751
+3,client_weight_compute,client aggregation weight,5,4.032999277114868e-05
+3,client_local_train,local SGD training,5,3.410929925739765
+3,client_model_delta,weighted local model delta,5,0.00039360299706459045
+3,client_quant_encode,fixed-point quantization and signed encoding,5,7.004290819168091e-05
+3,client_masking,xMask = x + m,5,3.3192336559295654e-05
+3,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.632494401186705
+3,client_cipher_hash,hash encrypted vector,5,0.023350242525339127
+3,client_pedersen_commit,Pedersen vector commitment,5,2.655638884752989
+3,client_receipt_sign,sign upload receipt,5,0.0006097033619880676
+3,client_upload_pack,build upload message,5,0.012132730334997177
+3,client_weight_compute,client aggregation weight,1,3.277510404586792e-05
+3,client_local_train,local SGD training,1,3.4097459949553013
+3,client_model_delta,weighted local model delta,1,0.0003945790231227875
+3,client_quant_encode,fixed-point quantization and signed encoding,1,7.283687591552734e-05
+3,client_masking,xMask = x + m,1,3.14861536026001e-05
+3,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.65702760219574
+3,client_cipher_hash,hash encrypted vector,1,0.022899527102708817
+3,client_pedersen_commit,Pedersen vector commitment,1,2.6779388040304184
+3,client_receipt_sign,sign upload receipt,1,0.0005829222500324249
+3,client_upload_pack,build upload message,1,0.0116170234978199
+3,client_weight_compute,client aggregation weight,4,5.80810010433197e-05
+3,client_local_train,local SGD training,4,3.4454857148230076
+3,client_model_delta,weighted local model delta,4,0.00040007010102272034
+3,client_quant_encode,fixed-point quantization and signed encoding,4,7.411837577819824e-05
+3,client_masking,xMask = x + m,4,3.100931644439697e-05
+3,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.774953443557024
+3,client_cipher_hash,hash encrypted vector,4,0.023232795298099518
+3,client_pedersen_commit,Pedersen vector commitment,4,2.749444752931595
+3,client_receipt_sign,sign upload receipt,4,0.0005991384387016296
+3,client_upload_pack,build upload message,4,0.012095049023628235
+4,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.18764180317521
+4,client_weight_compute,client aggregation weight,3,3.976374864578247e-05
+4,client_local_train,local SGD training,3,3.530263416469097
+4,client_model_delta,weighted local model delta,3,0.00037571415305137634
+4,client_quant_encode,fixed-point quantization and signed encoding,3,7.933378219604492e-05
+4,client_masking,xMask = x + m,3,3.7319958209991455e-05
+4,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.382162254303694
+4,client_cipher_hash,hash encrypted vector,3,0.023242376744747162
+4,client_pedersen_commit,Pedersen vector commitment,3,2.481047723442316
+4,client_receipt_sign,sign upload receipt,3,0.0006038285791873932
+4,client_upload_pack,build upload message,3,0.012125000357627869
+4,client_weight_compute,client aggregation weight,2,4.127621650695801e-05
+4,client_local_train,local SGD training,2,3.4607052467763424
+4,client_model_delta,weighted local model delta,2,0.0003890693187713623
+4,client_quant_encode,fixed-point quantization and signed encoding,2,7.236748933792114e-05
+4,client_masking,xMask = x + m,2,3.069639205932617e-05
+4,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.476901840418577
+4,client_cipher_hash,hash encrypted vector,2,0.023119520395994186
+4,client_pedersen_commit,Pedersen vector commitment,2,2.5410305745899677
+4,client_receipt_sign,sign upload receipt,2,0.0005930662155151367
+4,client_upload_pack,build upload message,2,0.012072402983903885
+4,client_weight_compute,client aggregation weight,1,3.0934810638427734e-05
+4,client_local_train,local SGD training,1,3.4042933508753777
+4,client_model_delta,weighted local model delta,1,0.00039304792881011963
+4,client_quant_encode,fixed-point quantization and signed encoding,1,7.124990224838257e-05
+4,client_masking,xMask = x + m,1,3.2749027013778687e-05
+4,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.607379406690598
+4,client_cipher_hash,hash encrypted vector,1,0.023053541779518127
+4,client_pedersen_commit,Pedersen vector commitment,1,2.6451695784926414
+4,client_receipt_sign,sign upload receipt,1,0.0006329379975795746
+4,client_upload_pack,build upload message,1,0.011624172329902649
+4,client_weight_compute,client aggregation weight,4,5.7853758335113525e-05
+4,client_local_train,local SGD training,4,3.424211550503969
+4,client_model_delta,weighted local model delta,4,0.0003913678228855133
+4,client_quant_encode,fixed-point quantization and signed encoding,4,7.016956806182861e-05
+4,client_masking,xMask = x + m,4,3.374367952346802e-05
+4,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.616440687328577
+4,client_cipher_hash,hash encrypted vector,4,0.02342604473233223
+4,client_pedersen_commit,Pedersen vector commitment,4,2.650402542203665
+4,client_receipt_sign,sign upload receipt,4,0.0006188414990901947
+4,client_upload_pack,build upload message,4,0.012122202664613724
+4,client_weight_compute,client aggregation weight,5,4.108250141143799e-05
+4,client_local_train,local SGD training,5,3.43486525118351
+4,client_model_delta,weighted local model delta,5,0.0003895685076713562
+4,client_quant_encode,fixed-point quantization and signed encoding,5,7.215142250061035e-05
+4,client_masking,xMask = x + m,5,3.385171294212341e-05
+4,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.814152348786592
+4,client_cipher_hash,hash encrypted vector,5,0.023489482700824738
+4,client_pedersen_commit,Pedersen vector commitment,5,2.7874324023723602
+4,client_receipt_sign,sign upload receipt,5,0.000669822096824646
+4,client_upload_pack,build upload message,5,0.012643951922655106
+5,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.938372932374477
+5,client_weight_compute,client aggregation weight,2,4.305317997932434e-05
+5,client_local_train,local SGD training,2,3.4425173960626125
+5,client_model_delta,weighted local model delta,2,0.00039085373282432556
+5,client_quant_encode,fixed-point quantization and signed encoding,2,7.422640919685364e-05
+5,client_masking,xMask = x + m,2,2.9627233743667603e-05
+5,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.416648104786873
+5,client_cipher_hash,hash encrypted vector,2,0.02329932525753975
+5,client_pedersen_commit,Pedersen vector commitment,2,2.4939470514655113
+5,client_receipt_sign,sign upload receipt,2,0.0006614066660404205
+5,client_upload_pack,build upload message,2,0.013068605214357376
+5,client_weight_compute,client aggregation weight,3,4.044175148010254e-05
+5,client_local_train,local SGD training,3,3.5437085181474686
+5,client_model_delta,weighted local model delta,3,0.0003872029483318329
+5,client_quant_encode,fixed-point quantization and signed encoding,3,7.123127579689026e-05
+5,client_masking,xMask = x + m,3,3.222376108169556e-05
+5,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.366025485098362
+5,client_cipher_hash,hash encrypted vector,3,0.0233316570520401
+5,client_pedersen_commit,Pedersen vector commitment,3,2.477764554321766
+5,client_receipt_sign,sign upload receipt,3,0.0005814097821712494
+5,client_upload_pack,build upload message,3,0.012119244784116745
+5,client_weight_compute,client aggregation weight,5,3.1597912311553955e-05
+5,client_local_train,local SGD training,5,3.4686339497566223
+5,client_model_delta,weighted local model delta,5,0.0003931485116481781
+5,client_quant_encode,fixed-point quantization and signed encoding,5,7.431581616401672e-05
+5,client_masking,xMask = x + m,5,3.037974238395691e-05
+5,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.50953061506152
+5,client_cipher_hash,hash encrypted vector,5,0.023392867296934128
+5,client_pedersen_commit,Pedersen vector commitment,5,2.58098928257823
+5,client_receipt_sign,sign upload receipt,5,0.0006102658808231354
+5,client_upload_pack,build upload message,5,0.012573778629302979
+5,client_weight_compute,client aggregation weight,1,4.18834388256073e-05
+5,client_local_train,local SGD training,1,3.4040283411741257
+5,client_model_delta,weighted local model delta,1,0.0003970712423324585
+5,client_quant_encode,fixed-point quantization and signed encoding,1,7.111206650733948e-05
+5,client_masking,xMask = x + m,1,3.0074268579483032e-05
+5,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.651339061558247
+5,client_cipher_hash,hash encrypted vector,1,0.023144759237766266
+5,client_pedersen_commit,Pedersen vector commitment,1,2.674326941370964
+5,client_receipt_sign,sign upload receipt,1,0.0005927532911300659
+5,client_upload_pack,build upload message,1,0.01161867007613182
+5,client_weight_compute,client aggregation weight,4,5.734339356422424e-05
+5,client_local_train,local SGD training,4,3.4813361056149006
+5,client_model_delta,weighted local model delta,4,0.00038880109786987305
+5,client_quant_encode,fixed-point quantization and signed encoding,4,6.932392716407776e-05
+5,client_masking,xMask = x + m,4,3.059208393096924e-05
+5,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.638141483068466
+5,client_cipher_hash,hash encrypted vector,4,0.02344542369246483
+5,client_pedersen_commit,Pedersen vector commitment,4,2.670893616974354
+5,client_receipt_sign,sign upload receipt,4,0.0005832277238368988
+5,client_upload_pack,build upload message,4,0.01213911920785904
+6,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.061035633087158
+6,client_weight_compute,client aggregation weight,3,3.894418478012085e-05
+6,client_local_train,local SGD training,3,3.4786743596196175
+6,client_model_delta,weighted local model delta,3,0.00039034709334373474
+6,client_quant_encode,fixed-point quantization and signed encoding,3,6.784871220588684e-05
+6,client_masking,xMask = x + m,3,3.2279640436172485e-05
+6,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.37973701953888
+6,client_cipher_hash,hash encrypted vector,3,0.02361663430929184
+6,client_pedersen_commit,Pedersen vector commitment,3,2.4860139675438404
+6,client_receipt_sign,sign upload receipt,3,0.0006054043769836426
+6,client_upload_pack,build upload message,3,0.01215633749961853
+6,client_weight_compute,client aggregation weight,5,4.136189818382263e-05
+6,client_local_train,local SGD training,5,3.4126082994043827
+6,client_model_delta,weighted local model delta,5,0.0003970600664615631
+6,client_quant_encode,fixed-point quantization and signed encoding,5,7.162615656852722e-05
+6,client_masking,xMask = x + m,5,3.1929463148117065e-05
+6,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.497664134949446
+6,client_cipher_hash,hash encrypted vector,5,0.023239992558956146
+6,client_pedersen_commit,Pedersen vector commitment,5,2.576240509748459
+6,client_receipt_sign,sign upload receipt,5,0.0006044581532478333
+6,client_upload_pack,build upload message,5,0.012590698897838593
+6,client_weight_compute,client aggregation weight,2,3.4108757972717285e-05
+6,client_local_train,local SGD training,2,3.473179493099451
+6,client_model_delta,weighted local model delta,2,0.0003602132201194763
+6,client_quant_encode,fixed-point quantization and signed encoding,2,6.868317723274231e-05
+6,client_masking,xMask = x + m,2,3.102049231529236e-05
+6,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.4999704323709
+6,client_cipher_hash,hash encrypted vector,2,0.023146674036979675
+6,client_pedersen_commit,Pedersen vector commitment,2,2.559065029025078
+6,client_receipt_sign,sign upload receipt,2,0.0005943402647972107
+6,client_upload_pack,build upload message,2,0.012518633157014847
+6,client_weight_compute,client aggregation weight,1,4.1346997022628784e-05
+6,client_local_train,local SGD training,1,3.3799237608909607
+6,client_model_delta,weighted local model delta,1,0.00038626790046691895
+6,client_quant_encode,fixed-point quantization and signed encoding,1,6.972253322601318e-05
+6,client_masking,xMask = x + m,1,3.23466956615448e-05
+6,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.68732101842761
+6,client_cipher_hash,hash encrypted vector,1,0.023041129112243652
+6,client_pedersen_commit,Pedersen vector commitment,1,2.7186079993844032
+6,client_receipt_sign,sign upload receipt,1,0.0006732307374477386
+6,client_upload_pack,build upload message,1,0.01161472499370575
+6,client_weight_compute,client aggregation weight,4,5.5670738220214844e-05
+6,client_local_train,local SGD training,4,3.4651993811130524
+6,client_model_delta,weighted local model delta,4,0.0003921724855899811
+6,client_quant_encode,fixed-point quantization and signed encoding,4,7.271021604537964e-05
+6,client_masking,xMask = x + m,4,3.4403055906295776e-05
+6,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.722873859107494
+6,client_cipher_hash,hash encrypted vector,4,0.02333773672580719
+6,client_pedersen_commit,Pedersen vector commitment,4,2.72036624699831
+6,client_receipt_sign,sign upload receipt,4,0.0006215870380401611
+6,client_upload_pack,build upload message,4,0.012125667184591293
+7,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.003761623054743
+7,client_weight_compute,client aggregation weight,2,4.057958722114563e-05
+7,client_local_train,local SGD training,2,3.4708232916891575
+7,client_model_delta,weighted local model delta,2,0.0003995820879936218
+7,client_quant_encode,fixed-point quantization and signed encoding,2,7.434561848640442e-05
+7,client_masking,xMask = x + m,2,3.2067298889160156e-05
+7,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.394305299967527
+7,client_cipher_hash,hash encrypted vector,2,0.023516446352005005
+7,client_pedersen_commit,Pedersen vector commitment,2,2.4940444491803646
+7,client_receipt_sign,sign upload receipt,2,0.0006577335298061371
+7,client_upload_pack,build upload message,2,0.013057813048362732
+7,client_weight_compute,client aggregation weight,3,2.508610486984253e-05
+7,client_local_train,local SGD training,3,3.4786427468061447
+7,client_model_delta,weighted local model delta,3,0.00037156790494918823
+7,client_quant_encode,fixed-point quantization and signed encoding,3,8.096545934677124e-05
+7,client_masking,xMask = x + m,3,3.163143992424011e-05
+7,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.43831279501319
+7,client_cipher_hash,hash encrypted vector,3,0.02331472933292389
+7,client_pedersen_commit,Pedersen vector commitment,3,2.541912853717804
+7,client_receipt_sign,sign upload receipt,3,0.0005749538540840149
+7,client_upload_pack,build upload message,3,0.012121815234422684
+7,client_weight_compute,client aggregation weight,5,3.5390257835388184e-05
+7,client_local_train,local SGD training,5,3.437959410250187
+7,client_model_delta,weighted local model delta,5,0.00041179731488227844
+7,client_quant_encode,fixed-point quantization and signed encoding,5,7.285922765731812e-05
+7,client_masking,xMask = x + m,5,3.425776958465576e-05
+7,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.518178455531597
+7,client_cipher_hash,hash encrypted vector,5,0.023426149040460587
+7,client_pedersen_commit,Pedersen vector commitment,5,2.6097630485892296
+7,client_receipt_sign,sign upload receipt,5,0.0006065964698791504
+7,client_upload_pack,build upload message,5,0.012651130557060242
+7,client_weight_compute,client aggregation weight,1,4.2285770177841187e-05
+7,client_local_train,local SGD training,1,3.4337782450020313
+7,client_model_delta,weighted local model delta,1,0.0003951266407966614
+7,client_quant_encode,fixed-point quantization and signed encoding,1,7.297471165657043e-05
+7,client_masking,xMask = x + m,1,3.163143992424011e-05
+7,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.65640028566122
+7,client_cipher_hash,hash encrypted vector,1,0.023292452096939087
+7,client_pedersen_commit,Pedersen vector commitment,1,2.675619166344404
+7,client_receipt_sign,sign upload receipt,1,0.0006043650209903717
+7,client_upload_pack,build upload message,1,0.011610273271799088
+7,client_weight_compute,client aggregation weight,4,5.536526441574097e-05
+7,client_local_train,local SGD training,4,3.4539290368556976
+7,client_model_delta,weighted local model delta,4,0.0004027709364891052
+7,client_quant_encode,fixed-point quantization and signed encoding,4,7.615610957145691e-05
+7,client_masking,xMask = x + m,4,3.113970160484314e-05
+7,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.691320285201073
+7,client_cipher_hash,hash encrypted vector,4,0.023329205811023712
+7,client_pedersen_commit,Pedersen vector commitment,4,2.7063221596181393
+7,client_receipt_sign,sign upload receipt,4,0.0005833283066749573
+7,client_upload_pack,build upload message,4,0.012098975479602814
+8,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.985598891973495
+8,client_weight_compute,client aggregation weight,3,5.2109360694885254e-05
+8,client_local_train,local SGD training,3,3.508395165205002
+8,client_model_delta,weighted local model delta,3,0.00038350000977516174
+8,client_quant_encode,fixed-point quantization and signed encoding,3,6.939098238945007e-05
+8,client_masking,xMask = x + m,3,3.1381845474243164e-05
+8,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.33623306080699
+8,client_cipher_hash,hash encrypted vector,3,0.0233110710978508
+8,client_pedersen_commit,Pedersen vector commitment,3,2.452055472880602
+8,client_receipt_sign,sign upload receipt,3,0.0006201788783073425
+8,client_upload_pack,build upload message,3,0.01218167319893837
+8,client_weight_compute,client aggregation weight,2,4.1507184505462646e-05
+8,client_local_train,local SGD training,2,3.499586895108223
+8,client_model_delta,weighted local model delta,2,0.0004093833267688751
+8,client_quant_encode,fixed-point quantization and signed encoding,2,7.10897147655487e-05
+8,client_masking,xMask = x + m,2,2.9552727937698364e-05
+8,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.3839020319283
+8,client_cipher_hash,hash encrypted vector,2,0.023447509855031967
+8,client_pedersen_commit,Pedersen vector commitment,2,2.4769502095878124
+8,client_receipt_sign,sign upload receipt,2,0.0005999505519866943
+8,client_upload_pack,build upload message,2,0.012594543397426605
+8,client_weight_compute,client aggregation weight,1,3.523007035255432e-05
+8,client_local_train,local SGD training,1,3.403349105268717
+8,client_model_delta,weighted local model delta,1,0.00039397552609443665
+8,client_quant_encode,fixed-point quantization and signed encoding,1,7.251277565956116e-05
+8,client_masking,xMask = x + m,1,3.1635165214538574e-05
+8,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.624826323240995
+8,client_cipher_hash,hash encrypted vector,1,0.02355741336941719
+8,client_pedersen_commit,Pedersen vector commitment,1,2.650422926992178
+8,client_receipt_sign,sign upload receipt,1,0.0006546974182128906
+8,client_upload_pack,build upload message,1,0.01161358505487442
+8,client_weight_compute,client aggregation weight,5,4.259869456291199e-05
+8,client_local_train,local SGD training,5,3.4454188756644726
+8,client_model_delta,weighted local model delta,5,0.00039675086736679077
+8,client_quant_encode,fixed-point quantization and signed encoding,5,7.040053606033325e-05
+8,client_masking,xMask = x + m,5,3.0249357223510742e-05
+8,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.64967505633831
+8,client_cipher_hash,hash encrypted vector,5,0.02350926771759987
+8,client_pedersen_commit,Pedersen vector commitment,5,2.6653961427509785
+8,client_receipt_sign,sign upload receipt,5,0.0006113573908805847
+8,client_upload_pack,build upload message,5,0.012625191360712051
+8,client_weight_compute,client aggregation weight,4,5.3375959396362305e-05
+8,client_local_train,local SGD training,4,3.456802900880575
+8,client_model_delta,weighted local model delta,4,0.00040240585803985596
+8,client_quant_encode,fixed-point quantization and signed encoding,4,7.255375385284424e-05
+8,client_masking,xMask = x + m,4,3.102049231529236e-05
+8,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.683635413646698
+8,client_cipher_hash,hash encrypted vector,4,0.02372293546795845
+8,client_pedersen_commit,Pedersen vector commitment,4,2.6964070200920105
+8,client_receipt_sign,sign upload receipt,4,0.0006256215274333954
+8,client_upload_pack,build upload message,4,0.012127473950386047
+9,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.029468324035406
+9,client_weight_compute,client aggregation weight,3,4.054605960845947e-05
+9,client_local_train,local SGD training,3,3.482799720019102
+9,client_model_delta,weighted local model delta,3,0.0003978312015533447
+9,client_quant_encode,fixed-point quantization and signed encoding,3,7.142126560211182e-05
+9,client_masking,xMask = x + m,3,3.3233314752578735e-05
+9,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.419623240828514
+9,client_cipher_hash,hash encrypted vector,3,0.02349746599793434
+9,client_pedersen_commit,Pedersen vector commitment,3,2.5442286133766174
+9,client_receipt_sign,sign upload receipt,3,0.0006125904619693756
+9,client_upload_pack,build upload message,3,0.012176010757684708
+9,client_weight_compute,client aggregation weight,5,3.739073872566223e-05
+9,client_local_train,local SGD training,5,3.409823901951313
+9,client_model_delta,weighted local model delta,5,0.00038482993841171265
+9,client_quant_encode,fixed-point quantization and signed encoding,5,7.439777255058289e-05
+9,client_masking,xMask = x + m,5,2.975761890411377e-05
+9,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.48359451070428
+9,client_cipher_hash,hash encrypted vector,5,0.023960955440998077
+9,client_pedersen_commit,Pedersen vector commitment,5,2.5871631801128387
+9,client_receipt_sign,sign upload receipt,5,0.0005892030894756317
+9,client_upload_pack,build upload message,5,0.012591194361448288
+9,client_weight_compute,client aggregation weight,2,4.2691826820373535e-05
+9,client_local_train,local SGD training,2,3.5084346495568752
+9,client_model_delta,weighted local model delta,2,0.0003784000873565674
+9,client_quant_encode,fixed-point quantization and signed encoding,2,7.41034746170044e-05
+9,client_masking,xMask = x + m,2,3.094598650932312e-05
+9,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.444118842482567
+9,client_cipher_hash,hash encrypted vector,2,0.0235249362885952
+9,client_pedersen_commit,Pedersen vector commitment,2,2.555381279438734
+9,client_receipt_sign,sign upload receipt,2,0.0005976036190986633
+9,client_upload_pack,build upload message,2,0.012629862874746323
+9,client_weight_compute,client aggregation weight,4,5.39831817150116e-05
+9,client_local_train,local SGD training,4,3.4487463533878326
+9,client_model_delta,weighted local model delta,4,0.0004034899175167084
+9,client_quant_encode,fixed-point quantization and signed encoding,4,7.444620132446289e-05
+9,client_masking,xMask = x + m,4,3.0077993869781494e-05
+9,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.671133160591125
+9,client_cipher_hash,hash encrypted vector,4,0.0231931209564209
+9,client_pedersen_commit,Pedersen vector commitment,4,2.7091963551938534
+9,client_receipt_sign,sign upload receipt,4,0.0005994513630867004
+9,client_upload_pack,build upload message,4,0.012171562761068344
+9,client_weight_compute,client aggregation weight,1,4.285946488380432e-05
+9,client_local_train,local SGD training,1,3.4379738569259644
+9,client_model_delta,weighted local model delta,1,0.0004293397068977356
+9,client_quant_encode,fixed-point quantization and signed encoding,1,7.089227437973022e-05
+9,client_masking,xMask = x + m,1,3.338232636451721e-05
+9,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.709746181964874
+9,client_cipher_hash,hash encrypted vector,1,0.028044123202562332
+9,client_pedersen_commit,Pedersen vector commitment,1,2.732491035014391
+9,client_receipt_sign,sign upload receipt,1,0.000593964010477066
+9,client_upload_pack,build upload message,1,0.011597417294979095
+10,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.005124989897013
+10,client_weight_compute,client aggregation weight,3,3.8973987102508545e-05
+10,client_local_train,local SGD training,3,3.439706563949585
+10,client_model_delta,weighted local model delta,3,0.00037099048495292664
+10,client_quant_encode,fixed-point quantization and signed encoding,3,7.640942931175232e-05
+10,client_masking,xMask = x + m,3,3.513321280479431e-05
+10,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.380986150354147
+10,client_cipher_hash,hash encrypted vector,3,0.023642346262931824
+10,client_pedersen_commit,Pedersen vector commitment,3,2.4905384480953217
+10,client_receipt_sign,sign upload receipt,3,0.0006127059459686279
+10,client_upload_pack,build upload message,3,0.012136135250329971
+10,client_weight_compute,client aggregation weight,5,4.144012928009033e-05
+10,client_local_train,local SGD training,5,3.3863731622695923
+10,client_model_delta,weighted local model delta,5,0.00037587061524391174
+10,client_quant_encode,fixed-point quantization and signed encoding,5,7.027760148048401e-05
+10,client_masking,xMask = x + m,5,3.135204315185547e-05
+10,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.580590408295393
+10,client_cipher_hash,hash encrypted vector,5,0.023322563618421555
+10,client_pedersen_commit,Pedersen vector commitment,5,2.6232040002942085
+10,client_receipt_sign,sign upload receipt,5,0.0006641782820224762
+10,client_upload_pack,build upload message,5,0.012559544295072556
+10,client_weight_compute,client aggregation weight,4,5.37186861038208e-05
+10,client_local_train,local SGD training,4,3.3822265416383743
+10,client_model_delta,weighted local model delta,4,0.0004113130271434784
+10,client_quant_encode,fixed-point quantization and signed encoding,4,8.090957999229431e-05
+10,client_masking,xMask = x + m,4,2.9724091291427612e-05
+10,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.594047151505947
+10,client_cipher_hash,hash encrypted vector,4,0.02334459125995636
+10,client_pedersen_commit,Pedersen vector commitment,4,2.6384866274893284
+10,client_receipt_sign,sign upload receipt,4,0.0006170123815536499
+10,client_upload_pack,build upload message,4,0.012103848159313202
+10,client_weight_compute,client aggregation weight,1,4.186853766441345e-05
+10,client_local_train,local SGD training,1,3.397817250341177
+10,client_model_delta,weighted local model delta,1,0.00037973374128341675
+10,client_quant_encode,fixed-point quantization and signed encoding,1,6.768107414245605e-05
+10,client_masking,xMask = x + m,1,3.205612301826477e-05
+10,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.729149397462606
+10,client_cipher_hash,hash encrypted vector,1,0.0230235792696476
+10,client_pedersen_commit,Pedersen vector commitment,1,2.729469146579504
+10,client_receipt_sign,sign upload receipt,1,0.0006502307951450348
+10,client_upload_pack,build upload message,1,0.011617112904787064
+11,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.1031679995358
+11,client_weight_compute,client aggregation weight,3,3.887340426445007e-05
+11,client_local_train,local SGD training,3,3.4729513861238956
+11,client_model_delta,weighted local model delta,3,0.00042371824383735657
+11,client_quant_encode,fixed-point quantization and signed encoding,3,7.335096597671509e-05
+11,client_masking,xMask = x + m,3,2.925097942352295e-05
+11,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.41191205754876
+11,client_cipher_hash,hash encrypted vector,3,0.023306529968976974
+11,client_pedersen_commit,Pedersen vector commitment,3,2.527072597295046
+11,client_receipt_sign,sign upload receipt,3,0.0006198398768901825
+11,client_upload_pack,build upload message,3,0.012065265327692032
+11,client_weight_compute,client aggregation weight,5,3.37064266204834e-05
+11,client_local_train,local SGD training,5,3.446603912860155
+11,client_model_delta,weighted local model delta,5,0.0003990195691585541
+11,client_quant_encode,fixed-point quantization and signed encoding,5,7.418915629386902e-05
+11,client_masking,xMask = x + m,5,3.1031668186187744e-05
+11,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.473829556256533
+11,client_cipher_hash,hash encrypted vector,5,0.02357591688632965
+11,client_pedersen_commit,Pedersen vector commitment,5,2.5549934953451157
+11,client_receipt_sign,sign upload receipt,5,0.0005925707519054413
+11,client_upload_pack,build upload message,5,0.012557152658700943
+11,client_weight_compute,client aggregation weight,4,5.250796675682068e-05
+11,client_local_train,local SGD training,4,3.4673402421176434
+11,client_model_delta,weighted local model delta,4,0.00040980055928230286
+11,client_quant_encode,fixed-point quantization and signed encoding,4,7.204338908195496e-05
+11,client_masking,xMask = x + m,4,3.056973218917847e-05
+11,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.58533301576972
+11,client_cipher_hash,hash encrypted vector,4,0.023406237363815308
+11,client_pedersen_commit,Pedersen vector commitment,4,2.6324006877839565
+11,client_receipt_sign,sign upload receipt,4,0.000589519739151001
+11,client_upload_pack,build upload message,4,0.012076623737812042
+11,client_weight_compute,client aggregation weight,2,2.2456049919128418e-05
+11,client_local_train,local SGD training,2,3.4701685197651386
+11,client_model_delta,weighted local model delta,2,0.00041248276829719543
+11,client_quant_encode,fixed-point quantization and signed encoding,2,8.698180317878723e-05
+11,client_masking,xMask = x + m,2,2.833828330039978e-05
+11,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.587211813777685
+11,client_cipher_hash,hash encrypted vector,2,0.023316361010074615
+11,client_pedersen_commit,Pedersen vector commitment,2,2.6124198101460934
+11,client_receipt_sign,sign upload receipt,2,0.0006263367831707001
+11,client_upload_pack,build upload message,2,0.012518569827079773
+11,client_weight_compute,client aggregation weight,1,4.2010098695755005e-05
+11,client_local_train,local SGD training,1,3.5357611626386642
+11,client_model_delta,weighted local model delta,1,0.0003807432949542999
+11,client_quant_encode,fixed-point quantization and signed encoding,1,7.649138569831848e-05
+11,client_masking,xMask = x + m,1,3.254786133766174e-05
+11,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.704578269273043
+11,client_cipher_hash,hash encrypted vector,1,0.023109931498765945
+11,client_pedersen_commit,Pedersen vector commitment,1,2.7080880999565125
+11,client_receipt_sign,sign upload receipt,1,0.0006217844784259796
+11,client_upload_pack,build upload message,1,0.011634234338998795
+12,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.112531203776598
+12,client_weight_compute,client aggregation weight,3,3.870949149131775e-05
+12,client_local_train,local SGD training,3,3.455357998609543
+12,client_model_delta,weighted local model delta,3,0.0003782883286476135
+12,client_quant_encode,fixed-point quantization and signed encoding,3,6.728991866111755e-05
+12,client_masking,xMask = x + m,3,4.0393322706222534e-05
+12,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.37557538971305
+12,client_cipher_hash,hash encrypted vector,3,0.02384530007839203
+12,client_pedersen_commit,Pedersen vector commitment,3,2.4894000999629498
+12,client_receipt_sign,sign upload receipt,3,0.000610794872045517
+12,client_upload_pack,build upload message,3,0.012133806943893433
+12,client_weight_compute,client aggregation weight,2,4.3239444494247437e-05
+12,client_local_train,local SGD training,2,3.4627949967980385
+12,client_model_delta,weighted local model delta,2,0.0003631077706813812
+12,client_quant_encode,fixed-point quantization and signed encoding,2,6.61797821521759e-05
+12,client_masking,xMask = x + m,2,3.1460076570510864e-05
+12,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.3989187926054
+12,client_cipher_hash,hash encrypted vector,2,0.023133520036935806
+12,client_pedersen_commit,Pedersen vector commitment,2,2.511691886931658
+12,client_receipt_sign,sign upload receipt,2,0.0006289184093475342
+12,client_upload_pack,build upload message,2,0.012918192893266678
+12,client_weight_compute,client aggregation weight,5,3.99760901927948e-05
+12,client_local_train,local SGD training,5,3.385851562023163
+12,client_model_delta,weighted local model delta,5,0.0003757663071155548
+12,client_quant_encode,fixed-point quantization and signed encoding,5,7.376819849014282e-05
+12,client_masking,xMask = x + m,5,3.4049153327941895e-05
+12,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.503646060824394
+12,client_cipher_hash,hash encrypted vector,5,0.023299437016248703
+12,client_pedersen_commit,Pedersen vector commitment,5,2.5655259117484093
+12,client_receipt_sign,sign upload receipt,5,0.0006029903888702393
+12,client_upload_pack,build upload message,5,0.012490946799516678
+12,client_weight_compute,client aggregation weight,1,4.2244791984558105e-05
+12,client_local_train,local SGD training,1,3.374783370643854
+12,client_model_delta,weighted local model delta,1,0.0003951452672481537
+12,client_quant_encode,fixed-point quantization and signed encoding,1,7.003173232078552e-05
+12,client_masking,xMask = x + m,1,2.7999281883239746e-05
+12,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.71404618024826
+12,client_cipher_hash,hash encrypted vector,1,0.023060422390699387
+12,client_pedersen_commit,Pedersen vector commitment,1,2.7099023163318634
+12,client_receipt_sign,sign upload receipt,1,0.0006698593497276306
+12,client_upload_pack,build upload message,1,0.0116417296230793
+12,client_weight_compute,client aggregation weight,4,4.661455750465393e-05
+12,client_local_train,local SGD training,4,3.433412205427885
+12,client_model_delta,weighted local model delta,4,0.0004191361367702484
+12,client_quant_encode,fixed-point quantization and signed encoding,4,7.531791925430298e-05
+12,client_masking,xMask = x + m,4,3.1519681215286255e-05
+12,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.768399100750685
+12,client_cipher_hash,hash encrypted vector,4,0.02330472320318222
+12,client_pedersen_commit,Pedersen vector commitment,4,2.7543478049337864
+12,client_receipt_sign,sign upload receipt,4,0.0006369948387145996
+12,client_upload_pack,build upload message,4,0.01213015615940094
+13,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.95083063095808
+13,client_weight_compute,client aggregation weight,5,4.067644476890564e-05
+13,client_local_train,local SGD training,5,3.4321166835725307
+13,client_model_delta,weighted local model delta,5,0.0003798678517341614
+13,client_quant_encode,fixed-point quantization and signed encoding,5,7.250159978866577e-05
+13,client_masking,xMask = x + m,5,3.321841359138489e-05
+13,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.424287393689156
+13,client_cipher_hash,hash encrypted vector,5,0.023387361317873
+13,client_pedersen_commit,Pedersen vector commitment,5,2.5265411734580994
+13,client_receipt_sign,sign upload receipt,5,0.0006202980875968933
+13,client_upload_pack,build upload message,5,0.012492179870605469
+13,client_weight_compute,client aggregation weight,2,4.1346997022628784e-05
+13,client_local_train,local SGD training,2,3.4545852430164814
+13,client_model_delta,weighted local model delta,2,0.000351492315530777
+13,client_quant_encode,fixed-point quantization and signed encoding,2,7.867440581321716e-05
+13,client_masking,xMask = x + m,2,3.0938535928726196e-05
+13,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.479581151157618
+13,client_cipher_hash,hash encrypted vector,2,0.023290999233722687
+13,client_pedersen_commit,Pedersen vector commitment,2,2.5448156893253326
+13,client_receipt_sign,sign upload receipt,2,0.0005994178354740143
+13,client_upload_pack,build upload message,2,0.012476660311222076
+13,client_weight_compute,client aggregation weight,3,4.022568464279175e-05
+13,client_local_train,local SGD training,3,3.447585988789797
+13,client_model_delta,weighted local model delta,3,0.00039735808968544006
+13,client_quant_encode,fixed-point quantization and signed encoding,3,6.78524374961853e-05
+13,client_masking,xMask = x + m,3,2.971664071083069e-05
+13,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.543647669255733
+13,client_cipher_hash,hash encrypted vector,3,0.02353847771883011
+13,client_pedersen_commit,Pedersen vector commitment,3,2.5863878279924393
+13,client_receipt_sign,sign upload receipt,3,0.0005765222012996674
+13,client_upload_pack,build upload message,3,0.012608151882886887
+13,client_weight_compute,client aggregation weight,4,4.278123378753662e-05
+13,client_local_train,local SGD training,4,3.433229625225067
+13,client_model_delta,weighted local model delta,4,0.000395115464925766
+13,client_quant_encode,fixed-point quantization and signed encoding,4,7.629767060279846e-05
+13,client_masking,xMask = x + m,4,3.022328019142151e-05
+13,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.658753529191017
+13,client_cipher_hash,hash encrypted vector,4,0.023493662476539612
+13,client_pedersen_commit,Pedersen vector commitment,4,2.6854378432035446
+13,client_receipt_sign,sign upload receipt,4,0.0005999580025672913
+13,client_upload_pack,build upload message,4,0.012112215161323547
+13,client_weight_compute,client aggregation weight,1,4.279986023902893e-05
+13,client_local_train,local SGD training,1,3.4432226046919823
+13,client_model_delta,weighted local model delta,1,0.00039669498801231384
+13,client_quant_encode,fixed-point quantization and signed encoding,1,7.567927241325378e-05
+13,client_masking,xMask = x + m,1,3.0413269996643066e-05
+13,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.65563690289855
+13,client_cipher_hash,hash encrypted vector,1,0.02307332679629326
+13,client_pedersen_commit,Pedersen vector commitment,1,2.67990854755044
+13,client_receipt_sign,sign upload receipt,1,0.000572938472032547
+13,client_upload_pack,build upload message,1,0.01158987358212471
+14,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.982982896268368
+14,client_weight_compute,client aggregation weight,3,3.8232654333114624e-05
+14,client_local_train,local SGD training,3,3.463006541132927
+14,client_model_delta,weighted local model delta,3,0.00040137767791748047
+14,client_quant_encode,fixed-point quantization and signed encoding,3,7.243826985359192e-05
+14,client_masking,xMask = x + m,3,3.096833825111389e-05
+14,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.39361133798957
+14,client_cipher_hash,hash encrypted vector,3,0.02308858558535576
+14,client_pedersen_commit,Pedersen vector commitment,3,2.4971599765121937
+14,client_receipt_sign,sign upload receipt,3,0.0006492137908935547
+14,client_upload_pack,build upload message,3,0.012692917138338089
+14,client_weight_compute,client aggregation weight,5,3.0275434255599976e-05
+14,client_local_train,local SGD training,5,3.4792617596685886
+14,client_model_delta,weighted local model delta,5,0.0003824196755886078
+14,client_quant_encode,fixed-point quantization and signed encoding,5,6.99460506439209e-05
+14,client_masking,xMask = x + m,5,3.0025839805603027e-05
+14,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.50568476691842
+14,client_cipher_hash,hash encrypted vector,5,0.02357891947031021
+14,client_pedersen_commit,Pedersen vector commitment,5,2.580936137586832
+14,client_receipt_sign,sign upload receipt,5,0.000563599169254303
+14,client_upload_pack,build upload message,5,0.012511353939771652
+14,client_weight_compute,client aggregation weight,2,4.223734140396118e-05
+14,client_local_train,local SGD training,2,3.517469711601734
+14,client_model_delta,weighted local model delta,2,0.00038759782910346985
+14,client_quant_encode,fixed-point quantization and signed encoding,2,7.089972496032715e-05
+14,client_masking,xMask = x + m,2,3.0275434255599976e-05
+14,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.496819261461496
+14,client_cipher_hash,hash encrypted vector,2,0.023422744125127792
+14,client_pedersen_commit,Pedersen vector commitment,2,2.5506194420158863
+14,client_receipt_sign,sign upload receipt,2,0.0006133131682872772
+14,client_upload_pack,build upload message,2,0.012504059821367264
+14,client_weight_compute,client aggregation weight,4,5.283951759338379e-05
+14,client_local_train,local SGD training,4,3.4579740650951862
+14,client_model_delta,weighted local model delta,4,0.00038347020745277405
+14,client_quant_encode,fixed-point quantization and signed encoding,4,6.904453039169312e-05
+14,client_masking,xMask = x + m,4,2.98917293548584e-05
+14,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.601903297007084
+14,client_cipher_hash,hash encrypted vector,4,0.02333035320043564
+14,client_pedersen_commit,Pedersen vector commitment,4,2.6451329179108143
+14,client_receipt_sign,sign upload receipt,4,0.0006260983645915985
+14,client_upload_pack,build upload message,4,0.012147486209869385
+14,client_weight_compute,client aggregation weight,1,4.1961669921875e-05
+14,client_local_train,local SGD training,1,3.4010098092257977
+14,client_model_delta,weighted local model delta,1,0.00039309635758399963
+14,client_quant_encode,fixed-point quantization and signed encoding,1,7.431209087371826e-05
+14,client_masking,xMask = x + m,1,3.1519681215286255e-05
+14,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.718291882425547
+14,client_cipher_hash,hash encrypted vector,1,0.022981304675340652
+14,client_pedersen_commit,Pedersen vector commitment,1,2.7172442004084587
+14,client_receipt_sign,sign upload receipt,1,0.000630989670753479
+14,client_upload_pack,build upload message,1,0.011612262576818466
+15,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.028653096407652
+15,client_weight_compute,client aggregation weight,2,4.174187779426575e-05
+15,client_local_train,local SGD training,2,3.492393709719181
+15,client_model_delta,weighted local model delta,2,0.00038570165634155273
+15,client_quant_encode,fixed-point quantization and signed encoding,2,7.328763604164124e-05
+15,client_masking,xMask = x + m,2,3.0156224966049194e-05
+15,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.426008325070143
+15,client_cipher_hash,hash encrypted vector,2,0.02520577609539032
+15,client_pedersen_commit,Pedersen vector commitment,2,2.5052673406898975
+15,client_receipt_sign,sign upload receipt,2,0.0006655454635620117
+15,client_upload_pack,build upload message,2,0.01261179894208908
+15,client_weight_compute,client aggregation weight,3,4.0903687477111816e-05
+15,client_local_train,local SGD training,3,3.5096891447901726
+15,client_model_delta,weighted local model delta,3,0.00040721893310546875
+15,client_quant_encode,fixed-point quantization and signed encoding,3,7.076561450958252e-05
+15,client_masking,xMask = x + m,3,3.5550445318222046e-05
+15,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.50262640416622
+15,client_cipher_hash,hash encrypted vector,3,0.023326784372329712
+15,client_pedersen_commit,Pedersen vector commitment,3,2.5792026445269585
+15,client_receipt_sign,sign upload receipt,3,0.0005741454660892487
+15,client_upload_pack,build upload message,3,0.012091562151908875
+15,client_weight_compute,client aggregation weight,5,4.240870475769043e-05
+15,client_local_train,local SGD training,5,3.4601820409297943
+15,client_model_delta,weighted local model delta,5,0.00038588792085647583
+15,client_quant_encode,fixed-point quantization and signed encoding,5,8.276477456092834e-05
+15,client_masking,xMask = x + m,5,3.230944275856018e-05
+15,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.532832000404596
+15,client_cipher_hash,hash encrypted vector,5,0.02364277094602585
+15,client_pedersen_commit,Pedersen vector commitment,5,2.589131359010935
+15,client_receipt_sign,sign upload receipt,5,0.0006023943424224854
+15,client_upload_pack,build upload message,5,0.01260528713464737
+15,client_weight_compute,client aggregation weight,1,4.132091999053955e-05
+15,client_local_train,local SGD training,1,3.5142947025597095
+15,client_model_delta,weighted local model delta,1,0.00040288642048835754
+15,client_quant_encode,fixed-point quantization and signed encoding,1,6.661936640739441e-05
+15,client_masking,xMask = x + m,1,3.4164637327194214e-05
+15,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.619854260236025
+15,client_cipher_hash,hash encrypted vector,1,0.023122020065784454
+15,client_pedersen_commit,Pedersen vector commitment,1,2.658476185053587
+15,client_receipt_sign,sign upload receipt,1,0.0006222985684871674
+15,client_upload_pack,build upload message,1,0.011618874967098236
+15,client_weight_compute,client aggregation weight,4,5.3126364946365356e-05
+15,client_local_train,local SGD training,4,3.4829023107886314
+15,client_model_delta,weighted local model delta,4,0.0004110783338546753
+15,client_quant_encode,fixed-point quantization and signed encoding,4,7.021427154541016e-05
+15,client_masking,xMask = x + m,4,2.9377639293670654e-05
+15,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.693206015974283
+15,client_cipher_hash,hash encrypted vector,4,0.02341565489768982
+15,client_pedersen_commit,Pedersen vector commitment,4,2.706548161804676
+15,client_receipt_sign,sign upload receipt,4,0.0005821436643600464
+15,client_upload_pack,build upload message,4,0.012111108750104904
+16,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.92984287813306
+16,client_weight_compute,client aggregation weight,3,3.9093196392059326e-05
+16,client_local_train,local SGD training,3,3.5183612406253815
+16,client_model_delta,weighted local model delta,3,0.0003904663026332855
+16,client_quant_encode,fixed-point quantization and signed encoding,3,7.100030779838562e-05
+16,client_masking,xMask = x + m,3,3.0666589736938477e-05
+16,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.415551770478487
+16,client_cipher_hash,hash encrypted vector,3,0.02330705150961876
+16,client_pedersen_commit,Pedersen vector commitment,3,2.5135586224496365
+16,client_receipt_sign,sign upload receipt,3,0.0006136633455753326
+16,client_upload_pack,build upload message,3,0.012106698006391525
+16,client_weight_compute,client aggregation weight,5,4.114210605621338e-05
+16,client_local_train,local SGD training,5,3.4573983252048492
+16,client_model_delta,weighted local model delta,5,0.00038472190499305725
+16,client_quant_encode,fixed-point quantization and signed encoding,5,7.29970633983612e-05
+16,client_masking,xMask = x + m,5,3.340095281600952e-05
+16,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.493144761770964
+16,client_cipher_hash,hash encrypted vector,5,0.02358562871813774
+16,client_pedersen_commit,Pedersen vector commitment,5,2.5670759975910187
+16,client_receipt_sign,sign upload receipt,5,0.0005997978150844574
+16,client_upload_pack,build upload message,5,0.012628152966499329
+16,client_weight_compute,client aggregation weight,2,4.180148243904114e-05
+16,client_local_train,local SGD training,2,3.493007753044367
+16,client_model_delta,weighted local model delta,2,0.00037918612360954285
+16,client_quant_encode,fixed-point quantization and signed encoding,2,6.730109453201294e-05
+16,client_masking,xMask = x + m,2,2.9046088457107544e-05
+16,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.51290202885866
+16,client_cipher_hash,hash encrypted vector,2,0.023507818579673767
+16,client_pedersen_commit,Pedersen vector commitment,2,2.562089279294014
+16,client_receipt_sign,sign upload receipt,2,0.0006061047315597534
+16,client_upload_pack,build upload message,2,0.012606106698513031
+16,client_weight_compute,client aggregation weight,1,4.243478178977966e-05
+16,client_local_train,local SGD training,1,3.438400287181139
+16,client_model_delta,weighted local model delta,1,0.0003924518823623657
+16,client_quant_encode,fixed-point quantization and signed encoding,1,7.445365190505981e-05
+16,client_masking,xMask = x + m,1,3.255531191825867e-05
+16,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.557610899209976
+16,client_cipher_hash,hash encrypted vector,1,0.023154068738222122
+16,client_pedersen_commit,Pedersen vector commitment,1,2.6149096712470055
+16,client_receipt_sign,sign upload receipt,1,0.0006388239562511444
+16,client_upload_pack,build upload message,1,0.011636059731245041
+16,client_weight_compute,client aggregation weight,4,5.4702162742614746e-05
+16,client_local_train,local SGD training,4,3.490806680172682
+16,client_model_delta,weighted local model delta,4,0.00039672479033470154
+16,client_quant_encode,fixed-point quantization and signed encoding,4,7.954612374305725e-05
+16,client_masking,xMask = x + m,4,2.8926879167556763e-05
+16,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.62565979361534
+16,client_cipher_hash,hash encrypted vector,4,0.02337811514735222
+16,client_pedersen_commit,Pedersen vector commitment,4,2.66506889462471
+16,client_receipt_sign,sign upload receipt,4,0.0006359517574310303
+16,client_upload_pack,build upload message,4,0.012124031782150269
+17,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.20220774039626
+17,client_weight_compute,client aggregation weight,3,3.974884748458862e-05
+17,client_local_train,local SGD training,3,3.5303528644144535
+17,client_model_delta,weighted local model delta,3,0.00038200244307518005
+17,client_quant_encode,fixed-point quantization and signed encoding,3,7.343664765357971e-05
+17,client_masking,xMask = x + m,3,3.089383244514465e-05
+17,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.31843153759837
+17,client_cipher_hash,hash encrypted vector,3,0.023147020488977432
+17,client_pedersen_commit,Pedersen vector commitment,3,2.452909279614687
+17,client_receipt_sign,sign upload receipt,3,0.00064106285572052
+17,client_upload_pack,build upload message,3,0.01210491731762886
+17,client_weight_compute,client aggregation weight,2,4.1816383600234985e-05
+17,client_local_train,local SGD training,2,3.5227838568389416
+17,client_model_delta,weighted local model delta,2,0.0003903992474079132
+17,client_quant_encode,fixed-point quantization and signed encoding,2,6.977096199989319e-05
+17,client_masking,xMask = x + m,2,3.257766366004944e-05
+17,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.398892380297184
+17,client_cipher_hash,hash encrypted vector,2,0.02329670637845993
+17,client_pedersen_commit,Pedersen vector commitment,2,2.495924048125744
+17,client_receipt_sign,sign upload receipt,2,0.0006103478372097015
+17,client_upload_pack,build upload message,2,0.012523140758275986
+17,client_weight_compute,client aggregation weight,5,4.078075289726257e-05
+17,client_local_train,local SGD training,5,3.441575113683939
+17,client_model_delta,weighted local model delta,5,0.00038272514939308167
+17,client_quant_encode,fixed-point quantization and signed encoding,5,7.406249642372131e-05
+17,client_masking,xMask = x + m,5,3.118067979812622e-05
+17,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.58512381836772
+17,client_cipher_hash,hash encrypted vector,5,0.023722417652606964
+17,client_pedersen_commit,Pedersen vector commitment,5,2.6340815871953964
+17,client_receipt_sign,sign upload receipt,5,0.0006369277834892273
+17,client_upload_pack,build upload message,5,0.012490030378103256
+17,client_weight_compute,client aggregation weight,4,5.447119474411011e-05
+17,client_local_train,local SGD training,4,3.4601239673793316
+17,client_model_delta,weighted local model delta,4,0.00041883066296577454
+17,client_quant_encode,fixed-point quantization and signed encoding,4,7.341429591178894e-05
+17,client_masking,xMask = x + m,4,3.1795352697372437e-05
+17,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.604234773665667
+17,client_cipher_hash,hash encrypted vector,4,0.023554489016532898
+17,client_pedersen_commit,Pedersen vector commitment,4,2.644279971718788
+17,client_receipt_sign,sign upload receipt,4,0.0005926266312599182
+17,client_upload_pack,build upload message,4,0.01210816204547882
+17,client_weight_compute,client aggregation weight,1,4.06019389629364e-05
+17,client_local_train,local SGD training,1,3.429820153862238
+17,client_model_delta,weighted local model delta,1,0.0004283897578716278
+17,client_quant_encode,fixed-point quantization and signed encoding,1,7.970258593559265e-05
+17,client_masking,xMask = x + m,1,2.8576701879501343e-05
+17,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.82429000735283
+17,client_cipher_hash,hash encrypted vector,1,0.023290466517210007
+17,client_pedersen_commit,Pedersen vector commitment,1,2.7970103956758976
+17,client_receipt_sign,sign upload receipt,1,0.0006317384541034698
+17,client_upload_pack,build upload message,1,0.01163698360323906
+18,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.81318810209632
+18,client_weight_compute,client aggregation weight,4,5.3804367780685425e-05
+18,client_local_train,local SGD training,4,3.441933088004589
+18,client_model_delta,weighted local model delta,4,0.00039994344115257263
+18,client_quant_encode,fixed-point quantization and signed encoding,4,6.699934601783752e-05
+18,client_masking,xMask = x + m,4,3.1091272830963135e-05
+18,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.492414262145758
+18,client_cipher_hash,hash encrypted vector,4,0.023288391530513763
+18,client_pedersen_commit,Pedersen vector commitment,4,2.5825241953134537
+18,client_receipt_sign,sign upload receipt,4,0.0005397386848926544
+18,client_upload_pack,build upload message,4,0.012118637561798096
+18,client_weight_compute,client aggregation weight,3,3.8623809814453125e-05
+18,client_local_train,local SGD training,3,3.4926991388201714
+18,client_model_delta,weighted local model delta,3,0.0003871545195579529
+18,client_quant_encode,fixed-point quantization and signed encoding,3,7.287785410881042e-05
+18,client_masking,xMask = x + m,3,3.244355320930481e-05
+18,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.465824853628874
+18,client_cipher_hash,hash encrypted vector,3,0.02351411059498787
+18,client_pedersen_commit,Pedersen vector commitment,3,2.554923750460148
+18,client_receipt_sign,sign upload receipt,3,0.0006123371422290802
+18,client_upload_pack,build upload message,3,0.012136254459619522
+18,client_weight_compute,client aggregation weight,5,4.1913241147994995e-05
+18,client_local_train,local SGD training,5,3.427323829382658
+18,client_model_delta,weighted local model delta,5,0.00040843337774276733
+18,client_quant_encode,fixed-point quantization and signed encoding,5,7.560849189758301e-05
+18,client_masking,xMask = x + m,5,3.290548920631409e-05
+18,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.514518823474646
+18,client_cipher_hash,hash encrypted vector,5,0.023564286530017853
+18,client_pedersen_commit,Pedersen vector commitment,5,2.597420781850815
+18,client_receipt_sign,sign upload receipt,5,0.0005765445530414581
+18,client_upload_pack,build upload message,5,0.012596920132637024
+18,client_weight_compute,client aggregation weight,2,3.3408403396606445e-05
+18,client_local_train,local SGD training,2,3.4418853260576725
+18,client_model_delta,weighted local model delta,2,0.0003969334065914154
+18,client_quant_encode,fixed-point quantization and signed encoding,2,7.208436727523804e-05
+18,client_masking,xMask = x + m,2,3.143027424812317e-05
+18,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.546236012130976
+18,client_cipher_hash,hash encrypted vector,2,0.023418132215738297
+18,client_pedersen_commit,Pedersen vector commitment,2,2.5957948192954063
+18,client_receipt_sign,sign upload receipt,2,0.0011538974940776825
+18,client_upload_pack,build upload message,2,0.01255640760064125
+18,client_weight_compute,client aggregation weight,1,4.268810153007507e-05
+18,client_local_train,local SGD training,1,3.4605915918946266
+18,client_model_delta,weighted local model delta,1,0.0003870353102684021
+18,client_quant_encode,fixed-point quantization and signed encoding,1,6.999820470809937e-05
+18,client_masking,xMask = x + m,1,2.847611904144287e-05
+18,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.578863237053156
+18,client_cipher_hash,hash encrypted vector,1,0.022988978773355484
+18,client_pedersen_commit,Pedersen vector commitment,1,2.6301126405596733
+18,client_receipt_sign,sign upload receipt,1,0.0006377547979354858
+18,client_upload_pack,build upload message,1,0.011636409908533096
+19,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.086838975548744
+19,client_weight_compute,client aggregation weight,3,4.02890145778656e-05
+19,client_local_train,local SGD training,3,3.446845415979624
+19,client_model_delta,weighted local model delta,3,0.000405188649892807
+19,client_quant_encode,fixed-point quantization and signed encoding,3,7.113069295883179e-05
+19,client_masking,xMask = x + m,3,3.291666507720947e-05
+19,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.387600511312485
+19,client_cipher_hash,hash encrypted vector,3,0.023287363350391388
+19,client_pedersen_commit,Pedersen vector commitment,3,2.492573868483305
+19,client_receipt_sign,sign upload receipt,3,0.000610601156949997
+19,client_upload_pack,build upload message,3,0.012103784829378128
+19,client_weight_compute,client aggregation weight,5,4.089251160621643e-05
+19,client_local_train,local SGD training,5,3.401867963373661
+19,client_model_delta,weighted local model delta,5,0.00038516148924827576
+19,client_quant_encode,fixed-point quantization and signed encoding,5,7.737055420875549e-05
+19,client_masking,xMask = x + m,5,3.3836811780929565e-05
+19,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.451367307454348
+19,client_cipher_hash,hash encrypted vector,5,0.023349151015281677
+19,client_pedersen_commit,Pedersen vector commitment,5,2.5350772365927696
+19,client_receipt_sign,sign upload receipt,5,0.0006502158939838409
+19,client_upload_pack,build upload message,5,0.012926474213600159
+19,client_weight_compute,client aggregation weight,2,4.1190534830093384e-05
+19,client_local_train,local SGD training,2,3.458694253116846
+19,client_model_delta,weighted local model delta,2,0.00038611888885498047
+19,client_quant_encode,fixed-point quantization and signed encoding,2,6.728991866111755e-05
+19,client_masking,xMask = x + m,2,3.0800700187683105e-05
+19,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.519339475780725
+19,client_cipher_hash,hash encrypted vector,2,0.02350645139813423
+19,client_pedersen_commit,Pedersen vector commitment,2,2.5718071907758713
+19,client_receipt_sign,sign upload receipt,2,0.000599253922700882
+19,client_upload_pack,build upload message,2,0.012493856251239777
+19,client_weight_compute,client aggregation weight,4,5.204975605010986e-05
+19,client_local_train,local SGD training,4,3.4387368001043797
+19,client_model_delta,weighted local model delta,4,0.0004074014723300934
+19,client_quant_encode,fixed-point quantization and signed encoding,4,7.445365190505981e-05
+19,client_masking,xMask = x + m,4,2.909824252128601e-05
+19,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.59928710758686
+19,client_cipher_hash,hash encrypted vector,4,0.023250799626111984
+19,client_pedersen_commit,Pedersen vector commitment,4,2.6462684348225594
+19,client_receipt_sign,sign upload receipt,4,0.0005916543304920197
+19,client_upload_pack,build upload message,4,0.012094348669052124
+19,client_weight_compute,client aggregation weight,1,4.208460450172424e-05
+19,client_local_train,local SGD training,1,3.4295001439750195
+19,client_model_delta,weighted local model delta,1,0.0004023052752017975
+19,client_quant_encode,fixed-point quantization and signed encoding,1,7.914751768112183e-05
+19,client_masking,xMask = x + m,1,3.071874380111694e-05
+19,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.756871312856674
+19,client_cipher_hash,hash encrypted vector,1,0.02327335998415947
+19,client_pedersen_commit,Pedersen vector commitment,1,2.749471265822649
+19,client_receipt_sign,sign upload receipt,1,0.0006132833659648895
+19,client_upload_pack,build upload message,1,0.012116629630327225
+20,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.893586840480566
+20,client_weight_compute,client aggregation weight,3,3.0796974897384644e-05
+20,client_local_train,local SGD training,3,3.436559945344925
+20,client_model_delta,weighted local model delta,3,0.00039097294211387634
+20,client_quant_encode,fixed-point quantization and signed encoding,3,7.376819849014282e-05
+20,client_masking,xMask = x + m,3,3.142654895782471e-05
+20,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.480493675917387
+20,client_cipher_hash,hash encrypted vector,3,0.023324690759181976
+20,client_pedersen_commit,Pedersen vector commitment,3,2.546721611171961
+20,client_receipt_sign,sign upload receipt,3,0.0005999542772769928
+20,client_upload_pack,build upload message,3,0.012081462889909744
+20,client_weight_compute,client aggregation weight,5,3.999471664428711e-05
+20,client_local_train,local SGD training,5,3.362231560051441
+20,client_model_delta,weighted local model delta,5,0.0004019029438495636
+20,client_quant_encode,fixed-point quantization and signed encoding,5,8.568167686462402e-05
+20,client_masking,xMask = x + m,5,3.4440308809280396e-05
+20,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.52317526936531
+20,client_cipher_hash,hash encrypted vector,5,0.02339760586619377
+20,client_pedersen_commit,Pedersen vector commitment,5,2.589080326259136
+20,client_receipt_sign,sign upload receipt,5,0.0005835220217704773
+20,client_upload_pack,build upload message,5,0.012503385543823242
+20,client_weight_compute,client aggregation weight,2,3.9905309677124023e-05
+20,client_local_train,local SGD training,2,3.4960223883390427
+20,client_model_delta,weighted local model delta,2,0.0003855377435684204
+20,client_quant_encode,fixed-point quantization and signed encoding,2,6.995722651481628e-05
+20,client_masking,xMask = x + m,2,3.147125244140625e-05
+20,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.5227562636137
+20,client_cipher_hash,hash encrypted vector,2,0.02370486781001091
+20,client_pedersen_commit,Pedersen vector commitment,2,2.5803740657866
+20,client_receipt_sign,sign upload receipt,2,0.0006389357149600983
+20,client_upload_pack,build upload message,2,0.012507665902376175
+20,client_weight_compute,client aggregation weight,1,2.925097942352295e-05
+20,client_local_train,local SGD training,1,3.417214337736368
+20,client_model_delta,weighted local model delta,1,0.0003801994025707245
+20,client_quant_encode,fixed-point quantization and signed encoding,1,7.01509416103363e-05
+20,client_masking,xMask = x + m,1,3.072991967201233e-05
+20,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.613384798169136
+20,client_cipher_hash,hash encrypted vector,1,0.023131221532821655
+20,client_pedersen_commit,Pedersen vector commitment,1,2.649970557540655
+20,client_receipt_sign,sign upload receipt,1,0.0006332769989967346
+20,client_upload_pack,build upload message,1,0.012068409472703934
+20,client_weight_compute,client aggregation weight,4,4.729628562927246e-05
+20,client_local_train,local SGD training,4,3.4114290177822113
+20,client_model_delta,weighted local model delta,4,0.00038101524114608765
+20,client_quant_encode,fixed-point quantization and signed encoding,4,7.241591811180115e-05
+20,client_masking,xMask = x + m,4,3.081187605857849e-05
+20,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.642368152737617
+20,client_cipher_hash,hash encrypted vector,4,0.02334284409880638
+20,client_pedersen_commit,Pedersen vector commitment,4,2.684728417545557
+20,client_receipt_sign,sign upload receipt,4,0.0006341896951198578
+20,client_upload_pack,build upload message,4,0.012109111994504929
+21,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.94366705790162
+21,client_weight_compute,client aggregation weight,3,4.018843173980713e-05
+21,client_local_train,local SGD training,3,3.520690005272627
+21,client_model_delta,weighted local model delta,3,0.0003934241831302643
+21,client_quant_encode,fixed-point quantization and signed encoding,3,7.072463631629944e-05
+21,client_masking,xMask = x + m,3,2.8546899557113647e-05
+21,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.447177093476057
+21,client_cipher_hash,hash encrypted vector,3,0.023262903094291687
+21,client_pedersen_commit,Pedersen vector commitment,3,2.5401547849178314
+21,client_receipt_sign,sign upload receipt,3,0.0006045214831829071
+21,client_upload_pack,build upload message,3,0.01208445429801941
+21,client_weight_compute,client aggregation weight,5,4.118308424949646e-05
+21,client_local_train,local SGD training,5,3.4447242729365826
+21,client_model_delta,weighted local model delta,5,0.00039751455187797546
+21,client_quant_encode,fixed-point quantization and signed encoding,5,7.739663124084473e-05
+21,client_masking,xMask = x + m,5,3.3993273973464966e-05
+21,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.513630133122206
+21,client_cipher_hash,hash encrypted vector,5,0.023445188999176025
+21,client_pedersen_commit,Pedersen vector commitment,5,2.5844884775578976
+21,client_receipt_sign,sign upload receipt,5,0.0006157606840133667
+21,client_upload_pack,build upload message,5,0.012503404170274734
+21,client_weight_compute,client aggregation weight,2,4.120171070098877e-05
+21,client_local_train,local SGD training,2,3.4852258786559105
+21,client_model_delta,weighted local model delta,2,0.0004154406487941742
+21,client_quant_encode,fixed-point quantization and signed encoding,2,8.537620306015015e-05
+21,client_masking,xMask = x + m,2,3.271549940109253e-05
+21,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.529126554727554
+21,client_cipher_hash,hash encrypted vector,2,0.023746881633996964
+21,client_pedersen_commit,Pedersen vector commitment,2,2.5861799381673336
+21,client_receipt_sign,sign upload receipt,2,0.0006099343299865723
+21,client_upload_pack,build upload message,2,0.012486469000577927
+21,client_weight_compute,client aggregation weight,4,5.4545700550079346e-05
+21,client_local_train,local SGD training,4,3.448229070752859
+21,client_model_delta,weighted local model delta,4,0.0004203803837299347
+21,client_quant_encode,fixed-point quantization and signed encoding,4,7.092952728271484e-05
+21,client_masking,xMask = x + m,4,3.178045153617859e-05
+21,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.612145632505417
+21,client_cipher_hash,hash encrypted vector,4,0.0234505794942379
+21,client_pedersen_commit,Pedersen vector commitment,4,2.6334447748959064
+21,client_receipt_sign,sign upload receipt,4,0.0005870610475540161
+21,client_upload_pack,build upload message,4,0.012575484812259674
+21,client_weight_compute,client aggregation weight,1,3.013014793395996e-05
+21,client_local_train,local SGD training,1,3.453878927975893
+21,client_model_delta,weighted local model delta,1,0.00040309131145477295
+21,client_quant_encode,fixed-point quantization and signed encoding,1,7.128342986106873e-05
+21,client_masking,xMask = x + m,1,2.9899179935455322e-05
+21,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.652467280626297
+21,client_cipher_hash,hash encrypted vector,1,0.02374393865466118
+21,client_pedersen_commit,Pedersen vector commitment,1,2.6849063336849213
+21,client_receipt_sign,sign upload receipt,1,0.0006050132215023041
+21,client_upload_pack,build upload message,1,0.012095142155885696
+22,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.824698336422443
+22,client_weight_compute,client aggregation weight,3,3.742799162864685e-05
+22,client_local_train,local SGD training,3,3.4972191713750362
+22,client_model_delta,weighted local model delta,3,0.00039258599281311035
+22,client_quant_encode,fixed-point quantization and signed encoding,3,6.89476728439331e-05
+22,client_masking,xMask = x + m,3,3.213807940483093e-05
+22,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.45744413137436
+22,client_cipher_hash,hash encrypted vector,3,0.023360583931207657
+22,client_pedersen_commit,Pedersen vector commitment,3,2.538522630929947
+22,client_receipt_sign,sign upload receipt,3,0.0006252005696296692
+22,client_upload_pack,build upload message,3,0.012137848883867264
+22,client_weight_compute,client aggregation weight,1,3.382191061973572e-05
+22,client_local_train,local SGD training,1,3.447106283158064
+22,client_model_delta,weighted local model delta,1,0.0003836005926132202
+22,client_quant_encode,fixed-point quantization and signed encoding,1,7.079541683197021e-05
+22,client_masking,xMask = x + m,1,3.306195139884949e-05
+22,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.5269347243011
+22,client_cipher_hash,hash encrypted vector,1,0.023117143660783768
+22,client_pedersen_commit,Pedersen vector commitment,1,2.5927560552954674
+22,client_receipt_sign,sign upload receipt,1,0.0005604401230812073
+22,client_upload_pack,build upload message,1,0.01207997277379036
+22,client_weight_compute,client aggregation weight,5,4.252046346664429e-05
+22,client_local_train,local SGD training,5,3.4211960062384605
+22,client_model_delta,weighted local model delta,5,0.0003961920738220215
+22,client_quant_encode,fixed-point quantization and signed encoding,5,6.905198097229004e-05
+22,client_masking,xMask = x + m,5,3.275647759437561e-05
+22,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.54267707467079
+22,client_cipher_hash,hash encrypted vector,5,0.023272022604942322
+22,client_pedersen_commit,Pedersen vector commitment,5,2.597097083926201
+22,client_receipt_sign,sign upload receipt,5,0.0005992725491523743
+22,client_upload_pack,build upload message,5,0.012510858476161957
+22,client_weight_compute,client aggregation weight,4,5.5830925703048706e-05
+22,client_local_train,local SGD training,4,3.408435620367527
+22,client_model_delta,weighted local model delta,4,0.0004047304391860962
+22,client_quant_encode,fixed-point quantization and signed encoding,4,7.38687813282013e-05
+22,client_masking,xMask = x + m,4,2.936646342277527e-05
+22,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.55853059515357
+22,client_cipher_hash,hash encrypted vector,4,0.023416530340909958
+22,client_pedersen_commit,Pedersen vector commitment,4,2.614355258643627
+22,client_receipt_sign,sign upload receipt,4,0.0005685314536094666
+22,client_upload_pack,build upload message,4,0.013072911649942398
+22,client_weight_compute,client aggregation weight,2,4.2848289012908936e-05
+22,client_local_train,local SGD training,2,3.451715860515833
+22,client_model_delta,weighted local model delta,2,0.0003972351551055908
+22,client_quant_encode,fixed-point quantization and signed encoding,2,7.269904017448425e-05
+22,client_masking,xMask = x + m,2,3.145262598991394e-05
+22,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.587409682571888
+22,client_cipher_hash,hash encrypted vector,2,0.02395183965563774
+22,client_pedersen_commit,Pedersen vector commitment,2,2.6297903321683407
+22,client_receipt_sign,sign upload receipt,2,0.000646740198135376
+22,client_upload_pack,build upload message,2,0.012546729296445847
+23,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.947823114693165
+23,client_weight_compute,client aggregation weight,5,4.2553991079330444e-05
+23,client_local_train,local SGD training,5,3.463253039866686
+23,client_model_delta,weighted local model delta,5,0.00038730353116989136
+23,client_quant_encode,fixed-point quantization and signed encoding,5,7.168948650360107e-05
+23,client_masking,xMask = x + m,5,3.326311707496643e-05
+23,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.48509293794632
+23,client_cipher_hash,hash encrypted vector,5,0.02338312566280365
+23,client_pedersen_commit,Pedersen vector commitment,5,2.561900645494461
+23,client_receipt_sign,sign upload receipt,5,0.0005675069987773895
+23,client_upload_pack,build upload message,5,0.012511588633060455
+23,client_weight_compute,client aggregation weight,2,4.085525870323181e-05
+23,client_local_train,local SGD training,2,3.4723622240126133
+23,client_model_delta,weighted local model delta,2,0.00040221959352493286
+23,client_quant_encode,fixed-point quantization and signed encoding,2,7.66552984714508e-05
+23,client_masking,xMask = x + m,2,3.274157643318176e-05
+23,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.472199968993664
+23,client_cipher_hash,hash encrypted vector,2,0.02371448278427124
+23,client_pedersen_commit,Pedersen vector commitment,2,2.563682533800602
+23,client_receipt_sign,sign upload receipt,2,0.0006231963634490967
+23,client_upload_pack,build upload message,2,0.012485753744840622
+23,client_weight_compute,client aggregation weight,3,4.0277838706970215e-05
+23,client_local_train,local SGD training,3,3.518748201429844
+23,client_model_delta,weighted local model delta,3,0.00040659308433532715
+23,client_quant_encode,fixed-point quantization and signed encoding,3,7.094815373420715e-05
+23,client_masking,xMask = x + m,3,3.1616538763046265e-05
+23,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.47952116653323
+23,client_cipher_hash,hash encrypted vector,3,0.02324402704834938
+23,client_pedersen_commit,Pedersen vector commitment,3,2.552131935954094
+23,client_receipt_sign,sign upload receipt,3,0.0005949214100837708
+23,client_upload_pack,build upload message,3,0.012146484106779099
+23,client_weight_compute,client aggregation weight,4,5.4270029067993164e-05
+23,client_local_train,local SGD training,4,3.440037250518799
+23,client_model_delta,weighted local model delta,4,0.0004280097782611847
+23,client_quant_encode,fixed-point quantization and signed encoding,4,7.287785410881042e-05
+23,client_masking,xMask = x + m,4,2.9072165489196777e-05
+23,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.61982523277402
+23,client_cipher_hash,hash encrypted vector,4,0.02354028820991516
+23,client_pedersen_commit,Pedersen vector commitment,4,2.6583938784897327
+23,client_receipt_sign,sign upload receipt,4,0.0005906634032726288
+23,client_upload_pack,build upload message,4,0.01251513883471489
+23,client_weight_compute,client aggregation weight,1,4.182383418083191e-05
+23,client_local_train,local SGD training,1,3.426679626107216
+23,client_model_delta,weighted local model delta,1,0.0003989674150943756
+23,client_quant_encode,fixed-point quantization and signed encoding,1,7.736682891845703e-05
+23,client_masking,xMask = x + m,1,3.100559115409851e-05
+23,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.676587846130133
+23,client_cipher_hash,hash encrypted vector,1,0.02321760356426239
+23,client_pedersen_commit,Pedersen vector commitment,1,2.697681527584791
+23,client_receipt_sign,sign upload receipt,1,0.0006080605089664459
+23,client_upload_pack,build upload message,1,0.012077581137418747
+24,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.920316446572542
+24,client_weight_compute,client aggregation weight,2,3.862753510475159e-05
+24,client_local_train,local SGD training,2,3.4866752699017525
+24,client_model_delta,weighted local model delta,2,0.0003692246973514557
+24,client_quant_encode,fixed-point quantization and signed encoding,2,7.60294497013092e-05
+24,client_masking,xMask = x + m,2,3.3721327781677246e-05
+24,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.42367259040475
+24,client_cipher_hash,hash encrypted vector,2,0.02376357465982437
+24,client_pedersen_commit,Pedersen vector commitment,2,2.4973837174475193
+24,client_receipt_sign,sign upload receipt,2,0.0006261914968490601
+24,client_upload_pack,build upload message,2,0.012620989233255386
+24,client_weight_compute,client aggregation weight,5,4.000216722488403e-05
+24,client_local_train,local SGD training,5,3.41487929970026
+24,client_model_delta,weighted local model delta,5,0.0003941766917705536
+24,client_quant_encode,fixed-point quantization and signed encoding,5,7.383525371551514e-05
+24,client_masking,xMask = x + m,5,3.2998621463775635e-05
+24,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.514938071370125
+24,client_cipher_hash,hash encrypted vector,5,0.02351464331150055
+24,client_pedersen_commit,Pedersen vector commitment,5,2.597935363650322
+24,client_receipt_sign,sign upload receipt,5,0.0006163604557514191
+24,client_upload_pack,build upload message,5,0.01263510063290596
+24,client_weight_compute,client aggregation weight,3,3.9014965295791626e-05
+24,client_local_train,local SGD training,3,3.484570011496544
+24,client_model_delta,weighted local model delta,3,0.0004006996750831604
+24,client_quant_encode,fixed-point quantization and signed encoding,3,6.883963942527771e-05
+24,client_masking,xMask = x + m,3,3.290548920631409e-05
+24,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.51298462599516
+24,client_cipher_hash,hash encrypted vector,3,0.023485668003559113
+24,client_pedersen_commit,Pedersen vector commitment,3,2.570826031267643
+24,client_receipt_sign,sign upload receipt,3,0.0005912706255912781
+24,client_upload_pack,build upload message,3,0.012111306190490723
+24,client_weight_compute,client aggregation weight,4,5.247071385383606e-05
+24,client_local_train,local SGD training,4,3.4272007308900356
+24,client_model_delta,weighted local model delta,4,0.0003937259316444397
+24,client_quant_encode,fixed-point quantization and signed encoding,4,7.246434688568115e-05
+24,client_masking,xMask = x + m,4,3.3468008041381836e-05
+24,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.64613338187337
+24,client_cipher_hash,hash encrypted vector,4,0.02340632677078247
+24,client_pedersen_commit,Pedersen vector commitment,4,2.6688106767833233
+24,client_receipt_sign,sign upload receipt,4,0.0006266087293624878
+24,client_upload_pack,build upload message,4,0.012572437524795532
+24,client_weight_compute,client aggregation weight,1,4.269927740097046e-05
+24,client_local_train,local SGD training,1,3.4621098563075066
+24,client_model_delta,weighted local model delta,1,0.0003900192677974701
+24,client_quant_encode,fixed-point quantization and signed encoding,1,8.342042565345764e-05
+24,client_masking,xMask = x + m,1,3.134086728096008e-05
+24,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.650517765432596
+24,client_cipher_hash,hash encrypted vector,1,0.02312195673584938
+24,client_pedersen_commit,Pedersen vector commitment,1,2.662055306136608
+24,client_receipt_sign,sign upload receipt,1,0.0006505623459815979
+24,client_upload_pack,build upload message,1,0.012077279388904572
+25,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.773373555392027
+25,client_weight_compute,client aggregation weight,5,4.268810153007507e-05
+25,client_local_train,local SGD training,5,3.347356267273426
+25,client_model_delta,weighted local model delta,5,0.00038256123661994934
+25,client_quant_encode,fixed-point quantization and signed encoding,5,7.182732224464417e-05
+25,client_masking,xMask = x + m,5,3.1538307666778564e-05
+25,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.550284307450056
+25,client_cipher_hash,hash encrypted vector,5,0.02343646064400673
+25,client_pedersen_commit,Pedersen vector commitment,5,2.5964413546025753
+25,client_receipt_sign,sign upload receipt,5,0.0006140917539596558
+25,client_upload_pack,build upload message,5,0.012556836009025574
+25,client_weight_compute,client aggregation weight,3,2.5488436222076416e-05
+25,client_local_train,local SGD training,3,3.415614154189825
+25,client_model_delta,weighted local model delta,3,0.0003905370831489563
+25,client_quant_encode,fixed-point quantization and signed encoding,3,7.094442844390869e-05
+25,client_masking,xMask = x + m,3,3.164634108543396e-05
+25,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.501470535993576
+25,client_cipher_hash,hash encrypted vector,3,0.023249313235282898
+25,client_pedersen_commit,Pedersen vector commitment,3,2.5884201638400555
+25,client_receipt_sign,sign upload receipt,3,0.0005751550197601318
+25,client_upload_pack,build upload message,3,0.01208743080496788
+25,client_weight_compute,client aggregation weight,2,4.2282044887542725e-05
+25,client_local_train,local SGD training,2,3.424190901219845
+25,client_model_delta,weighted local model delta,2,0.00036042556166648865
+25,client_quant_encode,fixed-point quantization and signed encoding,2,6.783753633499146e-05
+25,client_masking,xMask = x + m,2,3.218650817871094e-05
+25,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.538073178380728
+25,client_cipher_hash,hash encrypted vector,2,0.02362949401140213
+25,client_pedersen_commit,Pedersen vector commitment,2,2.59029334038496
+25,client_receipt_sign,sign upload receipt,2,0.0006155781447887421
+25,client_upload_pack,build upload message,2,0.012499824166297913
+25,client_weight_compute,client aggregation weight,1,3.361701965332031e-05
+25,client_local_train,local SGD training,1,3.3517017401754856
+25,client_model_delta,weighted local model delta,1,0.0004054456949234009
+25,client_quant_encode,fixed-point quantization and signed encoding,1,7.051229476928711e-05
+25,client_masking,xMask = x + m,1,3.0662864446640015e-05
+25,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.609926983714104
+25,client_cipher_hash,hash encrypted vector,1,0.02351931855082512
+25,client_pedersen_commit,Pedersen vector commitment,1,2.664589274674654
+25,client_receipt_sign,sign upload receipt,1,0.0006005764007568359
+25,client_upload_pack,build upload message,1,0.012075316160917282
+26,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.972428131848574
+26,client_weight_compute,client aggregation weight,5,4.09148633480072e-05
+26,client_local_train,local SGD training,5,3.414590261876583
+26,client_model_delta,weighted local model delta,5,0.00039615854620933533
+26,client_quant_encode,fixed-point quantization and signed encoding,5,7.450953125953674e-05
+26,client_masking,xMask = x + m,5,3.057345747947693e-05
+26,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.52090774476528
+26,client_cipher_hash,hash encrypted vector,5,0.02377183735370636
+26,client_pedersen_commit,Pedersen vector commitment,5,2.566354740411043
+26,client_receipt_sign,sign upload receipt,5,0.000630352646112442
+26,client_upload_pack,build upload message,5,0.012634463608264923
+26,client_weight_compute,client aggregation weight,2,4.127621650695801e-05
+26,client_local_train,local SGD training,2,3.5607713535428047
+26,client_model_delta,weighted local model delta,2,0.0003829747438430786
+26,client_quant_encode,fixed-point quantization and signed encoding,2,7.883086800575256e-05
+26,client_masking,xMask = x + m,2,3.361329436302185e-05
+26,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.49258904531598
+26,client_cipher_hash,hash encrypted vector,2,0.023769423365592957
+26,client_pedersen_commit,Pedersen vector commitment,2,2.552833139896393
+26,client_receipt_sign,sign upload receipt,2,0.0005907788872718811
+26,client_upload_pack,build upload message,2,0.012558579444885254
+26,client_weight_compute,client aggregation weight,3,3.173947334289551e-05
+26,client_local_train,local SGD training,3,3.503155581653118
+26,client_model_delta,weighted local model delta,3,0.0003846883773803711
+26,client_quant_encode,fixed-point quantization and signed encoding,3,6.90072774887085e-05
+26,client_masking,xMask = x + m,3,2.9277056455612183e-05
+26,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.55700394511223
+26,client_cipher_hash,hash encrypted vector,3,0.02330440655350685
+26,client_pedersen_commit,Pedersen vector commitment,3,2.5975098125636578
+26,client_receipt_sign,sign upload receipt,3,0.0006329081952571869
+26,client_upload_pack,build upload message,3,0.012107476592063904
+26,client_weight_compute,client aggregation weight,1,4.2341649532318115e-05
+26,client_local_train,local SGD training,1,3.4757422134280205
+26,client_model_delta,weighted local model delta,1,0.0003909654915332794
+26,client_quant_encode,fixed-point quantization and signed encoding,1,7.104501128196716e-05
+26,client_masking,xMask = x + m,1,3.273040056228638e-05
+26,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.611618995666504
+26,client_cipher_hash,hash encrypted vector,1,0.023219313472509384
+26,client_pedersen_commit,Pedersen vector commitment,1,2.6417049169540405
+26,client_receipt_sign,sign upload receipt,1,0.0006456226110458374
+26,client_upload_pack,build upload message,1,0.012102022767066956
+26,client_weight_compute,client aggregation weight,4,3.0431896448135376e-05
+26,client_local_train,local SGD training,4,3.462087657302618
+26,client_model_delta,weighted local model delta,4,0.0004107765853404999
+26,client_quant_encode,fixed-point quantization and signed encoding,4,7.364153861999512e-05
+26,client_masking,xMask = x + m,4,3.165006637573242e-05
+26,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.656777039170265
+26,client_cipher_hash,hash encrypted vector,4,0.023473195731639862
+26,client_pedersen_commit,Pedersen vector commitment,4,2.669645879417658
+26,client_receipt_sign,sign upload receipt,4,0.0005901120603084564
+26,client_upload_pack,build upload message,4,0.012088578194379807
+27,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.488717656582594
+27,client_weight_compute,client aggregation weight,3,3.851205110549927e-05
+27,client_local_train,local SGD training,3,3.5232516676187515
+27,client_model_delta,weighted local model delta,3,0.00040084123611450195
+27,client_quant_encode,fixed-point quantization and signed encoding,3,7.171928882598877e-05
+27,client_masking,xMask = x + m,3,3.0972063541412354e-05
+27,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.449592422693968
+27,client_cipher_hash,hash encrypted vector,3,0.023396629840135574
+27,client_pedersen_commit,Pedersen vector commitment,3,2.5393407829105854
+27,client_receipt_sign,sign upload receipt,3,0.0006111897528171539
+27,client_upload_pack,build upload message,3,0.012123271822929382
+27,client_weight_compute,client aggregation weight,5,4.21181321144104e-05
+27,client_local_train,local SGD training,5,3.4404309019446373
+27,client_model_delta,weighted local model delta,5,0.0003986060619354248
+27,client_quant_encode,fixed-point quantization and signed encoding,5,7.706508040428162e-05
+27,client_masking,xMask = x + m,5,3.349035978317261e-05
+27,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.55268506333232
+27,client_cipher_hash,hash encrypted vector,5,0.023566734045743942
+27,client_pedersen_commit,Pedersen vector commitment,5,2.621429044753313
+27,client_receipt_sign,sign upload receipt,5,0.0006498843431472778
+27,client_upload_pack,build upload message,5,0.012605365365743637
+27,client_weight_compute,client aggregation weight,2,4.1116029024124146e-05
+27,client_local_train,local SGD training,2,3.4849992245435715
+27,client_model_delta,weighted local model delta,2,0.0004119165241718292
+27,client_quant_encode,fixed-point quantization and signed encoding,2,7.11493194103241e-05
+27,client_masking,xMask = x + m,2,2.9653310775756836e-05
+27,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.561964333057404
+27,client_cipher_hash,hash encrypted vector,2,0.02355148270726204
+27,client_pedersen_commit,Pedersen vector commitment,2,2.6120172552764416
+27,client_receipt_sign,sign upload receipt,2,0.0006568841636180878
+27,client_upload_pack,build upload message,2,0.012594718486070633
+27,client_weight_compute,client aggregation weight,1,4.149600863456726e-05
+27,client_local_train,local SGD training,1,3.4517252519726753
+27,client_model_delta,weighted local model delta,1,0.00041648000478744507
+27,client_quant_encode,fixed-point quantization and signed encoding,1,7.092207670211792e-05
+27,client_masking,xMask = x + m,1,3.0782073736190796e-05
+27,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.650050431489944
+27,client_cipher_hash,hash encrypted vector,1,0.023128066211938858
+27,client_pedersen_commit,Pedersen vector commitment,1,2.6568837575614452
+27,client_receipt_sign,sign upload receipt,1,0.0005959421396255493
+27,client_upload_pack,build upload message,1,0.012132804840803146
+27,client_weight_compute,client aggregation weight,4,5.4463744163513184e-05
+27,client_local_train,local SGD training,4,3.464647013694048
+27,client_model_delta,weighted local model delta,4,0.0004031173884868622
+27,client_quant_encode,fixed-point quantization and signed encoding,4,6.91637396812439e-05
+27,client_masking,xMask = x + m,4,3.203749656677246e-05
+27,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.970038257539272
+27,client_cipher_hash,hash encrypted vector,4,0.02342153713107109
+27,client_pedersen_commit,Pedersen vector commitment,4,2.9022649377584457
+27,client_receipt_sign,sign upload receipt,4,0.0006398558616638184
+27,client_upload_pack,build upload message,4,0.01312258094549179
+28,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.833152152597904
+28,client_weight_compute,client aggregation weight,5,4.2691826820373535e-05
+28,client_local_train,local SGD training,5,3.4492459259927273
+28,client_model_delta,weighted local model delta,5,0.00039208680391311646
+28,client_quant_encode,fixed-point quantization and signed encoding,5,7.144734263420105e-05
+28,client_masking,xMask = x + m,5,3.236159682273865e-05
+28,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.481199752539396
+28,client_cipher_hash,hash encrypted vector,5,0.023649580776691437
+28,client_pedersen_commit,Pedersen vector commitment,5,2.5652767084538937
+28,client_receipt_sign,sign upload receipt,5,0.0006179437041282654
+28,client_upload_pack,build upload message,5,0.012634895741939545
+28,client_weight_compute,client aggregation weight,2,4.126504063606262e-05
+28,client_local_train,local SGD training,2,3.5555558167397976
+28,client_model_delta,weighted local model delta,2,0.00037543103098869324
+28,client_quant_encode,fixed-point quantization and signed encoding,2,8.038803935050964e-05
+28,client_masking,xMask = x + m,2,3.3639371395111084e-05
+28,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.465182702988386
+28,client_cipher_hash,hash encrypted vector,2,0.023966163396835327
+28,client_pedersen_commit,Pedersen vector commitment,2,2.5469615049660206
+28,client_receipt_sign,sign upload receipt,2,0.0006229579448699951
+28,client_upload_pack,build upload message,2,0.012631688266992569
+28,client_weight_compute,client aggregation weight,3,3.887340426445007e-05
+28,client_local_train,local SGD training,3,3.508865460753441
+28,client_model_delta,weighted local model delta,3,0.000396091490983963
+28,client_quant_encode,fixed-point quantization and signed encoding,3,7.063895463943481e-05
+28,client_masking,xMask = x + m,3,2.9493123292922974e-05
+28,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.534413177520037
+28,client_cipher_hash,hash encrypted vector,3,0.023473210632801056
+28,client_pedersen_commit,Pedersen vector commitment,3,2.5967910438776016
+28,client_receipt_sign,sign upload receipt,3,0.0006294921040534973
+28,client_upload_pack,build upload message,3,0.012112312018871307
+28,client_weight_compute,client aggregation weight,1,4.104897379875183e-05
+28,client_local_train,local SGD training,1,3.4263215847313404
+28,client_model_delta,weighted local model delta,1,0.0003927387297153473
+28,client_quant_encode,fixed-point quantization and signed encoding,1,7.296726107597351e-05
+28,client_masking,xMask = x + m,1,3.1810253858566284e-05
+28,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.57939475774765
+28,client_cipher_hash,hash encrypted vector,1,0.023322295397520065
+28,client_pedersen_commit,Pedersen vector commitment,1,2.637744639068842
+28,client_receipt_sign,sign upload receipt,1,0.0006027296185493469
+28,client_upload_pack,build upload message,1,0.012091971933841705
+28,client_weight_compute,client aggregation weight,4,5.491822957992554e-05
+28,client_local_train,local SGD training,4,3.479816909879446
+28,client_model_delta,weighted local model delta,4,0.0003826431930065155
+28,client_quant_encode,fixed-point quantization and signed encoding,4,7.690489292144775e-05
+28,client_masking,xMask = x + m,4,3.275647759437561e-05
+28,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.569641198962927
+28,client_cipher_hash,hash encrypted vector,4,0.023490123450756073
+28,client_pedersen_commit,Pedersen vector commitment,4,2.6107668578624725
+28,client_receipt_sign,sign upload receipt,4,0.0005622431635856628
+28,client_upload_pack,build upload message,4,0.012535523623228073
+29,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.800812024623156
+29,client_weight_compute,client aggregation weight,5,2.6531517505645752e-05
+29,client_local_train,local SGD training,5,3.3728798925876617
+29,client_model_delta,weighted local model delta,5,0.0003987625241279602
+29,client_quant_encode,fixed-point quantization and signed encoding,5,7.371976971626282e-05
+29,client_masking,xMask = x + m,5,3.3680349588394165e-05
+29,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.492021441459656
+29,client_cipher_hash,hash encrypted vector,5,0.023389868438243866
+29,client_pedersen_commit,Pedersen vector commitment,5,2.571524206548929
+29,client_receipt_sign,sign upload receipt,5,0.0006321556866168976
+29,client_upload_pack,build upload message,5,0.012506473809480667
+29,client_weight_compute,client aggregation weight,2,4.182755947113037e-05
+29,client_local_train,local SGD training,2,3.4741895496845245
+29,client_model_delta,weighted local model delta,2,0.0003998018801212311
+29,client_quant_encode,fixed-point quantization and signed encoding,2,7.313862442970276e-05
+29,client_masking,xMask = x + m,2,3.772228956222534e-05
+29,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.475982889533043
+29,client_cipher_hash,hash encrypted vector,2,0.023872047662734985
+29,client_pedersen_commit,Pedersen vector commitment,2,2.551694843918085
+29,client_receipt_sign,sign upload receipt,2,0.000607762485742569
+29,client_upload_pack,build upload message,2,0.012628789991140366
+29,client_weight_compute,client aggregation weight,3,3.824755549430847e-05
+29,client_local_train,local SGD training,3,3.506278283894062
+29,client_model_delta,weighted local model delta,3,0.0003677681088447571
+29,client_quant_encode,fixed-point quantization and signed encoding,3,6.69434666633606e-05
+29,client_masking,xMask = x + m,3,4.5277178287506104e-05
+29,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.51781828701496
+29,client_cipher_hash,hash encrypted vector,3,0.023432139307260513
+29,client_pedersen_commit,Pedersen vector commitment,3,2.594575185328722
+29,client_receipt_sign,sign upload receipt,3,0.0005998685956001282
+29,client_upload_pack,build upload message,3,0.01214592531323433
+29,client_weight_compute,client aggregation weight,1,4.1231513023376465e-05
+29,client_local_train,local SGD training,1,3.4278547801077366
+29,client_model_delta,weighted local model delta,1,0.00041022151708602905
+29,client_quant_encode,fixed-point quantization and signed encoding,1,7.040798664093018e-05
+29,client_masking,xMask = x + m,1,3.335624933242798e-05
+29,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.572468001395464
+29,client_cipher_hash,hash encrypted vector,1,0.023200709372758865
+29,client_pedersen_commit,Pedersen vector commitment,1,2.6296317018568516
+29,client_receipt_sign,sign upload receipt,1,0.0005508102476596832
+29,client_upload_pack,build upload message,1,0.012072447687387466
+29,client_weight_compute,client aggregation weight,4,5.564838647842407e-05
+29,client_local_train,local SGD training,4,3.464409224689007
+29,client_model_delta,weighted local model delta,4,0.00041658058762550354
+29,client_quant_encode,fixed-point quantization and signed encoding,4,7.246062159538269e-05
+29,client_masking,xMask = x + m,4,2.843514084815979e-05
+29,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.554653476923704
+29,client_cipher_hash,hash encrypted vector,4,0.02347511425614357
+29,client_pedersen_commit,Pedersen vector commitment,4,2.606574960052967
+29,client_receipt_sign,sign upload receipt,4,0.0005919225513935089
+29,client_upload_pack,build upload message,4,0.012562695890665054
+30,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.932877462357283
+30,client_weight_compute,client aggregation weight,2,4.1194260120391846e-05
+30,client_local_train,local SGD training,2,3.4889449290931225
+30,client_model_delta,weighted local model delta,2,0.00038383156061172485
+30,client_quant_encode,fixed-point quantization and signed encoding,2,7.389113306999207e-05
+30,client_masking,xMask = x + m,2,3.70517373085022e-05
+30,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.391979798674583
+30,client_cipher_hash,hash encrypted vector,2,0.023601163178682327
+30,client_pedersen_commit,Pedersen vector commitment,2,2.4886204339563847
+30,client_receipt_sign,sign upload receipt,2,0.0006267689168453217
+30,client_upload_pack,build upload message,2,0.012603294104337692
+30,client_weight_compute,client aggregation weight,3,3.9614737033843994e-05
+30,client_local_train,local SGD training,3,3.481026880443096
+30,client_model_delta,weighted local model delta,3,0.00037546828389167786
+30,client_quant_encode,fixed-point quantization and signed encoding,3,8.106976747512817e-05
+30,client_masking,xMask = x + m,3,3.196299076080322e-05
+30,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.45998803898692
+30,client_cipher_hash,hash encrypted vector,3,0.02329668030142784
+30,client_pedersen_commit,Pedersen vector commitment,3,2.5407364666461945
+30,client_receipt_sign,sign upload receipt,3,0.0006057508289813995
+30,client_upload_pack,build upload message,3,0.012083511799573898
+30,client_weight_compute,client aggregation weight,1,4.171207547187805e-05
+30,client_local_train,local SGD training,1,3.418470486998558
+30,client_model_delta,weighted local model delta,1,0.00041773542761802673
+30,client_quant_encode,fixed-point quantization and signed encoding,1,7.459521293640137e-05
+30,client_masking,xMask = x + m,1,3.232806921005249e-05
+30,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.582220654934645
+30,client_cipher_hash,hash encrypted vector,1,0.023304767906665802
+30,client_pedersen_commit,Pedersen vector commitment,1,2.61794600635767
+30,client_receipt_sign,sign upload receipt,1,0.0006326474249362946
+30,client_upload_pack,build upload message,1,0.012069765478372574
+30,client_weight_compute,client aggregation weight,5,4.148855805397034e-05
+30,client_local_train,local SGD training,5,3.4341778606176376
+30,client_model_delta,weighted local model delta,5,0.0003908798098564148
+30,client_quant_encode,fixed-point quantization and signed encoding,5,7.336586713790894e-05
+30,client_masking,xMask = x + m,5,3.17208468914032e-05
+30,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.608867082744837
+30,client_cipher_hash,hash encrypted vector,5,0.023544982075691223
+30,client_pedersen_commit,Pedersen vector commitment,5,2.6416697315871716
+30,client_receipt_sign,sign upload receipt,5,0.0006417632102966309
+30,client_upload_pack,build upload message,5,0.012603331357240677
+30,client_weight_compute,client aggregation weight,4,5.358085036277771e-05
+30,client_local_train,local SGD training,4,3.4471493884921074
+30,client_model_delta,weighted local model delta,4,0.000393792986869812
+30,client_quant_encode,fixed-point quantization and signed encoding,4,6.897374987602234e-05
+30,client_masking,xMask = x + m,4,3.167986869812012e-05
+30,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.652720384299755
+30,client_cipher_hash,hash encrypted vector,4,0.023491494357585907
+30,client_pedersen_commit,Pedersen vector commitment,4,2.6754793971776962
+30,client_receipt_sign,sign upload receipt,4,0.0005910098552703857
+30,client_upload_pack,build upload message,4,0.012613661587238312
+31,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.017215222120285
+31,client_weight_compute,client aggregation weight,3,3.8605183362960815e-05
+31,client_local_train,local SGD training,3,3.5018824860453606
+31,client_model_delta,weighted local model delta,3,0.0003928244113922119
+31,client_quant_encode,fixed-point quantization and signed encoding,3,7.145106792449951e-05
+31,client_masking,xMask = x + m,3,2.9925256967544556e-05
+31,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.404764518141747
+31,client_cipher_hash,hash encrypted vector,3,0.02347792685031891
+31,client_pedersen_commit,Pedersen vector commitment,3,2.5071426443755627
+31,client_receipt_sign,sign upload receipt,3,0.0006119236350059509
+31,client_upload_pack,build upload message,3,0.012104809284210205
+31,client_weight_compute,client aggregation weight,2,4.270672798156738e-05
+31,client_local_train,local SGD training,2,3.5029713325202465
+31,client_model_delta,weighted local model delta,2,0.000384405255317688
+31,client_quant_encode,fixed-point quantization and signed encoding,2,6.861612200737e-05
+31,client_masking,xMask = x + m,2,3.0253082513809204e-05
+31,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.46736278384924
+31,client_cipher_hash,hash encrypted vector,2,0.023693110793828964
+31,client_pedersen_commit,Pedersen vector commitment,2,2.539359599351883
+31,client_receipt_sign,sign upload receipt,2,0.0006081163883209229
+31,client_upload_pack,build upload message,2,0.01261049509048462
+31,client_weight_compute,client aggregation weight,1,3.1597912311553955e-05
+31,client_local_train,local SGD training,1,3.4544276408851147
+31,client_model_delta,weighted local model delta,1,0.0004236586391925812
+31,client_quant_encode,fixed-point quantization and signed encoding,1,7.826834917068481e-05
+31,client_masking,xMask = x + m,1,3.099068999290466e-05
+31,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.555566288530827
+31,client_cipher_hash,hash encrypted vector,1,0.023272160440683365
+31,client_pedersen_commit,Pedersen vector commitment,1,2.603357680141926
+31,client_receipt_sign,sign upload receipt,1,0.0005930811166763306
+31,client_upload_pack,build upload message,1,0.01211356371641159
+31,client_weight_compute,client aggregation weight,4,5.3048133850097656e-05
+31,client_local_train,local SGD training,4,3.4827920459210873
+31,client_model_delta,weighted local model delta,4,0.00042458251118659973
+31,client_quant_encode,fixed-point quantization and signed encoding,4,7.185712456703186e-05
+31,client_masking,xMask = x + m,4,3.112480044364929e-05
+31,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.544715203344822
+31,client_cipher_hash,hash encrypted vector,4,0.023396354168653488
+31,client_pedersen_commit,Pedersen vector commitment,4,2.6034166552126408
+31,client_receipt_sign,sign upload receipt,4,0.0006103143095970154
+31,client_upload_pack,build upload message,4,0.012515265494585037
+31,client_weight_compute,client aggregation weight,5,4.124641418457031e-05
+31,client_local_train,local SGD training,5,3.5225761607289314
+31,client_model_delta,weighted local model delta,5,0.000353839248418808
+31,client_quant_encode,fixed-point quantization and signed encoding,5,6.664171814918518e-05
+31,client_masking,xMask = x + m,5,4.3664127588272095e-05
+31,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.664035208523273
+31,client_cipher_hash,hash encrypted vector,5,0.023611921817064285
+31,client_pedersen_commit,Pedersen vector commitment,5,2.680292472243309
+31,client_receipt_sign,sign upload receipt,5,0.000614069402217865
+31,client_upload_pack,build upload message,5,0.012603063136339188
+32,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.132800847291946
+32,client_weight_compute,client aggregation weight,3,3.921613097190857e-05
+32,client_local_train,local SGD training,3,3.4982174672186375
+32,client_model_delta,weighted local model delta,3,0.00037291646003723145
+32,client_quant_encode,fixed-point quantization and signed encoding,3,7.591396570205688e-05
+32,client_masking,xMask = x + m,3,3.487244248390198e-05
+32,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.445598758757114
+32,client_cipher_hash,hash encrypted vector,3,0.023234408348798752
+32,client_pedersen_commit,Pedersen vector commitment,3,2.53200301900506
+32,client_receipt_sign,sign upload receipt,3,0.0006151311099529266
+32,client_upload_pack,build upload message,3,0.012134261429309845
+32,client_weight_compute,client aggregation weight,2,4.32133674621582e-05
+32,client_local_train,local SGD training,2,3.487872790545225
+32,client_model_delta,weighted local model delta,2,0.00041545554995536804
+32,client_quant_encode,fixed-point quantization and signed encoding,2,7.300451397895813e-05
+32,client_masking,xMask = x + m,2,3.0782073736190796e-05
+32,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.500573940575123
+32,client_cipher_hash,hash encrypted vector,2,0.023546352982521057
+32,client_pedersen_commit,Pedersen vector commitment,2,2.5782446078956127
+32,client_receipt_sign,sign upload receipt,2,0.000595729798078537
+32,client_upload_pack,build upload message,2,0.012249577790498734
+32,client_weight_compute,client aggregation weight,5,4.143267869949341e-05
+32,client_local_train,local SGD training,5,3.4161974824965
+32,client_model_delta,weighted local model delta,5,0.0003909580409526825
+32,client_quant_encode,fixed-point quantization and signed encoding,5,7.480382919311523e-05
+32,client_masking,xMask = x + m,5,3.31290066242218e-05
+32,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.57762536779046
+32,client_cipher_hash,hash encrypted vector,5,0.023460999131202698
+32,client_pedersen_commit,Pedersen vector commitment,5,2.628531616181135
+32,client_receipt_sign,sign upload receipt,5,0.000627908855676651
+32,client_upload_pack,build upload message,5,0.012500319629907608
+32,client_weight_compute,client aggregation weight,4,5.457550287246704e-05
+32,client_local_train,local SGD training,4,3.418542727828026
+32,client_model_delta,weighted local model delta,4,0.00041008368134498596
+32,client_quant_encode,fixed-point quantization and signed encoding,4,7.019564509391785e-05
+32,client_masking,xMask = x + m,4,3.0759721994400024e-05
+32,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.582596838474274
+32,client_cipher_hash,hash encrypted vector,4,0.023635201156139374
+32,client_pedersen_commit,Pedersen vector commitment,4,2.6313005574047565
+32,client_receipt_sign,sign upload receipt,4,0.0005467459559440613
+32,client_upload_pack,build upload message,4,0.012543510645627975
+32,client_weight_compute,client aggregation weight,1,4.123523831367493e-05
+32,client_local_train,local SGD training,1,3.4044280126690865
+32,client_model_delta,weighted local model delta,1,0.00040135905146598816
+32,client_quant_encode,fixed-point quantization and signed encoding,1,7.120519876480103e-05
+32,client_masking,xMask = x + m,1,3.090128302574158e-05
+32,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.802326824516058
+32,client_cipher_hash,hash encrypted vector,1,0.023086685687303543
+32,client_pedersen_commit,Pedersen vector commitment,1,2.7790082059800625
+32,client_receipt_sign,sign upload receipt,1,0.0006595440208911896
+32,client_upload_pack,build upload message,1,0.01209927350282669
+33,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.713810741901398
+33,client_weight_compute,client aggregation weight,3,3.857165575027466e-05
+33,client_local_train,local SGD training,3,3.4227126091718674
+33,client_model_delta,weighted local model delta,3,0.00039269402623176575
+33,client_quant_encode,fixed-point quantization and signed encoding,3,6.554275751113892e-05
+33,client_masking,xMask = x + m,3,3.12216579914093e-05
+33,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.425823274999857
+33,client_cipher_hash,hash encrypted vector,3,0.023195181041955948
+33,client_pedersen_commit,Pedersen vector commitment,3,2.5148742273449898
+33,client_receipt_sign,sign upload receipt,3,0.000612650066614151
+33,client_upload_pack,build upload message,3,0.01210230216383934
+33,client_weight_compute,client aggregation weight,2,4.349276423454285e-05
+33,client_local_train,local SGD training,2,3.456178929656744
+33,client_model_delta,weighted local model delta,2,0.000376090407371521
+33,client_quant_encode,fixed-point quantization and signed encoding,2,6.889551877975464e-05
+33,client_masking,xMask = x + m,2,4.4208019971847534e-05
+33,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.436964884400368
+33,client_cipher_hash,hash encrypted vector,2,0.02338888868689537
+33,client_pedersen_commit,Pedersen vector commitment,2,2.521891377866268
+33,client_receipt_sign,sign upload receipt,2,0.0005873404443264008
+33,client_upload_pack,build upload message,2,0.0124630406498909
+33,client_weight_compute,client aggregation weight,1,4.2222440242767334e-05
+33,client_local_train,local SGD training,1,3.398794438689947
+33,client_model_delta,weighted local model delta,1,0.0004201717674732208
+33,client_quant_encode,fixed-point quantization and signed encoding,1,6.920471787452698e-05
+33,client_masking,xMask = x + m,1,3.09869647026062e-05
+33,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.520114846527576
+33,client_cipher_hash,hash encrypted vector,1,0.023291174322366714
+33,client_pedersen_commit,Pedersen vector commitment,1,2.5744028575718403
+33,client_receipt_sign,sign upload receipt,1,0.0006017833948135376
+33,client_upload_pack,build upload message,1,0.012064356356859207
+33,client_weight_compute,client aggregation weight,4,3.077462315559387e-05
+33,client_local_train,local SGD training,4,3.392913043498993
+33,client_model_delta,weighted local model delta,4,0.0003944709897041321
+33,client_quant_encode,fixed-point quantization and signed encoding,4,7.791444659233093e-05
+33,client_masking,xMask = x + m,4,3.121420741081238e-05
+33,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.53972302004695
+33,client_cipher_hash,hash encrypted vector,4,0.023401837795972824
+33,client_pedersen_commit,Pedersen vector commitment,4,2.6071100011467934
+33,client_receipt_sign,sign upload receipt,4,0.0005784593522548676
+33,client_upload_pack,build upload message,4,0.01252586767077446
+33,client_weight_compute,client aggregation weight,5,4.0903687477111816e-05
+33,client_local_train,local SGD training,5,3.4182654060423374
+33,client_model_delta,weighted local model delta,5,0.00038934871554374695
+33,client_quant_encode,fixed-point quantization and signed encoding,5,7.370859384536743e-05
+33,client_masking,xMask = x + m,5,3.229081630706787e-05
+33,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.549524392932653
+33,client_cipher_hash,hash encrypted vector,5,0.023512348532676697
+33,client_pedersen_commit,Pedersen vector commitment,5,2.605307675898075
+33,client_receipt_sign,sign upload receipt,5,0.0005922839045524597
+33,client_upload_pack,build upload message,5,0.012521889060735703
+34,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.860828645527363
+34,client_weight_compute,client aggregation weight,5,2.8956681489944458e-05
+34,client_local_train,local SGD training,5,3.432485107332468
+34,client_model_delta,weighted local model delta,5,0.00038778409361839294
+34,client_quant_encode,fixed-point quantization and signed encoding,5,7.607415318489075e-05
+34,client_masking,xMask = x + m,5,3.0435621738433838e-05
+34,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.485599979758263
+34,client_cipher_hash,hash encrypted vector,5,0.023537777364253998
+34,client_pedersen_commit,Pedersen vector commitment,5,2.563072048127651
+34,client_receipt_sign,sign upload receipt,5,0.0006335899233818054
+34,client_upload_pack,build upload message,5,0.012625738978385925
+34,client_weight_compute,client aggregation weight,1,4.240497946739197e-05
+34,client_local_train,local SGD training,1,3.4102530144155025
+34,client_model_delta,weighted local model delta,1,0.00041224807500839233
+34,client_quant_encode,fixed-point quantization and signed encoding,1,7.008761167526245e-05
+34,client_masking,xMask = x + m,1,3.084540367126465e-05
+34,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.554397396743298
+34,client_cipher_hash,hash encrypted vector,1,0.023614797741174698
+34,client_pedersen_commit,Pedersen vector commitment,1,2.615054529160261
+34,client_receipt_sign,sign upload receipt,1,0.00060296431183815
+34,client_upload_pack,build upload message,1,0.012558910995721817
+34,client_weight_compute,client aggregation weight,4,5.317479372024536e-05
+34,client_local_train,local SGD training,4,3.4208822175860405
+34,client_model_delta,weighted local model delta,4,0.000407293438911438
+34,client_quant_encode,fixed-point quantization and signed encoding,4,7.293000817298889e-05
+34,client_masking,xMask = x + m,4,3.001466393470764e-05
+34,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.54895806312561
+34,client_cipher_hash,hash encrypted vector,4,0.023583021014928818
+34,client_pedersen_commit,Pedersen vector commitment,4,2.6129706166684628
+34,client_receipt_sign,sign upload receipt,4,0.0005469992756843567
+34,client_upload_pack,build upload message,4,0.012583371251821518
+34,client_weight_compute,client aggregation weight,3,4.027411341667175e-05
+34,client_local_train,local SGD training,3,3.508475586771965
+34,client_model_delta,weighted local model delta,3,0.0003937333822250366
+34,client_quant_encode,fixed-point quantization and signed encoding,3,7.318705320358276e-05
+34,client_masking,xMask = x + m,3,3.069266676902771e-05
+34,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.53212345764041
+34,client_cipher_hash,hash encrypted vector,3,0.023353014141321182
+34,client_pedersen_commit,Pedersen vector commitment,3,2.598266765475273
+34,client_receipt_sign,sign upload receipt,3,0.0006228871643543243
+34,client_upload_pack,build upload message,3,0.012126687914133072
+34,client_weight_compute,client aggregation weight,2,4.06317412853241e-05
+34,client_local_train,local SGD training,2,3.5406651943922043
+34,client_model_delta,weighted local model delta,2,0.00038743019104003906
+34,client_quant_encode,fixed-point quantization and signed encoding,2,7.87191092967987e-05
+34,client_masking,xMask = x + m,2,3.421306610107422e-05
+34,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.55740002170205
+34,client_cipher_hash,hash encrypted vector,2,0.023618724197149277
+34,client_pedersen_commit,Pedersen vector commitment,2,2.6058223471045494
+34,client_receipt_sign,sign upload receipt,2,0.000637739896774292
+34,client_upload_pack,build upload message,2,0.01262054592370987
+35,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.749851901084185
+35,client_weight_compute,client aggregation weight,4,3.826245665550232e-05
+35,client_local_train,local SGD training,4,3.4291405454277992
+35,client_model_delta,weighted local model delta,4,0.000392034649848938
+35,client_quant_encode,fixed-point quantization and signed encoding,4,7.845833897590637e-05
+35,client_masking,xMask = x + m,4,3.1445175409317017e-05
+35,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.529128804802895
+35,client_cipher_hash,hash encrypted vector,4,0.02340421825647354
+35,client_pedersen_commit,Pedersen vector commitment,4,2.5904319882392883
+35,client_receipt_sign,sign upload receipt,4,0.0005556195974349976
+35,client_upload_pack,build upload message,4,0.012542448937892914
+35,client_weight_compute,client aggregation weight,2,4.158914089202881e-05
+35,client_local_train,local SGD training,2,3.4650293923914433
+35,client_model_delta,weighted local model delta,2,0.00039409101009368896
+35,client_quant_encode,fixed-point quantization and signed encoding,2,7.484853267669678e-05
+35,client_masking,xMask = x + m,2,3.04393470287323e-05
+35,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.519230991601944
+35,client_cipher_hash,hash encrypted vector,2,0.023584485054016113
+35,client_pedersen_commit,Pedersen vector commitment,2,2.5753206089138985
+35,client_receipt_sign,sign upload receipt,2,0.0005604662001132965
+35,client_upload_pack,build upload message,2,0.012526575475931168
+35,client_weight_compute,client aggregation weight,5,4.13842499256134e-05
+35,client_local_train,local SGD training,5,3.4173998683691025
+35,client_model_delta,weighted local model delta,5,0.00040090829133987427
+35,client_quant_encode,fixed-point quantization and signed encoding,5,7.28406012058258e-05
+35,client_masking,xMask = x + m,5,3.0543655157089233e-05
+35,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.528991758823395
+35,client_cipher_hash,hash encrypted vector,5,0.023580528795719147
+35,client_pedersen_commit,Pedersen vector commitment,5,2.599150463938713
+35,client_receipt_sign,sign upload receipt,5,0.0006229579448699951
+35,client_upload_pack,build upload message,5,0.012661162763834
+35,client_weight_compute,client aggregation weight,3,3.168731927871704e-05
+35,client_local_train,local SGD training,3,3.5164046809077263
+35,client_model_delta,weighted local model delta,3,0.00038541480898857117
+35,client_quant_encode,fixed-point quantization and signed encoding,3,6.867200136184692e-05
+35,client_masking,xMask = x + m,3,3.148987889289856e-05
+35,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.497245531529188
+35,client_cipher_hash,hash encrypted vector,3,0.023567114025354385
+35,client_pedersen_commit,Pedersen vector commitment,3,2.5650552958250046
+35,client_receipt_sign,sign upload receipt,3,0.0005488321185112
+35,client_upload_pack,build upload message,3,0.0125570148229599
+35,client_weight_compute,client aggregation weight,1,4.133954644203186e-05
+35,client_local_train,local SGD training,1,3.3752744644880295
+35,client_model_delta,weighted local model delta,1,0.0004094243049621582
+35,client_quant_encode,fixed-point quantization and signed encoding,1,7.399916648864746e-05
+35,client_masking,xMask = x + m,1,2.9791146516799927e-05
+35,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.578981038182974
+35,client_cipher_hash,hash encrypted vector,1,0.02315574511885643
+35,client_pedersen_commit,Pedersen vector commitment,1,2.6253777630627155
+35,client_receipt_sign,sign upload receipt,1,0.0005921646952629089
+35,client_upload_pack,build upload message,1,0.012116357684135437
+36,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.980871334671974
+36,client_weight_compute,client aggregation weight,5,4.018843173980713e-05
+36,client_local_train,local SGD training,5,3.416286189109087
+36,client_model_delta,weighted local model delta,5,0.00039542093873023987
+36,client_quant_encode,fixed-point quantization and signed encoding,5,7.905438542366028e-05
+36,client_masking,xMask = x + m,5,3.575906157493591e-05
+36,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.520238634198904
+36,client_cipher_hash,hash encrypted vector,5,0.02351745218038559
+36,client_pedersen_commit,Pedersen vector commitment,5,2.5923651047050953
+36,client_receipt_sign,sign upload receipt,5,0.0006263405084609985
+36,client_upload_pack,build upload message,5,0.012520626187324524
+36,client_weight_compute,client aggregation weight,3,3.865361213684082e-05
+36,client_local_train,local SGD training,3,3.493572913110256
+36,client_model_delta,weighted local model delta,3,0.0003910437226295471
+36,client_quant_encode,fixed-point quantization and signed encoding,3,6.494671106338501e-05
+36,client_masking,xMask = x + m,3,3.193318843841553e-05
+36,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.52181312441826
+36,client_cipher_hash,hash encrypted vector,3,0.023279767483472824
+36,client_pedersen_commit,Pedersen vector commitment,3,2.5892866738140583
+36,client_receipt_sign,sign upload receipt,3,0.0006139576435089111
+36,client_upload_pack,build upload message,3,0.012491676956415176
+36,client_weight_compute,client aggregation weight,2,4.093348979949951e-05
+36,client_local_train,local SGD training,2,3.4839406348764896
+36,client_model_delta,weighted local model delta,2,0.00045042112469673157
+36,client_quant_encode,fixed-point quantization and signed encoding,2,7.732585072517395e-05
+36,client_masking,xMask = x + m,2,2.9399991035461426e-05
+36,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.58515441790223
+36,client_cipher_hash,hash encrypted vector,2,0.023622628301382065
+36,client_pedersen_commit,Pedersen vector commitment,2,2.6555335596203804
+36,client_receipt_sign,sign upload receipt,2,0.0006455853581428528
+36,client_upload_pack,build upload message,2,0.012624464929103851
+36,client_weight_compute,client aggregation weight,1,4.1991472244262695e-05
+36,client_local_train,local SGD training,1,3.3971840292215347
+36,client_model_delta,weighted local model delta,1,0.0004004761576652527
+36,client_quant_encode,fixed-point quantization and signed encoding,1,7.355585694313049e-05
+36,client_masking,xMask = x + m,1,3.182515501976013e-05
+36,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.685676023364067
+36,client_cipher_hash,hash encrypted vector,1,0.023203644901514053
+36,client_pedersen_commit,Pedersen vector commitment,1,2.7278735041618347
+36,client_receipt_sign,sign upload receipt,1,0.0006579868495464325
+36,client_upload_pack,build upload message,1,0.012127980589866638
+36,client_weight_compute,client aggregation weight,4,5.280598998069763e-05
+36,client_local_train,local SGD training,4,3.4915449880063534
+36,client_model_delta,weighted local model delta,4,0.0004260838031768799
+36,client_quant_encode,fixed-point quantization and signed encoding,4,7.202476263046265e-05
+36,client_masking,xMask = x + m,4,3.0040740966796875e-05
+36,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.657421469688416
+36,client_cipher_hash,hash encrypted vector,4,0.023437317460775375
+36,client_pedersen_commit,Pedersen vector commitment,4,2.6884852834045887
+36,client_receipt_sign,sign upload receipt,4,0.000583399087190628
+36,client_upload_pack,build upload message,4,0.012554686516523361
+37,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.831418070942163
+37,client_weight_compute,client aggregation weight,1,4.2673200368881226e-05
+37,client_local_train,local SGD training,1,3.481259100139141
+37,client_model_delta,weighted local model delta,1,0.00041213259100914
+37,client_quant_encode,fixed-point quantization and signed encoding,1,7.884204387664795e-05
+37,client_masking,xMask = x + m,1,3.4578144550323486e-05
+37,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.526421282440424
+37,client_cipher_hash,hash encrypted vector,1,0.023733027279376984
+37,client_pedersen_commit,Pedersen vector commitment,1,2.5626382306218147
+37,client_receipt_sign,sign upload receipt,1,0.0006157867610454559
+37,client_upload_pack,build upload message,1,0.012102562934160233
+37,client_weight_compute,client aggregation weight,3,3.843382000923157e-05
+37,client_local_train,local SGD training,3,3.5279170870780945
+37,client_model_delta,weighted local model delta,3,0.00041753798723220825
+37,client_quant_encode,fixed-point quantization and signed encoding,3,7.349252700805664e-05
+37,client_masking,xMask = x + m,3,2.977624535560608e-05
+37,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.481799192726612
+37,client_cipher_hash,hash encrypted vector,3,0.023431692272424698
+37,client_pedersen_commit,Pedersen vector commitment,3,2.559479523450136
+37,client_receipt_sign,sign upload receipt,3,0.0005928650498390198
+37,client_upload_pack,build upload message,3,0.01254071295261383
+37,client_weight_compute,client aggregation weight,2,4.200264811515808e-05
+37,client_local_train,local SGD training,2,3.4916632175445557
+37,client_model_delta,weighted local model delta,2,0.00042703375220298767
+37,client_quant_encode,fixed-point quantization and signed encoding,2,7.305294275283813e-05
+37,client_masking,xMask = x + m,2,2.991408109664917e-05
+37,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.528725907206535
+37,client_cipher_hash,hash encrypted vector,2,0.023790232837200165
+37,client_pedersen_commit,Pedersen vector commitment,2,2.572782400995493
+37,client_receipt_sign,sign upload receipt,2,0.0005942545831203461
+37,client_upload_pack,build upload message,2,0.012599561363458633
+37,client_weight_compute,client aggregation weight,5,4.272162914276123e-05
+37,client_local_train,local SGD training,5,3.4258388243615627
+37,client_model_delta,weighted local model delta,5,0.00039739906787872314
+37,client_quant_encode,fixed-point quantization and signed encoding,5,7.441267371177673e-05
+37,client_masking,xMask = x + m,5,3.318488597869873e-05
+37,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.578662492334843
+37,client_cipher_hash,hash encrypted vector,5,0.023444857448339462
+37,client_pedersen_commit,Pedersen vector commitment,5,2.6264424473047256
+37,client_receipt_sign,sign upload receipt,5,0.000631578266620636
+37,client_upload_pack,build upload message,5,0.012543275952339172
+37,client_weight_compute,client aggregation weight,4,4.6428292989730835e-05
+37,client_local_train,local SGD training,4,3.4591028094291687
+37,client_model_delta,weighted local model delta,4,0.0004152730107307434
+37,client_quant_encode,fixed-point quantization and signed encoding,4,7.334724068641663e-05
+37,client_masking,xMask = x + m,4,3.0279159545898438e-05
+37,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.590086102485657
+37,client_cipher_hash,hash encrypted vector,4,0.023284565657377243
+37,client_pedersen_commit,Pedersen vector commitment,4,2.636334117501974
+37,client_receipt_sign,sign upload receipt,4,0.0006145983934402466
+37,client_upload_pack,build upload message,4,0.012520767748355865
+38,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.80873677507043
+38,client_weight_compute,client aggregation weight,5,3.562122583389282e-05
+38,client_local_train,local SGD training,5,3.4102535024285316
+38,client_model_delta,weighted local model delta,5,0.00039673224091529846
+38,client_quant_encode,fixed-point quantization and signed encoding,5,7.25574791431427e-05
+38,client_masking,xMask = x + m,5,3.115832805633545e-05
+38,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.47059654816985
+38,client_cipher_hash,hash encrypted vector,5,0.02421128749847412
+38,client_pedersen_commit,Pedersen vector commitment,5,2.5474715754389763
+38,client_receipt_sign,sign upload receipt,5,0.0006467625498771667
+38,client_upload_pack,build upload message,5,0.012713152915239334
+38,client_weight_compute,client aggregation weight,3,4.600733518600464e-05
+38,client_local_train,local SGD training,3,3.445569273084402
+38,client_model_delta,weighted local model delta,3,0.00040911510586738586
+38,client_quant_encode,fixed-point quantization and signed encoding,3,7.197633385658264e-05
+38,client_masking,xMask = x + m,3,3.189966082572937e-05
+38,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.484331972897053
+38,client_cipher_hash,hash encrypted vector,3,0.023413926362991333
+38,client_pedersen_commit,Pedersen vector commitment,3,2.5632038712501526
+38,client_receipt_sign,sign upload receipt,3,0.0005876272916793823
+38,client_upload_pack,build upload message,3,0.012586280703544617
+38,client_weight_compute,client aggregation weight,1,4.135817289352417e-05
+38,client_local_train,local SGD training,1,3.3943217881023884
+38,client_model_delta,weighted local model delta,1,0.0004090256989002228
+38,client_quant_encode,fixed-point quantization and signed encoding,1,7.45728611946106e-05
+38,client_masking,xMask = x + m,1,2.9731541872024536e-05
+38,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.588437478989363
+38,client_cipher_hash,hash encrypted vector,1,0.023814983665943146
+38,client_pedersen_commit,Pedersen vector commitment,1,2.631756354123354
+38,client_receipt_sign,sign upload receipt,1,0.0006270520389080048
+38,client_upload_pack,build upload message,1,0.012047763913869858
+38,client_weight_compute,client aggregation weight,2,4.027411341667175e-05
+38,client_local_train,local SGD training,2,3.481540720909834
+38,client_model_delta,weighted local model delta,2,0.0003923662006855011
+38,client_quant_encode,fixed-point quantization and signed encoding,2,8.291006088256836e-05
+38,client_masking,xMask = x + m,2,3.4224241971969604e-05
+38,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.54457527026534
+38,client_cipher_hash,hash encrypted vector,2,0.023790501058101654
+38,client_pedersen_commit,Pedersen vector commitment,2,2.617985986173153
+38,client_receipt_sign,sign upload receipt,2,0.0006185509264469147
+38,client_upload_pack,build upload message,2,0.012645881623029709
+38,client_weight_compute,client aggregation weight,4,3.734603524208069e-05
+38,client_local_train,local SGD training,4,3.4290405102074146
+38,client_model_delta,weighted local model delta,4,0.0004321932792663574
+38,client_quant_encode,fixed-point quantization and signed encoding,4,8.138641715049744e-05
+38,client_masking,xMask = x + m,4,3.4850090742111206e-05
+38,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.586299318820238
+38,client_cipher_hash,hash encrypted vector,4,0.023498546332120895
+38,client_pedersen_commit,Pedersen vector commitment,4,2.633214384317398
+38,client_receipt_sign,sign upload receipt,4,0.0005461722612380981
+38,client_upload_pack,build upload message,4,0.012626301497220993
+39,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.031863149255514
+39,client_weight_compute,client aggregation weight,3,3.9286911487579346e-05
+39,client_local_train,local SGD training,3,3.5222372636198997
+39,client_model_delta,weighted local model delta,3,0.00036942586302757263
+39,client_quant_encode,fixed-point quantization and signed encoding,3,7.538869976997375e-05
+39,client_masking,xMask = x + m,3,3.711506724357605e-05
+39,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.469815865159035
+39,client_cipher_hash,hash encrypted vector,3,0.023504499346017838
+39,client_pedersen_commit,Pedersen vector commitment,3,2.5315037928521633
+39,client_receipt_sign,sign upload receipt,3,0.0006010048091411591
+39,client_upload_pack,build upload message,3,0.012612603604793549
+39,client_weight_compute,client aggregation weight,5,4.100427031517029e-05
+39,client_local_train,local SGD training,5,3.46617204323411
+39,client_model_delta,weighted local model delta,5,0.00038426369428634644
+39,client_quant_encode,fixed-point quantization and signed encoding,5,7.767975330352783e-05
+39,client_masking,xMask = x + m,5,4.081428050994873e-05
+39,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.508377384394407
+39,client_cipher_hash,hash encrypted vector,5,0.023594442754983902
+39,client_pedersen_commit,Pedersen vector commitment,5,2.5774101316928864
+39,client_receipt_sign,sign upload receipt,5,0.0005906522274017334
+39,client_upload_pack,build upload message,5,0.012626547366380692
+39,client_weight_compute,client aggregation weight,1,4.141032695770264e-05
+39,client_local_train,local SGD training,1,3.4692066349089146
+39,client_model_delta,weighted local model delta,1,0.00038913264870643616
+39,client_quant_encode,fixed-point quantization and signed encoding,1,6.784126162528992e-05
+39,client_masking,xMask = x + m,1,2.958253026008606e-05
+39,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.6051068007946
+39,client_cipher_hash,hash encrypted vector,1,0.023305993527173996
+39,client_pedersen_commit,Pedersen vector commitment,1,2.6422890163958073
+39,client_receipt_sign,sign upload receipt,1,0.000605657696723938
+39,client_upload_pack,build upload message,1,0.014173116534948349
+39,client_weight_compute,client aggregation weight,2,3.0875205993652344e-05
+39,client_local_train,local SGD training,2,3.492997072637081
+39,client_model_delta,weighted local model delta,2,0.0003591589629650116
+39,client_quant_encode,fixed-point quantization and signed encoding,2,7.811933755874634e-05
+39,client_masking,xMask = x + m,2,3.5528093576431274e-05
+39,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.61945205554366
+39,client_cipher_hash,hash encrypted vector,2,0.02368761971592903
+39,client_pedersen_commit,Pedersen vector commitment,2,2.6414233930408955
+39,client_receipt_sign,sign upload receipt,2,0.000687822699546814
+39,client_upload_pack,build upload message,2,0.013679273426532745
+39,client_weight_compute,client aggregation weight,4,5.432218313217163e-05
+39,client_local_train,local SGD training,4,3.4683618284761906
+39,client_model_delta,weighted local model delta,4,0.00040828436613082886
+39,client_quant_encode,fixed-point quantization and signed encoding,4,6.865710020065308e-05
+39,client_masking,xMask = x + m,4,2.9724091291427612e-05
+39,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.698895316570997
+39,client_cipher_hash,hash encrypted vector,4,0.023364659398794174
+39,client_pedersen_commit,Pedersen vector commitment,4,2.712447453290224
+39,client_receipt_sign,sign upload receipt,4,0.0006271675229072571
+39,client_upload_pack,build upload message,4,0.012587521225214005
+40,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.97719320654869
+40,client_weight_compute,client aggregation weight,5,3.669038414955139e-05
+40,client_local_train,local SGD training,5,3.4342837892472744
+40,client_model_delta,weighted local model delta,5,0.000390470027923584
+40,client_quant_encode,fixed-point quantization and signed encoding,5,7.331371307373047e-05
+40,client_masking,xMask = x + m,5,3.077462315559387e-05
+40,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.44937527924776
+40,client_cipher_hash,hash encrypted vector,5,0.02432984858751297
+40,client_pedersen_commit,Pedersen vector commitment,5,2.5516729578375816
+40,client_receipt_sign,sign upload receipt,5,0.0006578415632247925
+40,client_upload_pack,build upload message,5,0.01261519268155098
+40,client_weight_compute,client aggregation weight,1,3.7651509046554565e-05
+40,client_local_train,local SGD training,1,3.3844227604568005
+40,client_model_delta,weighted local model delta,1,0.00041865184903144836
+40,client_quant_encode,fixed-point quantization and signed encoding,1,7.377564907073975e-05
+40,client_masking,xMask = x + m,1,3.139674663543701e-05
+40,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.559570860117674
+40,client_cipher_hash,hash encrypted vector,1,0.023176681250333786
+40,client_pedersen_commit,Pedersen vector commitment,1,2.6135516799986362
+40,client_receipt_sign,sign upload receipt,1,0.0005998238921165466
+40,client_upload_pack,build upload message,1,0.01209281012415886
+40,client_weight_compute,client aggregation weight,2,3.4924596548080444e-05
+40,client_local_train,local SGD training,2,3.460693411529064
+40,client_model_delta,weighted local model delta,2,0.00040114298462867737
+40,client_quant_encode,fixed-point quantization and signed encoding,2,7.149577140808105e-05
+40,client_masking,xMask = x + m,2,3.1072646379470825e-05
+40,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.546927616000175
+40,client_cipher_hash,hash encrypted vector,2,0.02345464378595352
+40,client_pedersen_commit,Pedersen vector commitment,2,2.597611952573061
+40,client_receipt_sign,sign upload receipt,2,0.0006393417716026306
+40,client_upload_pack,build upload message,2,0.012518614530563354
+40,client_weight_compute,client aggregation weight,3,2.1513551473617554e-05
+40,client_local_train,local SGD training,3,3.5106238424777985
+40,client_model_delta,weighted local model delta,3,0.00040113553404808044
+40,client_quant_encode,fixed-point quantization and signed encoding,3,7.178634405136108e-05
+40,client_masking,xMask = x + m,3,3.619864583015442e-05
+40,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.54849833995104
+40,client_cipher_hash,hash encrypted vector,3,0.023500777781009674
+40,client_pedersen_commit,Pedersen vector commitment,3,2.6013995856046677
+40,client_receipt_sign,sign upload receipt,3,0.0005951263010501862
+40,client_upload_pack,build upload message,3,0.01253388449549675
+40,client_weight_compute,client aggregation weight,4,4.686415195465088e-05
+40,client_local_train,local SGD training,4,3.4367213658988476
+40,client_model_delta,weighted local model delta,4,0.00039543211460113525
+40,client_quant_encode,fixed-point quantization and signed encoding,4,6.850063800811768e-05
+40,client_masking,xMask = x + m,4,3.2495707273483276e-05
+40,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.674005936831236
+40,client_cipher_hash,hash encrypted vector,4,0.02346942201256752
+40,client_pedersen_commit,Pedersen vector commitment,4,2.7156758047640324
+40,client_receipt_sign,sign upload receipt,4,0.0006161220371723175
+40,client_upload_pack,build upload message,4,0.01252393051981926
+41,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.922568269073963
+41,client_weight_compute,client aggregation weight,1,4.291161894798279e-05
+41,client_local_train,local SGD training,1,3.5030271261930466
+41,client_model_delta,weighted local model delta,1,0.0003988705575466156
+41,client_quant_encode,fixed-point quantization and signed encoding,1,9.29906964302063e-05
+41,client_masking,xMask = x + m,1,3.683939576148987e-05
+41,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.479359053075314
+41,client_cipher_hash,hash encrypted vector,1,0.023270033299922943
+41,client_pedersen_commit,Pedersen vector commitment,1,2.5647101923823357
+41,client_receipt_sign,sign upload receipt,1,0.0006249994039535522
+41,client_upload_pack,build upload message,1,0.012123961001634598
+41,client_weight_compute,client aggregation weight,2,4.143640398979187e-05
+41,client_local_train,local SGD training,2,3.4904864989221096
+41,client_model_delta,weighted local model delta,2,0.00042644888162612915
+41,client_quant_encode,fixed-point quantization and signed encoding,2,8.105486631393433e-05
+41,client_masking,xMask = x + m,2,3.5665929317474365e-05
+41,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.511550538241863
+41,client_cipher_hash,hash encrypted vector,2,0.023855041712522507
+41,client_pedersen_commit,Pedersen vector commitment,2,2.5535096675157547
+41,client_receipt_sign,sign upload receipt,2,0.0005745105445384979
+41,client_upload_pack,build upload message,2,0.012558579444885254
+41,client_weight_compute,client aggregation weight,3,4.032999277114868e-05
+41,client_local_train,local SGD training,3,3.519173316657543
+41,client_model_delta,weighted local model delta,3,0.0003861375153064728
+41,client_quant_encode,fixed-point quantization and signed encoding,3,7.414445281028748e-05
+41,client_masking,xMask = x + m,3,3.1169503927230835e-05
+41,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.49239994958043
+41,client_cipher_hash,hash encrypted vector,3,0.023601315915584564
+41,client_pedersen_commit,Pedersen vector commitment,3,2.548463974148035
+41,client_receipt_sign,sign upload receipt,3,0.000544477254152298
+41,client_upload_pack,build upload message,3,0.01262909546494484
+41,client_weight_compute,client aggregation weight,4,5.326792597770691e-05
+41,client_local_train,local SGD training,4,3.467285815626383
+41,client_model_delta,weighted local model delta,4,0.00041835010051727295
+41,client_quant_encode,fixed-point quantization and signed encoding,4,7.732957601547241e-05
+41,client_masking,xMask = x + m,4,3.298372030258179e-05
+41,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.53380985930562
+41,client_cipher_hash,hash encrypted vector,4,0.023669496178627014
+41,client_pedersen_commit,Pedersen vector commitment,4,2.5886679999530315
+41,client_receipt_sign,sign upload receipt,4,0.0006027072668075562
+41,client_upload_pack,build upload message,4,0.012609440833330154
+41,client_weight_compute,client aggregation weight,5,4.32431697845459e-05
+41,client_local_train,local SGD training,5,3.4344762302935123
+41,client_model_delta,weighted local model delta,5,0.000391349196434021
+41,client_quant_encode,fixed-point quantization and signed encoding,5,7.59325921535492e-05
+41,client_masking,xMask = x + m,5,3.426894545555115e-05
+41,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.662811525166035
+41,client_cipher_hash,hash encrypted vector,5,0.02346101775765419
+41,client_pedersen_commit,Pedersen vector commitment,5,2.674208488315344
+41,client_receipt_sign,sign upload receipt,5,0.0006486997008323669
+41,client_upload_pack,build upload message,5,0.012605506926774979
+42,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.86509634926915
+42,client_weight_compute,client aggregation weight,5,4.139170050621033e-05
+42,client_local_train,local SGD training,5,3.47828671336174
+42,client_model_delta,weighted local model delta,5,0.00040070340037345886
+42,client_quant_encode,fixed-point quantization and signed encoding,5,7.006898522377014e-05
+42,client_masking,xMask = x + m,5,3.062933683395386e-05
+42,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.521348662674427
+42,client_cipher_hash,hash encrypted vector,5,0.023691214621067047
+42,client_pedersen_commit,Pedersen vector commitment,5,2.5775473676621914
+42,client_receipt_sign,sign upload receipt,5,0.0006149597465991974
+42,client_upload_pack,build upload message,5,0.01260140910744667
+42,client_weight_compute,client aggregation weight,2,4.104152321815491e-05
+42,client_local_train,local SGD training,2,3.5462515763938427
+42,client_model_delta,weighted local model delta,2,0.00038321688771247864
+42,client_quant_encode,fixed-point quantization and signed encoding,2,7.097423076629639e-05
+42,client_masking,xMask = x + m,2,3.0394643545150757e-05
+42,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.5377259477973
+42,client_cipher_hash,hash encrypted vector,2,0.02386215701699257
+42,client_pedersen_commit,Pedersen vector commitment,2,2.5819019116461277
+42,client_receipt_sign,sign upload receipt,2,0.0006471574306488037
+42,client_upload_pack,build upload message,2,0.012592349201440811
+42,client_weight_compute,client aggregation weight,3,4.0046870708465576e-05
+42,client_local_train,local SGD training,3,3.533743254840374
+42,client_model_delta,weighted local model delta,3,0.0003999099135398865
+42,client_quant_encode,fixed-point quantization and signed encoding,3,6.897374987602234e-05
+42,client_masking,xMask = x + m,3,3.5334378480911255e-05
+42,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.55088033527136
+42,client_cipher_hash,hash encrypted vector,3,0.02355169504880905
+42,client_pedersen_commit,Pedersen vector commitment,3,2.60426177456975
+42,client_receipt_sign,sign upload receipt,3,0.0005655437707901001
+42,client_upload_pack,build upload message,3,0.012616399675607681
+42,client_weight_compute,client aggregation weight,4,5.396828055381775e-05
+42,client_local_train,local SGD training,4,3.477526556700468
+42,client_model_delta,weighted local model delta,4,0.00044136494398117065
+42,client_quant_encode,fixed-point quantization and signed encoding,4,7.773935794830322e-05
+42,client_masking,xMask = x + m,4,3.0606985092163086e-05
+42,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.589467268437147
+42,client_cipher_hash,hash encrypted vector,4,0.02342422679066658
+42,client_pedersen_commit,Pedersen vector commitment,4,2.6419513262808323
+42,client_receipt_sign,sign upload receipt,4,0.0005673766136169434
+42,client_upload_pack,build upload message,4,0.012579832226037979
+42,client_weight_compute,client aggregation weight,1,4.17269766330719e-05
+42,client_local_train,local SGD training,1,3.4942269288003445
+42,client_model_delta,weighted local model delta,1,0.0003916025161743164
+42,client_quant_encode,fixed-point quantization and signed encoding,1,7.134675979614258e-05
+42,client_masking,xMask = x + m,1,3.30507755279541e-05
+42,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.588560931384563
+42,client_cipher_hash,hash encrypted vector,1,0.023342352360486984
+42,client_pedersen_commit,Pedersen vector commitment,1,2.6322229839861393
+42,client_receipt_sign,sign upload receipt,1,0.0006099008023738861
+42,client_upload_pack,build upload message,1,0.012161538004875183
+43,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.942059006541967
+43,client_weight_compute,client aggregation weight,5,4.251301288604736e-05
+43,client_local_train,local SGD training,5,3.4819475933909416
+43,client_model_delta,weighted local model delta,5,0.0004040524363517761
+43,client_quant_encode,fixed-point quantization and signed encoding,5,7.509812712669373e-05
+43,client_masking,xMask = x + m,5,3.16910445690155e-05
+43,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.46678775548935
+43,client_cipher_hash,hash encrypted vector,5,0.023691784590482712
+43,client_pedersen_commit,Pedersen vector commitment,5,2.5565649420022964
+43,client_receipt_sign,sign upload receipt,5,0.0006196275353431702
+43,client_upload_pack,build upload message,5,0.01264115422964096
+43,client_weight_compute,client aggregation weight,2,4.320964217185974e-05
+43,client_local_train,local SGD training,2,3.5552243925631046
+43,client_model_delta,weighted local model delta,2,0.00041099265217781067
+43,client_quant_encode,fixed-point quantization and signed encoding,2,6.893277168273926e-05
+43,client_masking,xMask = x + m,2,3.0953437089920044e-05
+43,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.48134448006749
+43,client_cipher_hash,hash encrypted vector,2,0.023685023188591003
+43,client_pedersen_commit,Pedersen vector commitment,2,2.553286138921976
+43,client_receipt_sign,sign upload receipt,2,0.0005920641124248505
+43,client_upload_pack,build upload message,2,0.012567590922117233
+43,client_weight_compute,client aggregation weight,1,4.171207547187805e-05
+43,client_local_train,local SGD training,1,3.454150039702654
+43,client_model_delta,weighted local model delta,1,0.0004047378897666931
+43,client_quant_encode,fixed-point quantization and signed encoding,1,7.275119423866272e-05
+43,client_masking,xMask = x + m,1,3.192201256752014e-05
+43,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.548806983977556
+43,client_cipher_hash,hash encrypted vector,1,0.023474954068660736
+43,client_pedersen_commit,Pedersen vector commitment,1,2.6067833080887794
+43,client_receipt_sign,sign upload receipt,1,0.0005925148725509644
+43,client_upload_pack,build upload message,1,0.012145906686782837
+43,client_weight_compute,client aggregation weight,3,3.8817524909973145e-05
+43,client_local_train,local SGD training,3,3.5113551542162895
+43,client_model_delta,weighted local model delta,3,0.0003935284912586212
+43,client_quant_encode,fixed-point quantization and signed encoding,3,7.238239049911499e-05
+43,client_masking,xMask = x + m,3,3.085285425186157e-05
+43,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.5415851585567
+43,client_cipher_hash,hash encrypted vector,3,0.0234001986682415
+43,client_pedersen_commit,Pedersen vector commitment,3,2.5924051143229008
+43,client_receipt_sign,sign upload receipt,3,0.0006160624325275421
+43,client_upload_pack,build upload message,3,0.012629855424165726
+43,client_weight_compute,client aggregation weight,4,5.473196506500244e-05
+43,client_local_train,local SGD training,4,3.4823841713368893
+43,client_model_delta,weighted local model delta,4,0.0003673657774925232
+43,client_quant_encode,fixed-point quantization and signed encoding,4,6.716325879096985e-05
+43,client_masking,xMask = x + m,4,3.071874380111694e-05
+43,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.63953497633338
+43,client_cipher_hash,hash encrypted vector,4,0.023741859942674637
+43,client_pedersen_commit,Pedersen vector commitment,4,2.6689409129321575
+43,client_receipt_sign,sign upload receipt,4,0.0006319843232631683
+43,client_upload_pack,build upload message,4,0.01259007677435875
+44,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.921876959502697
+44,client_weight_compute,client aggregation weight,5,4.312768578529358e-05
+44,client_local_train,local SGD training,5,3.487676527351141
+44,client_model_delta,weighted local model delta,5,0.00040591880679130554
+44,client_quant_encode,fixed-point quantization and signed encoding,5,7.77319073677063e-05
+44,client_masking,xMask = x + m,5,3.2082200050354004e-05
+44,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.536560233682394
+44,client_cipher_hash,hash encrypted vector,5,0.02403625100851059
+44,client_pedersen_commit,Pedersen vector commitment,5,2.601141329854727
+44,client_receipt_sign,sign upload receipt,5,0.0006162188947200775
+44,client_upload_pack,build upload message,5,0.012654803693294525
+44,client_weight_compute,client aggregation weight,1,4.1097402572631836e-05
+44,client_local_train,local SGD training,1,3.4616025425493717
+44,client_model_delta,weighted local model delta,1,0.00039387866854667664
+44,client_quant_encode,fixed-point quantization and signed encoding,1,6.977096199989319e-05
+44,client_masking,xMask = x + m,1,3.251805901527405e-05
+44,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.56790802627802
+44,client_cipher_hash,hash encrypted vector,1,0.023404408246278763
+44,client_pedersen_commit,Pedersen vector commitment,1,2.612771887332201
+44,client_receipt_sign,sign upload receipt,1,0.0006390511989593506
+44,client_upload_pack,build upload message,1,0.012127909809350967
+44,client_weight_compute,client aggregation weight,3,3.835931420326233e-05
+44,client_local_train,local SGD training,3,3.609944112598896
+44,client_model_delta,weighted local model delta,3,0.0003796406090259552
+44,client_quant_encode,fixed-point quantization and signed encoding,3,7.97659158706665e-05
+44,client_masking,xMask = x + m,3,3.219395875930786e-05
+44,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.503913540393114
+44,client_cipher_hash,hash encrypted vector,3,0.023590296506881714
+44,client_pedersen_commit,Pedersen vector commitment,3,2.575116913765669
+44,client_receipt_sign,sign upload receipt,3,0.0005786605179309845
+44,client_upload_pack,build upload message,3,0.01262810081243515
+44,client_weight_compute,client aggregation weight,4,4.771724343299866e-05
+44,client_local_train,local SGD training,4,3.4810050278902054
+44,client_model_delta,weighted local model delta,4,0.0004074200987815857
+44,client_quant_encode,fixed-point quantization and signed encoding,4,7.36042857170105e-05
+44,client_masking,xMask = x + m,4,3.0294060707092285e-05
+44,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.627207912504673
+44,client_cipher_hash,hash encrypted vector,4,0.023566704243421555
+44,client_pedersen_commit,Pedersen vector commitment,4,2.663366600871086
+44,client_receipt_sign,sign upload receipt,4,0.0005614608526229858
+44,client_upload_pack,build upload message,4,0.01260247454047203
+44,client_weight_compute,client aggregation weight,2,3.571435809135437e-05
+44,client_local_train,local SGD training,2,3.5405343621969223
+44,client_model_delta,weighted local model delta,2,0.0003556497395038605
+44,client_quant_encode,fixed-point quantization and signed encoding,2,7.614120841026306e-05
+44,client_masking,xMask = x + m,2,3.368407487869263e-05
+44,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.593194749206305
+44,client_cipher_hash,hash encrypted vector,2,0.023827653378248215
+44,client_pedersen_commit,Pedersen vector commitment,2,2.6231998465955257
+44,client_receipt_sign,sign upload receipt,2,0.0006406567990779877
+44,client_upload_pack,build upload message,2,0.012577306479215622
+45,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.820716954767704
+45,client_weight_compute,client aggregation weight,3,3.83034348487854e-05
+45,client_local_train,local SGD training,3,3.5282766707241535
+45,client_model_delta,weighted local model delta,3,0.0003743022680282593
+45,client_quant_encode,fixed-point quantization and signed encoding,3,8.087977766990662e-05
+45,client_masking,xMask = x + m,3,3.6481767892837524e-05
+45,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.456085860729218
+45,client_cipher_hash,hash encrypted vector,3,0.02350960671901703
+45,client_pedersen_commit,Pedersen vector commitment,3,2.558145333081484
+45,client_receipt_sign,sign upload receipt,3,0.0006495080888271332
+45,client_upload_pack,build upload message,3,0.012645035982131958
+45,client_weight_compute,client aggregation weight,5,4.293397068977356e-05
+45,client_local_train,local SGD training,5,3.45351068302989
+45,client_model_delta,weighted local model delta,5,0.0003876425325870514
+45,client_quant_encode,fixed-point quantization and signed encoding,5,6.987154483795166e-05
+45,client_masking,xMask = x + m,5,3.0256807804107666e-05
+45,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.52608708664775
+45,client_cipher_hash,hash encrypted vector,5,0.023636702448129654
+45,client_pedersen_commit,Pedersen vector commitment,5,2.5845435559749603
+45,client_receipt_sign,sign upload receipt,5,0.0005810186266899109
+45,client_upload_pack,build upload message,5,0.012659672647714615
+45,client_weight_compute,client aggregation weight,4,5.4638832807540894e-05
+45,client_local_train,local SGD training,4,3.4730370193719864
+45,client_model_delta,weighted local model delta,4,0.00034693628549575806
+45,client_quant_encode,fixed-point quantization and signed encoding,4,7.02887773513794e-05
+45,client_masking,xMask = x + m,4,3.0197203159332275e-05
+45,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.548661459237337
+45,client_cipher_hash,hash encrypted vector,4,0.024000093340873718
+45,client_pedersen_commit,Pedersen vector commitment,4,2.613384071737528
+45,client_receipt_sign,sign upload receipt,4,0.0006315000355243683
+45,client_upload_pack,build upload message,4,0.012620139867067337
+45,client_weight_compute,client aggregation weight,1,4.188716411590576e-05
+45,client_local_train,local SGD training,1,3.447839729487896
+45,client_model_delta,weighted local model delta,1,0.00039842352271080017
+45,client_quant_encode,fixed-point quantization and signed encoding,1,7.352232933044434e-05
+45,client_masking,xMask = x + m,1,3.119930624961853e-05
+45,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.57758954539895
+45,client_cipher_hash,hash encrypted vector,1,0.023291196674108505
+45,client_pedersen_commit,Pedersen vector commitment,1,2.6325537227094173
+45,client_receipt_sign,sign upload receipt,1,0.0005981177091598511
+45,client_upload_pack,build upload message,1,0.012113310396671295
+45,client_weight_compute,client aggregation weight,2,3.495439887046814e-05
+45,client_local_train,local SGD training,2,3.4803434275090694
+45,client_model_delta,weighted local model delta,2,0.00040118396282196045
+45,client_quant_encode,fixed-point quantization and signed encoding,2,6.837770342826843e-05
+45,client_masking,xMask = x + m,2,2.82973051071167e-05
+45,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.57659086212516
+45,client_cipher_hash,hash encrypted vector,2,0.02400878816843033
+45,client_pedersen_commit,Pedersen vector commitment,2,2.619882445782423
+45,client_receipt_sign,sign upload receipt,2,0.0005981810390949249
+45,client_upload_pack,build upload message,2,0.012604419142007828
+46,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.896283023059368
+46,client_weight_compute,client aggregation weight,5,4.112347960472107e-05
+46,client_local_train,local SGD training,5,3.478401429951191
+46,client_model_delta,weighted local model delta,5,0.0003730952739715576
+46,client_quant_encode,fixed-point quantization and signed encoding,5,7.161498069763184e-05
+46,client_masking,xMask = x + m,5,3.0878931283950806e-05
+46,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.4764314442873
+46,client_cipher_hash,hash encrypted vector,5,0.023721039295196533
+46,client_pedersen_commit,Pedersen vector commitment,5,2.5675729662179947
+46,client_receipt_sign,sign upload receipt,5,0.0006171241402626038
+46,client_upload_pack,build upload message,5,0.012641306966543198
+46,client_weight_compute,client aggregation weight,3,3.8854777812957764e-05
+46,client_local_train,local SGD training,3,3.552405785769224
+46,client_model_delta,weighted local model delta,3,0.0003802478313446045
+46,client_quant_encode,fixed-point quantization and signed encoding,3,7.552281022071838e-05
+46,client_masking,xMask = x + m,3,3.361701965332031e-05
+46,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.462979331612587
+46,client_cipher_hash,hash encrypted vector,3,0.023591943085193634
+46,client_pedersen_commit,Pedersen vector commitment,3,2.5542539097368717
+46,client_receipt_sign,sign upload receipt,3,0.0005940869450569153
+46,client_upload_pack,build upload message,3,0.012613702565431595
+46,client_weight_compute,client aggregation weight,1,4.172325134277344e-05
+46,client_local_train,local SGD training,1,3.4591255076229572
+46,client_model_delta,weighted local model delta,1,0.0004107244312763214
+46,client_quant_encode,fixed-point quantization and signed encoding,1,7.303059101104736e-05
+46,client_masking,xMask = x + m,1,3.2395124435424805e-05
+46,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.526434268802404
+46,client_cipher_hash,hash encrypted vector,1,0.023291103541851044
+46,client_pedersen_commit,Pedersen vector commitment,1,2.594574373215437
+46,client_receipt_sign,sign upload receipt,1,0.0005734041333198547
+46,client_upload_pack,build upload message,1,0.012614447623491287
+46,client_weight_compute,client aggregation weight,2,4.091113805770874e-05
+46,client_local_train,local SGD training,2,3.5351463928818703
+46,client_model_delta,weighted local model delta,2,0.0003786608576774597
+46,client_quant_encode,fixed-point quantization and signed encoding,2,7.08065927028656e-05
+46,client_masking,xMask = x + m,2,3.038346767425537e-05
+46,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.536414194852114
+46,client_cipher_hash,hash encrypted vector,2,0.023641187697649002
+46,client_pedersen_commit,Pedersen vector commitment,2,2.5959997922182083
+46,client_receipt_sign,sign upload receipt,2,0.0006356798112392426
+46,client_upload_pack,build upload message,2,0.012584123760461807
+46,client_weight_compute,client aggregation weight,4,5.537644028663635e-05
+46,client_local_train,local SGD training,4,3.4865078814327717
+46,client_model_delta,weighted local model delta,4,0.0004130527377128601
+46,client_quant_encode,fixed-point quantization and signed encoding,4,7.635727524757385e-05
+46,client_masking,xMask = x + m,4,3.1717121601104736e-05
+46,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.59854330122471
+46,client_cipher_hash,hash encrypted vector,4,0.023510754108428955
+46,client_pedersen_commit,Pedersen vector commitment,4,2.6639441773295403
+46,client_receipt_sign,sign upload receipt,4,0.0005862601101398468
+46,client_upload_pack,build upload message,4,0.012609966099262238
+47,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.869208592921495
+47,client_weight_compute,client aggregation weight,4,5.410239100456238e-05
+47,client_local_train,local SGD training,4,3.487083312124014
+47,client_model_delta,weighted local model delta,4,0.0003780089318752289
+47,client_quant_encode,fixed-point quantization and signed encoding,4,7.351487874984741e-05
+47,client_masking,xMask = x + m,4,3.144890069961548e-05
+47,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.50073082000017
+47,client_cipher_hash,hash encrypted vector,4,0.024115584790706635
+47,client_pedersen_commit,Pedersen vector commitment,4,2.5786635391414165
+47,client_receipt_sign,sign upload receipt,4,0.0006127692759037018
+47,client_upload_pack,build upload message,4,0.012658480554819107
+47,client_weight_compute,client aggregation weight,3,4.032999277114868e-05
+47,client_local_train,local SGD training,3,3.5287006832659245
+47,client_model_delta,weighted local model delta,3,0.00041152164340019226
+47,client_quant_encode,fixed-point quantization and signed encoding,3,7.444992661476135e-05
+47,client_masking,xMask = x + m,3,3.27378511428833e-05
+47,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.51321777701378
+47,client_cipher_hash,hash encrypted vector,3,0.02369413524866104
+47,client_pedersen_commit,Pedersen vector commitment,3,2.5814560912549496
+47,client_receipt_sign,sign upload receipt,3,0.0006303340196609497
+47,client_upload_pack,build upload message,3,0.012663591653108597
+47,client_weight_compute,client aggregation weight,5,4.184618592262268e-05
+47,client_local_train,local SGD training,5,3.4662182964384556
+47,client_model_delta,weighted local model delta,5,0.0003895200788974762
+47,client_quant_encode,fixed-point quantization and signed encoding,5,7.212907075881958e-05
+47,client_masking,xMask = x + m,5,2.934783697128296e-05
+47,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.578773085027933
+47,client_cipher_hash,hash encrypted vector,5,0.023921724408864975
+47,client_pedersen_commit,Pedersen vector commitment,5,2.629849709570408
+47,client_receipt_sign,sign upload receipt,5,0.0005899518728256226
+47,client_upload_pack,build upload message,5,0.012703556567430496
+47,client_weight_compute,client aggregation weight,2,4.124268889427185e-05
+47,client_local_train,local SGD training,2,3.6126401275396347
+47,client_model_delta,weighted local model delta,2,0.0003589130938053131
+47,client_quant_encode,fixed-point quantization and signed encoding,2,7.957220077514648e-05
+47,client_masking,xMask = x + m,2,3.372505307197571e-05
+47,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.498935479670763
+47,client_cipher_hash,hash encrypted vector,2,0.023764964193105698
+47,client_pedersen_commit,Pedersen vector commitment,2,2.56209297478199
+47,client_receipt_sign,sign upload receipt,2,0.0006053037941455841
+47,client_upload_pack,build upload message,2,0.012605801224708557
+47,client_weight_compute,client aggregation weight,1,2.8431415557861328e-05
+47,client_local_train,local SGD training,1,3.458950474858284
+47,client_model_delta,weighted local model delta,1,0.00039895251393318176
+47,client_quant_encode,fixed-point quantization and signed encoding,1,7.480010390281677e-05
+47,client_masking,xMask = x + m,1,3.1381845474243164e-05
+47,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.616704806685448
+47,client_cipher_hash,hash encrypted vector,1,0.02331952378153801
+47,client_pedersen_commit,Pedersen vector commitment,1,2.6522226966917515
+47,client_receipt_sign,sign upload receipt,1,0.0006113722920417786
+47,client_upload_pack,build upload message,1,0.01211497187614441
+48,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.939648162573576
+48,client_weight_compute,client aggregation weight,1,4.054233431816101e-05
+48,client_local_train,local SGD training,1,3.4709892868995667
+48,client_model_delta,weighted local model delta,1,0.0004006214439868927
+48,client_quant_encode,fixed-point quantization and signed encoding,1,7.969886064529419e-05
+48,client_masking,xMask = x + m,1,3.552064299583435e-05
+48,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.52217872440815
+48,client_cipher_hash,hash encrypted vector,1,0.023339789360761642
+48,client_pedersen_commit,Pedersen vector commitment,1,2.5849780216813087
+48,client_receipt_sign,sign upload receipt,1,0.0006327778100967407
+48,client_upload_pack,build upload message,1,0.012649677693843842
+48,client_weight_compute,client aggregation weight,2,4.398822784423828e-05
+48,client_local_train,local SGD training,2,3.5504860021173954
+48,client_model_delta,weighted local model delta,2,0.0003901273012161255
+48,client_quant_encode,fixed-point quantization and signed encoding,2,6.942823529243469e-05
+48,client_masking,xMask = x + m,2,4.301592707633972e-05
+48,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.502697579562664
+48,client_cipher_hash,hash encrypted vector,2,0.02376951277256012
+48,client_pedersen_commit,Pedersen vector commitment,2,2.561513278633356
+48,client_receipt_sign,sign upload receipt,2,0.0006383992731571198
+48,client_upload_pack,build upload message,2,0.012621618807315826
+48,client_weight_compute,client aggregation weight,3,3.92720103263855e-05
+48,client_local_train,local SGD training,3,3.56245506554842
+48,client_model_delta,weighted local model delta,3,0.00039105117321014404
+48,client_quant_encode,fixed-point quantization and signed encoding,3,7.64019787311554e-05
+48,client_masking,xMask = x + m,3,3.509595990180969e-05
+48,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.496291249990463
+48,client_cipher_hash,hash encrypted vector,3,0.02360057458281517
+48,client_pedersen_commit,Pedersen vector commitment,3,2.5646263994276524
+48,client_receipt_sign,sign upload receipt,3,0.0005793198943138123
+48,client_upload_pack,build upload message,3,0.012638837099075317
+48,client_weight_compute,client aggregation weight,5,2.9008835554122925e-05
+48,client_local_train,local SGD training,5,3.489186007529497
+48,client_model_delta,weighted local model delta,5,0.00039440765976905823
+48,client_quant_encode,fixed-point quantization and signed encoding,5,7.297471165657043e-05
+48,client_masking,xMask = x + m,5,3.523379564285278e-05
+48,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.614547934383154
+48,client_cipher_hash,hash encrypted vector,5,0.0236375629901886
+48,client_pedersen_commit,Pedersen vector commitment,5,2.6466658115386963
+48,client_receipt_sign,sign upload receipt,5,0.0005936697125434875
+48,client_upload_pack,build upload message,5,0.012605305761098862
+48,client_weight_compute,client aggregation weight,4,5.361437797546387e-05
+48,client_local_train,local SGD training,4,3.516856949776411
+48,client_model_delta,weighted local model delta,4,0.0004254467785358429
+48,client_quant_encode,fixed-point quantization and signed encoding,4,7.396191358566284e-05
+48,client_masking,xMask = x + m,4,2.8800219297409058e-05
+48,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.61451145634055
+48,client_cipher_hash,hash encrypted vector,4,0.023660816252231598
+48,client_pedersen_commit,Pedersen vector commitment,4,2.660955034196377
+48,client_receipt_sign,sign upload receipt,4,0.0005946196615695953
+48,client_upload_pack,build upload message,4,0.012612387537956238
+49,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,25.566468201577663
+49,client_weight_compute,client aggregation weight,3,3.9365142583847046e-05
+49,client_local_train,local SGD training,3,3.5488910786807537
+49,client_model_delta,weighted local model delta,3,0.00039988383650779724
+49,client_quant_encode,fixed-point quantization and signed encoding,3,7.291138172149658e-05
+49,client_masking,xMask = x + m,3,3.584474325180054e-05
+49,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.472303811460733
+49,client_cipher_hash,hash encrypted vector,3,0.023475542664527893
+49,client_pedersen_commit,Pedersen vector commitment,3,2.542492024600506
+49,client_receipt_sign,sign upload receipt,3,0.0006215646862983704
+49,client_upload_pack,build upload message,3,0.012635301798582077
+49,client_weight_compute,client aggregation weight,5,4.2032450437545776e-05
+49,client_local_train,local SGD training,5,3.471538234502077
+49,client_model_delta,weighted local model delta,5,0.0003903135657310486
+49,client_quant_encode,fixed-point quantization and signed encoding,5,7.457658648490906e-05
+49,client_masking,xMask = x + m,5,3.219768404960632e-05
+49,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.57463615015149
+49,client_cipher_hash,hash encrypted vector,5,0.023569971323013306
+49,client_pedersen_commit,Pedersen vector commitment,5,2.6243882440030575
+49,client_receipt_sign,sign upload receipt,5,0.0006380267441272736
+49,client_upload_pack,build upload message,5,0.012651830911636353
+49,client_weight_compute,client aggregation weight,2,4.157423973083496e-05
+49,client_local_train,local SGD training,2,3.5102336332201958
+49,client_model_delta,weighted local model delta,2,0.000380050390958786
+49,client_quant_encode,fixed-point quantization and signed encoding,2,7.876381278038025e-05
+49,client_masking,xMask = x + m,2,3.639236092567444e-05
+49,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.572442565113306
+49,client_cipher_hash,hash encrypted vector,2,0.023767806589603424
+49,client_pedersen_commit,Pedersen vector commitment,2,2.6040262691676617
+49,client_receipt_sign,sign upload receipt,2,0.0005755014717578888
+49,client_upload_pack,build upload message,2,0.012574926018714905
+49,client_weight_compute,client aggregation weight,1,3.078952431678772e-05
+49,client_local_train,local SGD training,1,3.4279849343001842
+49,client_model_delta,weighted local model delta,1,0.00039605051279067993
+49,client_quant_encode,fixed-point quantization and signed encoding,1,7.342919707298279e-05
+49,client_masking,xMask = x + m,1,3.493577241897583e-05
+49,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.80173372849822
+49,client_cipher_hash,hash encrypted vector,1,0.023367222398519516
+49,client_pedersen_commit,Pedersen vector commitment,1,2.7822242230176926
+49,client_receipt_sign,sign upload receipt,1,0.0006187446415424347
+49,client_upload_pack,build upload message,1,0.012150038033723831
+49,client_weight_compute,client aggregation weight,4,5.4370611906051636e-05
+49,client_local_train,local SGD training,4,3.4832851961255074
+49,client_model_delta,weighted local model delta,4,0.00038480013608932495
+49,client_quant_encode,fixed-point quantization and signed encoding,4,7.42003321647644e-05
+49,client_masking,xMask = x + m,4,2.9668211936950684e-05
+49,client_paillier_encrypt,coordinate-wise Paillier encryption,4,19.000276319682598
+49,client_cipher_hash,hash encrypted vector,4,0.023564960807561874
+49,client_pedersen_commit,Pedersen vector commitment,4,2.9240944050252438
+49,client_receipt_sign,sign upload receipt,4,0.0006418488919734955
+49,client_upload_pack,build upload message,4,0.012567058205604553
+50,client_upload_parallel_wall,CS waits for all active clients to finish TrainUploadReq in parallel,,24.72795322164893
+50,client_weight_compute,client aggregation weight,2,4.095211625099182e-05
+50,client_local_train,local SGD training,2,3.4708286598324776
+50,client_model_delta,weighted local model delta,2,0.00041317567229270935
+50,client_quant_encode,fixed-point quantization and signed encoding,2,7.511675357818604e-05
+50,client_masking,xMask = x + m,2,3.082677721977234e-05
+50,client_paillier_encrypt,coordinate-wise Paillier encryption,2,18.422338664531708
+50,client_cipher_hash,hash encrypted vector,2,0.023721769452095032
+50,client_pedersen_commit,Pedersen vector commitment,2,2.5201445929706097
+50,client_receipt_sign,sign upload receipt,2,0.0006307847797870636
+50,client_upload_pack,build upload message,2,0.012569639831781387
+50,client_weight_compute,client aggregation weight,3,3.863126039505005e-05
+50,client_local_train,local SGD training,3,3.550185788422823
+50,client_model_delta,weighted local model delta,3,0.00037508830428123474
+50,client_quant_encode,fixed-point quantization and signed encoding,3,7.921084761619568e-05
+50,client_masking,xMask = x + m,3,3.3233314752578735e-05
+50,client_paillier_encrypt,coordinate-wise Paillier encryption,3,18.440559029579163
+50,client_cipher_hash,hash encrypted vector,3,0.023561254143714905
+50,client_pedersen_commit,Pedersen vector commitment,3,2.535131808370352
+50,client_receipt_sign,sign upload receipt,3,0.0005492083728313446
+50,client_upload_pack,build upload message,3,0.012628413736820221
+50,client_weight_compute,client aggregation weight,4,5.264952778816223e-05
+50,client_local_train,local SGD training,4,3.461932886391878
+50,client_model_delta,weighted local model delta,4,0.00043454766273498535
+50,client_quant_encode,fixed-point quantization and signed encoding,4,7.695704698562622e-05
+50,client_masking,xMask = x + m,4,2.7958303689956665e-05
+50,client_paillier_encrypt,coordinate-wise Paillier encryption,4,18.483898900449276
+50,client_cipher_hash,hash encrypted vector,4,0.02346397191286087
+50,client_pedersen_commit,Pedersen vector commitment,4,2.570531699806452
+50,client_receipt_sign,sign upload receipt,4,0.000582326203584671
+50,client_upload_pack,build upload message,4,0.01262248307466507
+50,client_weight_compute,client aggregation weight,1,4.149600863456726e-05
+50,client_local_train,local SGD training,1,3.4715351797640324
+50,client_model_delta,weighted local model delta,1,0.00039604678750038147
+50,client_quant_encode,fixed-point quantization and signed encoding,1,6.928667426109314e-05
+50,client_masking,xMask = x + m,1,3.0335038900375366e-05
+50,client_paillier_encrypt,coordinate-wise Paillier encryption,1,18.496253918856382
+50,client_cipher_hash,hash encrypted vector,1,0.023256786167621613
+50,client_pedersen_commit,Pedersen vector commitment,1,2.56958169862628
+50,client_receipt_sign,sign upload receipt,1,0.0005758814513683319
+50,client_upload_pack,build upload message,1,0.012120138853788376
+50,client_weight_compute,client aggregation weight,5,3.228336572647095e-05
+50,client_local_train,local SGD training,5,3.487763676792383
+50,client_model_delta,weighted local model delta,5,0.00039131566882133484
+50,client_quant_encode,fixed-point quantization and signed encoding,5,7.359310984611511e-05
+50,client_masking,xMask = x + m,5,3.353878855705261e-05
+50,client_paillier_encrypt,coordinate-wise Paillier encryption,5,18.51536364853382
+50,client_cipher_hash,hash encrypted vector,5,0.02369997650384903
+50,client_pedersen_commit,Pedersen vector commitment,5,2.5831034630537033
+50,client_receipt_sign,sign upload receipt,5,0.0005860067903995514
+50,client_upload_pack,build upload message,5,0.012630168348550797
+0,start_experiment_total_wall,total wall-clock time of the CS-driven distributed experiment,,2401.6016720570624

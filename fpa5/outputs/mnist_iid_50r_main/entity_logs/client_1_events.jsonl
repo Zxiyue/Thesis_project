@@ -1,0 +1,201 @@
+{"time": 1782827169.038712, "event": "init_model", "client_id": 1, "modelHash": "0xbd170a15f3413ddac0da51878220ea053f21e2cd8a008095483f3790cb4ae1e2"}
+{"time": 1782827170.9185317, "event": "receive_mask", "round": 1, "client_id": 1}
+{"time": 1782827199.8773727, "event": "train_upload", "round": 1, "client_id": 1, "sync_performed": false}
+{"time": 1782827200.6626203, "event": "receive_agg", "round": 1, "client_id": 1}
+{"time": 1782827220.3279662, "event": "receive_model", "round": 1, "client_id": 1, "modelHashNext": "0x0f3ad1cb0f8272a768de45b92e8d0b541692edc09125f710bd5ca4a1cca95cd0"}
+{"time": 1782827222.387387, "event": "receive_mask", "round": 2, "client_id": 1}
+{"time": 1782827246.8889916, "event": "train_upload", "round": 2, "client_id": 1, "sync_performed": false}
+{"time": 1782827247.6454933, "event": "receive_agg", "round": 2, "client_id": 1}
+{"time": 1782827266.3355808, "event": "receive_model", "round": 2, "client_id": 1, "modelHashNext": "0x9467bd9d0e19d645398e6c34ad809ff79b49578a11c576517cdbb8bc2534f7e2"}
+{"time": 1782827268.1242487, "event": "receive_mask", "round": 3, "client_id": 1}
+{"time": 1782827292.7324288, "event": "train_upload", "round": 3, "client_id": 1, "sync_performed": false}
+{"time": 1782827293.5618985, "event": "receive_agg", "round": 3, "client_id": 1}
+{"time": 1782827312.9701712, "event": "receive_model", "round": 3, "client_id": 1, "modelHashNext": "0x77ae872f27d13fe4f5263c61fb4f74540387a1b6fa5e1f91af66dcfbfaed6fe2"}
+{"time": 1782827314.7197993, "event": "receive_mask", "round": 4, "client_id": 1}
+{"time": 1782827339.3109245, "event": "train_upload", "round": 4, "client_id": 1, "sync_performed": false}
+{"time": 1782827340.1924264, "event": "receive_agg", "round": 4, "client_id": 1}
+{"time": 1782827359.5723698, "event": "receive_model", "round": 4, "client_id": 1, "modelHashNext": "0x7bb56899f9d20519901bdc64be50be5d804738084e52bcc032d97351818dfcc1"}
+{"time": 1782827361.2746086, "event": "receive_mask", "round": 5, "client_id": 1}
+{"time": 1782827385.9066024, "event": "train_upload", "round": 5, "client_id": 1, "sync_performed": false}
+{"time": 1782827386.6154943, "event": "receive_agg", "round": 5, "client_id": 1}
+{"time": 1782827406.041735, "event": "receive_model", "round": 5, "client_id": 1, "modelHashNext": "0x5a16980784cfc7a42547b87010300e25caecbf159fd40d73b14b6fe5e48027ab"}
+{"time": 1782827407.7705657, "event": "receive_mask", "round": 6, "client_id": 1}
+{"time": 1782827432.5218046, "event": "train_upload", "round": 6, "client_id": 1, "sync_performed": false}
+{"time": 1782827433.1487596, "event": "receive_agg", "round": 6, "client_id": 1}
+{"time": 1782827452.7440894, "event": "receive_model", "round": 6, "client_id": 1, "modelHashNext": "0x59ae45dfd1a9acf5096d0152544ff1d2958450444a07c02132683310129ddd43"}
+{"time": 1782827454.4905949, "event": "receive_mask", "round": 7, "client_id": 1}
+{"time": 1782827479.125835, "event": "train_upload", "round": 7, "client_id": 1, "sync_performed": false}
+{"time": 1782827479.8043132, "event": "receive_agg", "round": 7, "client_id": 1}
+{"time": 1782827499.3382912, "event": "receive_model", "round": 7, "client_id": 1, "modelHashNext": "0x3d267dc209473c13639078239b6421979782025806183d0a26f3083ffe0e8b4f"}
+{"time": 1782827501.0939596, "event": "receive_mask", "round": 8, "client_id": 1}
+{"time": 1782827525.631791, "event": "train_upload", "round": 8, "client_id": 1, "sync_performed": false}
+{"time": 1782827526.6129158, "event": "receive_agg", "round": 8, "client_id": 1}
+{"time": 1782827546.242516, "event": "receive_model", "round": 8, "client_id": 1, "modelHashNext": "0x234135136a7037ea2f1a879eb5a53c2610b61b4f12e9c330773392054f37c3f8"}
+{"time": 1782827548.0426333, "event": "receive_mask", "round": 9, "client_id": 1}
+{"time": 1782827572.9292145, "event": "train_upload", "round": 9, "client_id": 1, "sync_performed": false}
+{"time": 1782827573.505874, "event": "receive_agg", "round": 9, "client_id": 1}
+{"time": 1782827592.9498115, "event": "receive_model", "round": 9, "client_id": 1, "modelHashNext": "0xf3cdfda7d447dbf585de90ab224f6694a5e0c52ddaf021213b7d1f0c77e38dcd"}
+{"time": 1782827594.6634235, "event": "receive_mask", "round": 10, "client_id": 1}
+{"time": 1782827619.3494365, "event": "train_upload", "round": 10, "client_id": 1, "sync_performed": false}
+{"time": 1782827640.9531937, "event": "receive_agg", "round": 10, "client_id": 1}
+{"time": 1782827660.3471022, "event": "receive_model", "round": 10, "client_id": 1, "modelHashNext": "0xec272b220442afe7b73dab05050f13c7026668853546c278e4497ccb81d5b85e"}
+{"time": 1782827662.0568125, "event": "receive_mask", "round": 11, "client_id": 1}
+{"time": 1782827686.904314, "event": "train_upload", "round": 11, "client_id": 1, "sync_performed": false}
+{"time": 1782827687.4666111, "event": "receive_agg", "round": 11, "client_id": 1}
+{"time": 1782827706.8407278, "event": "receive_model", "round": 11, "client_id": 1, "modelHashNext": "0x589505119d46f496784a6a4af6602046f793f5af161caa5291062ed7f71a58bb"}
+{"time": 1782827708.6126444, "event": "receive_mask", "round": 12, "client_id": 1}
+{"time": 1782827733.306322, "event": "train_upload", "round": 12, "client_id": 1, "sync_performed": false}
+{"time": 1782827734.0585513, "event": "receive_agg", "round": 12, "client_id": 1}
+{"time": 1782827753.5187354, "event": "receive_model", "round": 12, "client_id": 1, "modelHashNext": "0x44e8c3bc351bd0216acdcb29295de1c92892c54f5f188cbceb821b20459c1616"}
+{"time": 1782827755.2337353, "event": "receive_mask", "round": 13, "client_id": 1}
+{"time": 1782827779.95083, "event": "train_upload", "round": 13, "client_id": 1, "sync_performed": false}
+{"time": 1782827780.6714702, "event": "receive_agg", "round": 13, "client_id": 1}
+{"time": 1782827800.0055015, "event": "receive_model", "round": 13, "client_id": 1, "modelHashNext": "0x3327315595d619ae68a8c6eb96850a49454ab9c044b1e1aaa70f52cd5033602f"}
+{"time": 1782827801.7875006, "event": "receive_mask", "round": 14, "client_id": 1}
+{"time": 1782827826.590343, "event": "train_upload", "round": 14, "client_id": 1, "sync_performed": false}
+{"time": 1782827827.1719668, "event": "receive_agg", "round": 14, "client_id": 1}
+{"time": 1782827846.663084, "event": "receive_model", "round": 14, "client_id": 1, "modelHashNext": "0x342a920a17eca05443e9ed818d4e6714b2bffffdb80e8683381326f43d6da2d9"}
+{"time": 1782827848.4424129, "event": "receive_mask", "round": 15, "client_id": 1}
+{"time": 1782827873.1967194, "event": "train_upload", "round": 15, "client_id": 1, "sync_performed": false}
+{"time": 1782827873.7953582, "event": "receive_agg", "round": 15, "client_id": 1}
+{"time": 1782827893.2270856, "event": "receive_model", "round": 15, "client_id": 1, "modelHashNext": "0x3ec421ea253dd007f96f71dbc4e1b8ebbc4a0bba6d8918fb9c2c806dbd4c05e0"}
+{"time": 1782827894.9540205, "event": "receive_mask", "round": 16, "client_id": 1}
+{"time": 1782827919.5870183, "event": "train_upload", "round": 16, "client_id": 1, "sync_performed": false}
+{"time": 1782827920.3641284, "event": "receive_agg", "round": 16, "client_id": 1}
+{"time": 1782827939.7913053, "event": "receive_model", "round": 16, "client_id": 1, "modelHashNext": "0xc6fb02bee8d57c866f7a7e2c1d02b59bf7a6e5cf4cc52213c551d09b7cfb8cc4"}
+{"time": 1782827941.5279803, "event": "receive_mask", "round": 17, "client_id": 1}
+{"time": 1782827966.352398, "event": "train_upload", "round": 17, "client_id": 1, "sync_performed": false}
+{"time": 1782827966.9036803, "event": "receive_agg", "round": 17, "client_id": 1}
+{"time": 1782827986.1573825, "event": "receive_model", "round": 17, "client_id": 1, "modelHashNext": "0xb7c3209d7db5908ad37d9f6b0a45eb47003dede2eaacf7e019f78777c0084e17"}
+{"time": 1782827987.9163387, "event": "receive_mask", "round": 18, "client_id": 1}
+{"time": 1782828012.6525865, "event": "train_upload", "round": 18, "client_id": 1, "sync_performed": false}
+{"time": 1782828013.4535677, "event": "receive_agg", "round": 18, "client_id": 1}
+{"time": 1782828032.9740222, "event": "receive_model", "round": 18, "client_id": 1, "modelHashNext": "0x339b712657c4e68581ceebc3190ba2a0ff02e2fc594a8a9570bf967375be562d"}
+{"time": 1782828034.7109787, "event": "receive_mask", "round": 19, "client_id": 1}
+{"time": 1782828059.5758252, "event": "train_upload", "round": 19, "client_id": 1, "sync_performed": false}
+{"time": 1782828060.127819, "event": "receive_agg", "round": 19, "client_id": 1}
+{"time": 1782828079.6594746, "event": "receive_model", "round": 19, "client_id": 1, "modelHashNext": "0x3c93326df7f0172174609848f3658b52f2a16acf12492518427ca8919e6fed1a"}
+{"time": 1782828081.4010491, "event": "receive_mask", "round": 20, "client_id": 1}
+{"time": 1782828106.100829, "event": "train_upload", "round": 20, "client_id": 1, "sync_performed": false}
+{"time": 1782828106.7874858, "event": "receive_agg", "round": 20, "client_id": 1}
+{"time": 1782828126.038043, "event": "receive_model", "round": 20, "client_id": 1, "modelHashNext": "0x0da83c346b52d5bfcadb5bf0114f84ed028205cf0ccdc5eea85b443f782d7522"}
+{"time": 1782828127.8481286, "event": "receive_mask", "round": 21, "client_id": 1}
+{"time": 1782828152.514787, "event": "train_upload", "round": 21, "client_id": 1, "sync_performed": false}
+{"time": 1782828153.1634836, "event": "receive_agg", "round": 21, "client_id": 1}
+{"time": 1782828172.665188, "event": "receive_model", "round": 21, "client_id": 1, "modelHashNext": "0xf403add7ea4e7c80eb0f9339c72ccd74b48523bbc0582f20d6f8a9e78af7dca9"}
+{"time": 1782828174.3907497, "event": "receive_mask", "round": 22, "client_id": 1}
+{"time": 1782828199.060897, "event": "train_upload", "round": 22, "client_id": 1, "sync_performed": false}
+{"time": 1782828199.7873394, "event": "receive_agg", "round": 22, "client_id": 1}
+{"time": 1782828219.1995215, "event": "receive_model", "round": 22, "client_id": 1, "modelHashNext": "0x33e14d6469310d43152fb601f32a0fa0edcf0ab82135657219d76ec6f66aad4a"}
+{"time": 1782828220.984171, "event": "receive_mask", "round": 23, "client_id": 1}
+{"time": 1782828245.7814798, "event": "train_upload", "round": 23, "client_id": 1, "sync_performed": false}
+{"time": 1782828246.337158, "event": "receive_agg", "round": 23, "client_id": 1}
+{"time": 1782828265.5827386, "event": "receive_model", "round": 23, "client_id": 1, "modelHashNext": "0xb9f28e3f72126be90a5cb65b466f6c7c9d9af93d29a791d853ee3cb7116980e4"}
+{"time": 1782828267.3192904, "event": "receive_mask", "round": 24, "client_id": 1}
+{"time": 1782828292.1620743, "event": "train_upload", "round": 24, "client_id": 1, "sync_performed": false}
+{"time": 1782828292.7416208, "event": "receive_agg", "round": 24, "client_id": 1}
+{"time": 1782828312.2492242, "event": "receive_model", "round": 24, "client_id": 1, "modelHashNext": "0x48960c8546c38c82eceb309e418b703d22097b9ccf5b6303b5d54e913b2c587a"}
+{"time": 1782828314.0348027, "event": "receive_mask", "round": 25, "client_id": 1}
+{"time": 1782828338.780979, "event": "train_upload", "round": 25, "client_id": 1, "sync_performed": false}
+{"time": 1782828360.188537, "event": "receive_agg", "round": 25, "client_id": 1}
+{"time": 1782828379.3613722, "event": "receive_model", "round": 25, "client_id": 1, "modelHashNext": "0x28ead64b5ca3bc625c1438597c1c4ad352849f623f92bff1708b6d2d5cd78d66"}
+{"time": 1782828381.0731585, "event": "receive_mask", "round": 26, "client_id": 1}
+{"time": 1782828405.8329308, "event": "train_upload", "round": 26, "client_id": 1, "sync_performed": false}
+{"time": 1782828406.6253784, "event": "receive_agg", "round": 26, "client_id": 1}
+{"time": 1782828426.381118, "event": "receive_model", "round": 26, "client_id": 1, "modelHashNext": "0xf6bd8f09287aca2a7c836060f626f5a828c64e6e31e92ac7a00dcfd6c5fb8e81"}
+{"time": 1782828428.1176717, "event": "receive_mask", "round": 27, "client_id": 1}
+{"time": 1782828452.9440598, "event": "train_upload", "round": 27, "client_id": 1, "sync_performed": false}
+{"time": 1782828453.5714648, "event": "receive_agg", "round": 27, "client_id": 1}
+{"time": 1782828473.172342, "event": "receive_model", "round": 27, "client_id": 1, "modelHashNext": "0x507aa083b3bf5e9c1d9bca59bcd465e6cfc8c43f990bcb8420ee16519e88f0a0"}
+{"time": 1782828474.906354, "event": "receive_mask", "round": 28, "client_id": 1}
+{"time": 1782828499.6079874, "event": "train_upload", "round": 28, "client_id": 1, "sync_performed": false}
+{"time": 1782828500.2651546, "event": "receive_agg", "round": 28, "client_id": 1}
+{"time": 1782828519.7269309, "event": "receive_model", "round": 28, "client_id": 1, "modelHashNext": "0x98a49f76ef4f247bafa010349fd7266d3c759b02d634026b42c34b55be0f9a7c"}
+{"time": 1782828521.4886556, "event": "receive_mask", "round": 29, "client_id": 1}
+{"time": 1782828546.2546139, "event": "train_upload", "round": 29, "client_id": 1, "sync_performed": false}
+{"time": 1782828546.8448703, "event": "receive_agg", "round": 29, "client_id": 1}
+{"time": 1782828565.9798357, "event": "receive_model", "round": 29, "client_id": 1, "modelHashNext": "0x87584c19ec8ee296254fbda97aa04ea9cb12ea780022386288a1622c846c6c77"}
+{"time": 1782828567.721161, "event": "receive_mask", "round": 30, "client_id": 1}
+{"time": 1782828592.3668861, "event": "train_upload", "round": 30, "client_id": 1, "sync_performed": false}
+{"time": 1782828593.0755033, "event": "receive_agg", "round": 30, "client_id": 1}
+{"time": 1782828612.5267177, "event": "receive_model", "round": 30, "client_id": 1, "modelHashNext": "0xecc7cfa4cda850cb1d5ac0397afe218e118ac46a6383fb80c7e09a9f30e1e24b"}
+{"time": 1782828614.310607, "event": "receive_mask", "round": 31, "client_id": 1}
+{"time": 1782828638.8408098, "event": "train_upload", "round": 31, "client_id": 1, "sync_performed": false}
+{"time": 1782828639.7874408, "event": "receive_agg", "round": 31, "client_id": 1}
+{"time": 1782828659.3296382, "event": "receive_model", "round": 31, "client_id": 1, "modelHashNext": "0xd6453cf75527cd3ca17e4ef8c4c7e51bd0cf52b729a309564aafcd703553779c"}
+{"time": 1782828661.0863256, "event": "receive_mask", "round": 32, "client_id": 1}
+{"time": 1782828685.7674084, "event": "train_upload", "round": 32, "client_id": 1, "sync_performed": false}
+{"time": 1782828686.4364722, "event": "receive_agg", "round": 32, "client_id": 1}
+{"time": 1782828705.9844975, "event": "receive_model", "round": 32, "client_id": 1, "modelHashNext": "0xa0e9bd5c35cc32fc64e513e8f9a7549ab3a7d28ad7ff60a5e853737289eb8a62"}
+{"time": 1782828707.7867022, "event": "receive_mask", "round": 33, "client_id": 1}
+{"time": 1782828732.4777865, "event": "train_upload", "round": 33, "client_id": 1, "sync_performed": false}
+{"time": 1782828733.1148186, "event": "receive_agg", "round": 33, "client_id": 1}
+{"time": 1782828752.401654, "event": "receive_model", "round": 33, "client_id": 1, "modelHashNext": "0x6ed4c764c89e382d3f6a8b15ab79a4f82504ad5e4f5c993a329b96fa79a459f7"}
+{"time": 1782828754.1617749, "event": "receive_mask", "round": 34, "client_id": 1}
+{"time": 1782828778.8438106, "event": "train_upload", "round": 34, "client_id": 1, "sync_performed": false}
+{"time": 1782828779.4618974, "event": "receive_agg", "round": 34, "client_id": 1}
+{"time": 1782828798.7509542, "event": "receive_model", "round": 34, "client_id": 1, "modelHashNext": "0x4b1a3772d3326d147008ae428af652b492359850f557638f225ab3a1cb146639"}
+{"time": 1782828800.493665, "event": "receive_mask", "round": 35, "client_id": 1}
+{"time": 1782828825.185117, "event": "train_upload", "round": 35, "client_id": 1, "sync_performed": false}
+{"time": 1782828825.8397915, "event": "receive_agg", "round": 35, "client_id": 1}
+{"time": 1782828845.0097342, "event": "receive_model", "round": 35, "client_id": 1, "modelHashNext": "0x0a4889ea9e27383c070db66781f43eea62ece08279f7c035398116c41d66a955"}
+{"time": 1782828846.7591295, "event": "receive_mask", "round": 36, "client_id": 1}
+{"time": 1782828871.7012026, "event": "train_upload", "round": 36, "client_id": 1, "sync_performed": false}
+{"time": 1782828872.2535944, "event": "receive_agg", "round": 36, "client_id": 1}
+{"time": 1782828891.8719194, "event": "receive_model", "round": 36, "client_id": 1, "modelHashNext": "0x277a29d0d869cdce4d6e3c227b2ea657b6f611621e89ff7393eb0e2a281eade5"}
+{"time": 1782828893.6111236, "event": "receive_mask", "round": 37, "client_id": 1}
+{"time": 1782828918.198643, "event": "train_upload", "round": 37, "client_id": 1, "sync_performed": false}
+{"time": 1782828918.9712873, "event": "receive_agg", "round": 37, "client_id": 1}
+{"time": 1782828938.2102199, "event": "receive_model", "round": 37, "client_id": 1, "modelHashNext": "0x1262372f2b21eab2691a22578eae501af4b710ccb67718d6e1f0c913e984409b"}
+{"time": 1782828939.9738631, "event": "receive_mask", "round": 38, "client_id": 1}
+{"time": 1782828964.6924708, "event": "train_upload", "round": 38, "client_id": 1, "sync_performed": false}
+{"time": 1782828965.4155042, "event": "receive_agg", "round": 38, "client_id": 1}
+{"time": 1782828984.8843064, "event": "receive_model", "round": 38, "client_id": 1, "modelHashNext": "0xdaab10d73a6877c4773c237a60be93fadc3c08930d79d9a1a779122ea26009a8"}
+{"time": 1782828986.6728883, "event": "receive_mask", "round": 39, "client_id": 1}
+{"time": 1782829011.400471, "event": "train_upload", "round": 39, "client_id": 1, "sync_performed": false}
+{"time": 1782829012.0861642, "event": "receive_agg", "round": 39, "client_id": 1}
+{"time": 1782829031.6158366, "event": "receive_model", "round": 39, "client_id": 1, "modelHashNext": "0x8f255281e60c3585935254a87a1f5da5824639867570c0b975b8096c7b2f96c3"}
+{"time": 1782829033.4066987, "event": "receive_mask", "round": 40, "client_id": 1}
+{"time": 1782829057.9655373, "event": "train_upload", "round": 40, "client_id": 1, "sync_performed": false}
+{"time": 1782829058.7585607, "event": "receive_agg", "round": 40, "client_id": 1}
+{"time": 1782829077.9174163, "event": "receive_model", "round": 40, "client_id": 1, "modelHashNext": "0xd255b1f6c3c31d7789bc4ba94d504499b75d010fa59ed6c5450b70edb6052e6b"}
+{"time": 1782829079.681023, "event": "receive_mask", "round": 41, "client_id": 1}
+{"time": 1782829104.3228924, "event": "train_upload", "round": 41, "client_id": 1, "sync_performed": false}
+{"time": 1782829105.1822166, "event": "receive_agg", "round": 41, "client_id": 1}
+{"time": 1782829124.8370903, "event": "receive_model", "round": 41, "client_id": 1, "modelHashNext": "0x869c3638d215ecaf67affc6eab6f5dd81f586381f5b415fafe15c46925e4f5cc"}
+{"time": 1782829126.5765045, "event": "receive_mask", "round": 42, "client_id": 1}
+{"time": 1782829151.282972, "event": "train_upload", "round": 42, "client_id": 1, "sync_performed": false}
+{"time": 1782829152.0089753, "event": "receive_agg", "round": 42, "client_id": 1}
+{"time": 1782829171.301356, "event": "receive_model", "round": 42, "client_id": 1, "modelHashNext": "0x406d522f72e19c736df1d90f5f592beae102517713e098b6aeec62258431cdeb"}
+{"time": 1782829173.0698514, "event": "receive_mask", "round": 43, "client_id": 1}
+{"time": 1782829197.8001404, "event": "train_upload", "round": 43, "client_id": 1, "sync_performed": false}
+{"time": 1782829198.5434842, "event": "receive_agg", "round": 43, "client_id": 1}
+{"time": 1782829217.8448796, "event": "receive_model", "round": 43, "client_id": 1, "modelHashNext": "0x59bc98b020c134e071a550caff41710e4a1c572ffbfca0ada9e927336e2acfaa"}
+{"time": 1782829219.5623434, "event": "receive_mask", "round": 44, "client_id": 1}
+{"time": 1782829244.2599013, "event": "train_upload", "round": 44, "client_id": 1, "sync_performed": false}
+{"time": 1782829244.9574862, "event": "receive_agg", "round": 44, "client_id": 1}
+{"time": 1782829264.1028266, "event": "receive_model", "round": 44, "client_id": 1, "modelHashNext": "0x8db33f609532311980197dbd7e396e1923be33b7f1f88d067db17c715cdfb316"}
+{"time": 1782829265.9099455, "event": "receive_mask", "round": 45, "client_id": 1}
+{"time": 1782829290.7322176, "event": "train_upload", "round": 45, "client_id": 1, "sync_performed": false}
+{"time": 1782829291.314401, "event": "receive_agg", "round": 45, "client_id": 1}
+{"time": 1782829311.0163133, "event": "receive_model", "round": 45, "client_id": 1, "modelHashNext": "0x62e4243e6f7afe592ac0e0dbc4df673b91118746ca04d3857f86bf5953ae9f74"}
+{"time": 1782829312.803289, "event": "receive_mask", "round": 46, "client_id": 1}
+{"time": 1782829337.4348176, "event": "train_upload", "round": 46, "client_id": 1, "sync_performed": false}
+{"time": 1782829338.2270446, "event": "receive_agg", "round": 46, "client_id": 1}
+{"time": 1782829357.6032982, "event": "receive_model", "round": 46, "client_id": 1, "modelHashNext": "0xcdb850e7d643b0ab8b69ab8d0e2f004bf2a7a2a875b33e08d2229f64a1154f30"}
+{"time": 1782829359.3582876, "event": "receive_mask", "round": 47, "client_id": 1}
+{"time": 1782829384.168344, "event": "train_upload", "round": 47, "client_id": 1, "sync_performed": false}
+{"time": 1782829384.7757013, "event": "receive_agg", "round": 47, "client_id": 1}
+{"time": 1782829404.0489004, "event": "receive_model", "round": 47, "client_id": 1, "modelHashNext": "0x6c5b8a896f164abdb8ecf798f1fd8072171bc6d8bee395999994a35e31347532"}
+{"time": 1782829405.7882874, "event": "receive_mask", "round": 48, "client_id": 1}
+{"time": 1782829430.3579094, "event": "train_upload", "round": 48, "client_id": 1, "sync_performed": false}
+{"time": 1782829431.1822956, "event": "receive_agg", "round": 48, "client_id": 1}
+{"time": 1782829450.4817388, "event": "receive_model", "round": 48, "client_id": 1, "modelHashNext": "0x37446dabb41e743cfa1b661aadc694b4ee494a1b9d3d017e7a3c56ef5f94c10f"}
+{"time": 1782829452.2678866, "event": "receive_mask", "round": 49, "client_id": 1}
+{"time": 1782829476.8990533, "event": "train_upload", "round": 49, "client_id": 1, "sync_performed": false}
+{"time": 1782829477.6735764, "event": "receive_agg", "round": 49, "client_id": 1}
+{"time": 1782829497.228099, "event": "receive_model", "round": 49, "client_id": 1, "modelHashNext": "0xd2e4245f092ff3ac03e01192ca4c1b5a5e8b39b92b1e19227d6a6f0fc7a274ad"}
+{"time": 1782829498.95484, "event": "receive_mask", "round": 50, "client_id": 1}
+{"time": 1782829523.7066078, "event": "train_upload", "round": 50, "client_id": 1, "sync_performed": false}
+{"time": 1782829524.2933214, "event": "receive_agg", "round": 50, "client_id": 1}
+{"time": 1782829543.6993446, "event": "receive_model", "round": 50, "client_id": 1, "modelHashNext": "0x00377dcd24946fc10bb3edf5e8c42975747064ac312e8875658fb706a2f86a6a"}

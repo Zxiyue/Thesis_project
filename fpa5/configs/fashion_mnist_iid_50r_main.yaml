@@ -3,7 +3,7 @@ output_dir: outputs/fashion_mnist_iid_50r_main
 
 dataset:
   name: FashionMNIST
-  data_dir: /mnt/fpa5/data
+  data_dir: /root/fpa5/data
   iid: true
   shards_per_client: 2
   download: false
