@@ -50,12 +50,16 @@ ROUND 48
 ROUND 49
 ROUND 50
 ----------------------------------------
-Exception occurred during processing of request from ('127.0.0.1', 47358)
+Exception occurred during processing of request from ('127.0.0.1', 44326)
 Traceback (most recent call last):
   File "/root/fpa5/fl_audit/distributed/endpoints.py", line 51, in do_POST
     self._send(200, {
-  File "/root/fpa5/fl_audit/distributed/endpoints.py", line 25, in _send
-    self.wfile.write(raw)
+  File "/root/fpa5/fl_audit/distributed/endpoints.py", line 24, in _send
+    self.end_headers()
+  File "/usr/lib/python3.10/http/server.py", line 535, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.10/http/server.py", line 539, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
   File "/usr/lib/python3.10/socketserver.py", line 826, in write
     self._sock.sendall(b)
 BrokenPipeError: [Errno 32] Broken pipe

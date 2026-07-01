@@ -2,9 +2,9 @@
   "processes": [
     {
       "name": "kgc",
-      "pid": 73251,
+      "pid": 62558,
       "cmd": [
-        "/root/fpa5/.venv/bin/python",
+        "/root/fpa5/.venv/bin/python3",
         "-B",
         "scripts/run_kgc_server.py",
         "--host",
@@ -18,9 +18,9 @@
     },
     {
       "name": "cs",
-      "pid": 73252,
+      "pid": 62559,
       "cmd": [
-        "/root/fpa5/.venv/bin/python",
+        "/root/fpa5/.venv/bin/python3",
         "-B",
         "scripts/run_cs_server.py",
         "--host",
@@ -34,9 +34,9 @@
     },
     {
       "name": "client_1",
-      "pid": 73253,
+      "pid": 62560,
       "cmd": [
-        "/root/fpa5/.venv/bin/python",
+        "/root/fpa5/.venv/bin/python3",
         "-B",
         "scripts/run_client_server.py",
         "--cid",
@@ -52,9 +52,9 @@
     },
     {
       "name": "client_2",
-      "pid": 73254,
+      "pid": 62561,
       "cmd": [
-        "/root/fpa5/.venv/bin/python",
+        "/root/fpa5/.venv/bin/python3",
         "-B",
         "scripts/run_client_server.py",
         "--cid",
@@ -70,9 +70,9 @@
     },
     {
       "name": "client_3",
-      "pid": 73255,
+      "pid": 62562,
       "cmd": [
-        "/root/fpa5/.venv/bin/python",
+        "/root/fpa5/.venv/bin/python3",
         "-B",
         "scripts/run_client_server.py",
         "--cid",
@@ -88,9 +88,9 @@
     },
     {
       "name": "client_4",
-      "pid": 73256,
+      "pid": 62563,
       "cmd": [
-        "/root/fpa5/.venv/bin/python",
+        "/root/fpa5/.venv/bin/python3",
         "-B",
         "scripts/run_client_server.py",
         "--cid",
@@ -106,9 +106,9 @@
     },
     {
       "name": "client_5",
-      "pid": 73257,
+      "pid": 62564,
       "cmd": [
-        "/root/fpa5/.venv/bin/python",
+        "/root/fpa5/.venv/bin/python3",
         "-B",
         "scripts/run_client_server.py",
         "--cid",

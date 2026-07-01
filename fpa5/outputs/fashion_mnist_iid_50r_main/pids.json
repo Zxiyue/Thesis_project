@@ -2,7 +2,7 @@
   "processes": [
     {
       "name": "kgc",
-      "pid": 286522,
+      "pid": 37920,
       "cmd": [
         "/root/fpa5/.venv/bin/python3",
         "-B",
@@ -18,7 +18,7 @@
     },
     {
       "name": "cs",
-      "pid": 286523,
+      "pid": 37921,
       "cmd": [
         "/root/fpa5/.venv/bin/python3",
         "-B",
@@ -34,7 +34,7 @@
     },
     {
       "name": "client_1",
-      "pid": 286524,
+      "pid": 37923,
       "cmd": [
         "/root/fpa5/.venv/bin/python3",
         "-B",
@@ -52,7 +52,7 @@
     },
     {
       "name": "client_2",
-      "pid": 286525,
+      "pid": 37926,
       "cmd": [
         "/root/fpa5/.venv/bin/python3",
         "-B",
@@ -70,7 +70,7 @@
     },
     {
       "name": "client_3",
-      "pid": 286526,
+      "pid": 37928,
       "cmd": [
         "/root/fpa5/.venv/bin/python3",
         "-B",
@@ -88,7 +88,7 @@
     },
     {
       "name": "client_4",
-      "pid": 286527,
+      "pid": 37929,
       "cmd": [
         "/root/fpa5/.venv/bin/python3",
         "-B",
@@ -106,7 +106,7 @@
     },
     {
       "name": "client_5",
-      "pid": 286528,
+      "pid": 37930,
       "cmd": [
         "/root/fpa5/.venv/bin/python3",
         "-B",
