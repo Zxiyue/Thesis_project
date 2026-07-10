@@ -1,0 +1,23 @@
+cd /root/fpa5
+
+source .venv/bin/activate
+export PYTHONPATH=/root/fpa5:$PYTHONPATH
+
+if [ ! -d node_modules ]; then
+  npm install
+fi
+
+npx hardhat compile
+
+mkdir -p data
+cp -rn /public/torchvision_datasets/MNIST /root/fpa5/data/ 2>/dev/null || true
+cp -rn /public/torchvision_datasets/FashionMNIST /root/fpa5/data/ 2>/dev/null || true
+cp -rn /public/torchvision_datasets/CIFAR10 /root/fpa5/data/ 2>/dev/null || true
+cp -rn /public/torchvision_datasets/cifar-10-batches-py /root/fpa5/data/ 2>/dev/null || true
+
+tmux new -d -s hardhat "cd /root/fpa5 && source .venv/bin/activate && export PYTHONPATH=/root/fpa5:\$PYTHONPATH && npx hardhat node > /root/hardhat.log 2>&1"
+
+sleep 5
+tail -n 20 /root/hardhat.log
+
+npx hardhat run scripts/deploy.js --network localhost

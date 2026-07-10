@@ -1,0 +1,118 @@
+
+================================================================
+[RUN] ours_packed_mnist_iid_10r_p2048_s34
+[CFG] configs/ours_packed_mnist_iid_10r_p2048_s34.yaml
+================================================================
+No pid file found: outputs/ours_packed_mnist_iid_10r_p2048_s34/pids.json
+[INFO] Checking Hardhat...
+[INFO] Deploying audit board contract...
+AuditBoard deployed to: 0xE6E340D132b5f46d1e472DebcD681B2aBc16e57E
+[INFO] Starting KGC/CS/clients...
+Started 7 entities. PIDs saved to outputs/ours_packed_mnist_iid_10r_p2048_s34/pids.json
+[INFO] Starting experiment...
+{'ok': True, 'ack_sha256': '30de2fb1f777844896db8d51800d09b2228f3b0726374365eb18cd6dd56699a3', 'server_receive_time': 1783252140.4571328, 'server_response_time': 1783252496.9386709, 'completed': True, 'accepted': True, 'output_dir': 'outputs/ours_packed_mnist_iid_10r_p2048_s34'}
+
+---- Sun Jul  5 19:54:57 CST 2026 ours_packed_mnist_iid_10r_p2048_s34 status 1/480 ----
+6,0.0754999828031803,0.9758,5,0
+7,0.08298503762193332,0.9732,5,0
+8,0.06781542865303804,0.978,5,0
+9,0.06013298696099695,0.9809,5,0
+10,0.059231358446154465,0.9812,5,0
+﻿accepted,rounds,latestAuditRoot
+True,10,0x74c99b3792b41166f1d25908e3eb6881665792ec414fc727cac001b7426a4d65
+[INFO] ours_packed_mnist_iid_10r_p2048_s34 accepted=True rounds=10
+[INFO] Collecting results...
+Collected outputs into outputs/ours_packed_mnist_iid_10r_p2048_s34
+Communication outputs:
+  all: outputs/ours_packed_mnist_iid_10r_p2048_s34/communication_cost.csv
+  network only: outputs/ours_packed_mnist_iid_10r_p2048_s34/communication_network_only.csv
+  processing requests: outputs/ours_packed_mnist_iid_10r_p2048_s34/communication_processing_requests.csv
+  summary by type: outputs/ours_packed_mnist_iid_10r_p2048_s34/communication_summary_by_type.csv
+[INFO] Stopping entities...
+stopped kgc pid=34613
+stopped cs pid=34614
+stopped client_1 pid=34615
+stopped client_2 pid=34616
+stopped client_3 pid=34617
+stopped client_4 pid=34618
+stopped client_5 pid=34619
+[INFO] Result zip: /root/ours_packed_mnist_iid_10r_p2048_s34_results.zip
+
+================================================================
+[RUN] ours_packed_mnist_iid_10r_p2048_s40
+[CFG] configs/ours_packed_mnist_iid_10r_p2048_s40.yaml
+================================================================
+No pid file found: outputs/ours_packed_mnist_iid_10r_p2048_s40/pids.json
+[INFO] Checking Hardhat...
+[INFO] Deploying audit board contract...
+AuditBoard deployed to: 0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf
+[INFO] Starting KGC/CS/clients...
+Started 7 entities. PIDs saved to outputs/ours_packed_mnist_iid_10r_p2048_s40/pids.json
+[INFO] Starting experiment...
+{'ok': True, 'ack_sha256': 'bc2c9a0d171eb189fa33cf43472be6e6db22cb5bdb148d7543bec46df6fe8661', 'server_receive_time': 1783252512.165069, 'server_response_time': 1783252914.5262988, 'completed': True, 'accepted': True, 'output_dir': 'outputs/ours_packed_mnist_iid_10r_p2048_s40'}
+
+---- Sun Jul  5 20:01:54 CST 2026 ours_packed_mnist_iid_10r_p2048_s40 status 1/480 ----
+6,0.0754999828031803,0.9758,5,0
+7,0.08298503762193332,0.9732,5,0
+8,0.06781542865303804,0.978,5,0
+9,0.06013298696099695,0.9809,5,0
+10,0.059231358446154465,0.9812,5,0
+﻿accepted,rounds,latestAuditRoot
+True,10,0x35a55fad59be6cd98ead7a1672d616852858c39f239c4995fba9cc4594472b4a
+[INFO] ours_packed_mnist_iid_10r_p2048_s40 accepted=True rounds=10
+[INFO] Collecting results...
+Collected outputs into outputs/ours_packed_mnist_iid_10r_p2048_s40
+Communication outputs:
+  all: outputs/ours_packed_mnist_iid_10r_p2048_s40/communication_cost.csv
+  network only: outputs/ours_packed_mnist_iid_10r_p2048_s40/communication_network_only.csv
+  processing requests: outputs/ours_packed_mnist_iid_10r_p2048_s40/communication_processing_requests.csv
+  summary by type: outputs/ours_packed_mnist_iid_10r_p2048_s40/communication_summary_by_type.csv
+[INFO] Stopping entities...
+stopped kgc pid=39667
+stopped cs pid=39668
+stopped client_1 pid=39669
+stopped client_2 pid=39670
+stopped client_3 pid=39671
+stopped client_4 pid=39672
+stopped client_5 pid=39673
+[INFO] Result zip: /root/ours_packed_mnist_iid_10r_p2048_s40_results.zip
+
+================================================================
+[RUN] ours_packed_mnist_iid_10r_p2048_s48
+[CFG] configs/ours_packed_mnist_iid_10r_p2048_s48.yaml
+================================================================
+No pid file found: outputs/ours_packed_mnist_iid_10r_p2048_s48/pids.json
+[INFO] Checking Hardhat...
+[INFO] Deploying audit board contract...
+AuditBoard deployed to: 0x82e01223d51Eb87e16A03E24687EDF0F294da6f1
+[INFO] Starting KGC/CS/clients...
+Started 7 entities. PIDs saved to outputs/ours_packed_mnist_iid_10r_p2048_s48/pids.json
+[INFO] Starting experiment...
+{'ok': True, 'ack_sha256': '532d204cf0f5974ce1461b0c11bac6824d238023dd3cbef8e49a5dadfd40a501', 'server_receive_time': 1783252929.5076988, 'server_response_time': 1783253378.9695654, 'completed': True, 'accepted': True, 'output_dir': 'outputs/ours_packed_mnist_iid_10r_p2048_s48'}
+
+---- Sun Jul  5 20:09:39 CST 2026 ours_packed_mnist_iid_10r_p2048_s48 status 1/480 ----
+6,0.0754999828031803,0.9758,5,0
+7,0.08298503762193332,0.9732,5,0
+8,0.06781542865303804,0.978,5,0
+9,0.06013298696099695,0.9809,5,0
+10,0.059231358446154465,0.9812,5,0
+﻿accepted,rounds,latestAuditRoot
+True,10,0xe2de1a2e0df7f9f6b446eb528190670ab78483f70289dcca0bf39e8be4728db3
+[INFO] ours_packed_mnist_iid_10r_p2048_s48 accepted=True rounds=10
+[INFO] Collecting results...
+Collected outputs into outputs/ours_packed_mnist_iid_10r_p2048_s48
+Communication outputs:
+  all: outputs/ours_packed_mnist_iid_10r_p2048_s48/communication_cost.csv
+  network only: outputs/ours_packed_mnist_iid_10r_p2048_s48/communication_network_only.csv
+  processing requests: outputs/ours_packed_mnist_iid_10r_p2048_s48/communication_processing_requests.csv
+  summary by type: outputs/ours_packed_mnist_iid_10r_p2048_s48/communication_summary_by_type.csv
+[INFO] Stopping entities...
+stopped kgc pid=45335
+stopped cs pid=45336
+stopped client_1 pid=45337
+stopped client_2 pid=45338
+stopped client_3 pid=45339
+stopped client_4 pid=45340
+stopped client_5 pid=45341
+[INFO] Result zip: /root/ours_packed_mnist_iid_10r_p2048_s48_results.zip
+[INFO] Combined result zip: /root/ours_packed_slotbits_10r_s34_s40_s48_results.zip
