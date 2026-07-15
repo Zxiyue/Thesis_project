@@ -1,0 +1,189 @@
+
+================================================================
+[RUN] ours_packed_mnist_iid_10r_p2048_s34_pauto
+[CFG] configs/ours_packed_mnist_iid_10r_p2048_s34_pauto.yaml
+================================================================
+failed to stop pid=213632: [Errno 3] No such process
+failed to stop pid=213633: [Errno 3] No such process
+failed to stop pid=213634: [Errno 3] No such process
+failed to stop pid=213635: [Errno 3] No such process
+failed to stop pid=213636: [Errno 3] No such process
+failed to stop pid=213637: [Errno 3] No such process
+failed to stop pid=213638: [Errno 3] No such process
+[INFO] Deploying audit board contract...
+AuditBoard deployed to: 0xCa57C1d3c2c35E667745448Fef8407dd25487ff8
+[INFO] Starting KGC/CS/clients...
+Started 7 entities. PIDs saved to outputs/ours_packed_mnist_iid_10r_p2048_s34_pauto/pids.json
+[INFO] Starting experiment...
+{'ok': True, 'ack_sha256': 'd6299de2c90568d51e493fbc5e05602cd877c20ed4b398281df9d0b6c1c6a85c', 'server_receive_time': 1783267530.9497156, 'server_response_time': 1783267884.316603, 'completed': True, 'accepted': True, 'output_dir': 'outputs/ours_packed_mnist_iid_10r_p2048_s34_pauto'}
+
+---- Mon Jul  6 00:11:24 CST 2026 ours_packed_mnist_iid_10r_p2048_s34_pauto status 1/360 ----
+3,0.11529783168715253,0.9634,5,0
+4,0.08847901428344508,0.9734,5,0
+5,0.08247245870312009,0.9739,5,0
+6,0.0754999828031803,0.9758,5,0
+7,0.08298503762193332,0.9732,5,0
+8,0.06781542865303804,0.978,5,0
+9,0.06013298696099695,0.9809,5,0
+10,0.059231358446154465,0.9812,5,0
+﻿accepted,rounds,latestAuditRoot
+True,10,0x9f6d31e21f5da320e171b0caf86d20a656883b3140646ff5bb210c539391b40a
+[INFO] ours_packed_mnist_iid_10r_p2048_s34_pauto accepted=True rounds=10
+[INFO] Collecting results...
+Collected outputs into outputs/ours_packed_mnist_iid_10r_p2048_s34_pauto
+Communication outputs:
+  all: outputs/ours_packed_mnist_iid_10r_p2048_s34_pauto/communication_cost.csv
+  network only: outputs/ours_packed_mnist_iid_10r_p2048_s34_pauto/communication_network_only.csv
+  processing requests: outputs/ours_packed_mnist_iid_10r_p2048_s34_pauto/communication_processing_requests.csv
+  summary by type: outputs/ours_packed_mnist_iid_10r_p2048_s34_pauto/communication_summary_by_type.csv
+[INFO] Stopping entities...
+stopped kgc pid=251723
+stopped cs pid=251724
+stopped client_1 pid=251725
+stopped client_2 pid=251726
+stopped client_3 pid=251727
+stopped client_4 pid=251728
+stopped client_5 pid=251729
+[INFO] Result zip: /root/ours_packed_mnist_iid_10r_p2048_s34_pauto_results.zip
+
+================================================================
+[RUN] ours_packed_mnist_iid_10r_p2048_s34_p48
+[CFG] configs/ours_packed_mnist_iid_10r_p2048_s34_p48.yaml
+================================================================
+failed to stop pid=221046: [Errno 3] No such process
+failed to stop pid=221047: [Errno 3] No such process
+failed to stop pid=221048: [Errno 3] No such process
+failed to stop pid=221050: [Errno 3] No such process
+failed to stop pid=221051: [Errno 3] No such process
+failed to stop pid=221055: [Errno 3] No such process
+failed to stop pid=221057: [Errno 3] No such process
+[INFO] Deploying audit board contract...
+AuditBoard deployed to: 0x25C0a2F0A077F537Bd11897F04946794c2f6f1Ef
+[INFO] Starting KGC/CS/clients...
+Started 7 entities. PIDs saved to outputs/ours_packed_mnist_iid_10r_p2048_s34_p48/pids.json
+[INFO] Starting experiment...
+{'ok': True, 'ack_sha256': '07db39e26c3028fdeb620259532a4c4a01ca2ed9da093298aac3d414c6586ec8', 'server_receive_time': 1783267902.2403526, 'server_response_time': 1783268293.0347366, 'completed': True, 'accepted': True, 'output_dir': 'outputs/ours_packed_mnist_iid_10r_p2048_s34_p48'}
+
+---- Mon Jul  6 00:18:13 CST 2026 ours_packed_mnist_iid_10r_p2048_s34_p48 status 1/360 ----
+3,0.11529783168715253,0.9634,5,0
+4,0.08847901428344508,0.9734,5,0
+5,0.08247245870312009,0.9739,5,0
+6,0.0754999828031803,0.9758,5,0
+7,0.08298503762193332,0.9732,5,0
+8,0.06781542865303804,0.978,5,0
+9,0.06013298696099695,0.9809,5,0
+10,0.059231358446154465,0.9812,5,0
+﻿accepted,rounds,latestAuditRoot
+True,10,0xd2fddb46ae40e1fffd1a5a1153dd84d42174983b5f5c9b769d565a6624cb3e7e
+[INFO] ours_packed_mnist_iid_10r_p2048_s34_p48 accepted=True rounds=10
+[INFO] Collecting results...
+Collected outputs into outputs/ours_packed_mnist_iid_10r_p2048_s34_p48
+Communication outputs:
+  all: outputs/ours_packed_mnist_iid_10r_p2048_s34_p48/communication_cost.csv
+  network only: outputs/ours_packed_mnist_iid_10r_p2048_s34_p48/communication_network_only.csv
+  processing requests: outputs/ours_packed_mnist_iid_10r_p2048_s34_p48/communication_processing_requests.csv
+  summary by type: outputs/ours_packed_mnist_iid_10r_p2048_s34_p48/communication_summary_by_type.csv
+[INFO] Stopping entities...
+stopped kgc pid=259112
+stopped cs pid=259113
+stopped client_1 pid=259114
+stopped client_2 pid=259115
+stopped client_3 pid=259116
+stopped client_4 pid=259117
+stopped client_5 pid=259118
+[INFO] Result zip: /root/ours_packed_mnist_iid_10r_p2048_s34_p48_results.zip
+
+================================================================
+[RUN] ours_packed_mnist_iid_10r_p2048_s34_p32
+[CFG] configs/ours_packed_mnist_iid_10r_p2048_s34_p32.yaml
+================================================================
+failed to stop pid=228344: [Errno 3] No such process
+failed to stop pid=228345: [Errno 3] No such process
+failed to stop pid=228347: [Errno 3] No such process
+failed to stop pid=228348: [Errno 3] No such process
+failed to stop pid=228352: [Errno 3] No such process
+failed to stop pid=228354: [Errno 3] No such process
+failed to stop pid=228357: [Errno 3] No such process
+[INFO] Deploying audit board contract...
+AuditBoard deployed to: 0x75b0B516B47A27b1819D21B26203Abf314d42CCE
+[INFO] Starting KGC/CS/clients...
+Started 7 entities. PIDs saved to outputs/ours_packed_mnist_iid_10r_p2048_s34_p32/pids.json
+[INFO] Starting experiment...
+{'ok': True, 'ack_sha256': 'c1814e6c45fdf40e9fb997ec51e009f788e0bcded65a1d28e0df4e4a59123544', 'server_receive_time': 1783268311.4120972, 'server_response_time': 1783268803.684219, 'completed': True, 'accepted': True, 'output_dir': 'outputs/ours_packed_mnist_iid_10r_p2048_s34_p32'}
+
+---- Mon Jul  6 00:26:44 CST 2026 ours_packed_mnist_iid_10r_p2048_s34_p32 status 1/360 ----
+3,0.11529783168715253,0.9634,5,0
+4,0.08847901428344508,0.9734,5,0
+5,0.08247245870312009,0.9739,5,0
+6,0.0754999828031803,0.9758,5,0
+7,0.08298503762193332,0.9732,5,0
+8,0.06781542865303804,0.978,5,0
+9,0.06013298696099695,0.9809,5,0
+10,0.059231358446154465,0.9812,5,0
+﻿accepted,rounds,latestAuditRoot
+True,10,0x93ddb1cba53723d7ee18b5599bfb4576ff992af37686e22d4289b50f631b8551
+[INFO] ours_packed_mnist_iid_10r_p2048_s34_p32 accepted=True rounds=10
+[INFO] Collecting results...
+Collected outputs into outputs/ours_packed_mnist_iid_10r_p2048_s34_p32
+Communication outputs:
+  all: outputs/ours_packed_mnist_iid_10r_p2048_s34_p32/communication_cost.csv
+  network only: outputs/ours_packed_mnist_iid_10r_p2048_s34_p32/communication_network_only.csv
+  processing requests: outputs/ours_packed_mnist_iid_10r_p2048_s34_p32/communication_processing_requests.csv
+  summary by type: outputs/ours_packed_mnist_iid_10r_p2048_s34_p32/communication_summary_by_type.csv
+[INFO] Stopping entities...
+stopped kgc pid=267366
+stopped cs pid=267367
+stopped client_1 pid=267368
+stopped client_2 pid=267369
+stopped client_3 pid=267370
+stopped client_4 pid=267371
+stopped client_5 pid=267372
+[INFO] Result zip: /root/ours_packed_mnist_iid_10r_p2048_s34_p32_results.zip
+
+================================================================
+[RUN] ours_packed_mnist_iid_10r_p2048_s34_p16
+[CFG] configs/ours_packed_mnist_iid_10r_p2048_s34_p16.yaml
+================================================================
+failed to stop pid=235664: [Errno 3] No such process
+failed to stop pid=235666: [Errno 3] No such process
+failed to stop pid=235667: [Errno 3] No such process
+failed to stop pid=235671: [Errno 3] No such process
+failed to stop pid=235673: [Errno 3] No such process
+failed to stop pid=235674: [Errno 3] No such process
+failed to stop pid=235677: [Errno 3] No such process
+[INFO] Deploying audit board contract...
+AuditBoard deployed to: 0xD2D5e508C82EFc205cAFA4Ad969a4395Babce026
+[INFO] Starting KGC/CS/clients...
+Started 7 entities. PIDs saved to outputs/ours_packed_mnist_iid_10r_p2048_s34_p16/pids.json
+[INFO] Starting experiment...
+{'ok': True, 'ack_sha256': 'aa5422dcf7886684d78ef97f3472302ddbf0e9bf12e208391eae0ee3fcb9f1a1', 'server_receive_time': 1783268821.7240808, 'server_response_time': 1783269650.0949864, 'completed': True, 'accepted': True, 'output_dir': 'outputs/ours_packed_mnist_iid_10r_p2048_s34_p16'}
+
+---- Mon Jul  6 00:40:50 CST 2026 ours_packed_mnist_iid_10r_p2048_s34_p16 status 1/360 ----
+3,0.11529783168715253,0.9634,5,0
+4,0.08847901428344508,0.9734,5,0
+5,0.08247245870312009,0.9739,5,0
+6,0.0754999828031803,0.9758,5,0
+7,0.08298503762193332,0.9732,5,0
+8,0.06781542865303804,0.978,5,0
+9,0.06013298696099695,0.9809,5,0
+10,0.059231358446154465,0.9812,5,0
+﻿accepted,rounds,latestAuditRoot
+True,10,0x3f34275180abd97c8b2a65232cb65d0a7c255984e8b84c7e260f8c2af471bd2b
+[INFO] ours_packed_mnist_iid_10r_p2048_s34_p16 accepted=True rounds=10
+[INFO] Collecting results...
+Collected outputs into outputs/ours_packed_mnist_iid_10r_p2048_s34_p16
+Communication outputs:
+  all: outputs/ours_packed_mnist_iid_10r_p2048_s34_p16/communication_cost.csv
+  network only: outputs/ours_packed_mnist_iid_10r_p2048_s34_p16/communication_network_only.csv
+  processing requests: outputs/ours_packed_mnist_iid_10r_p2048_s34_p16/communication_processing_requests.csv
+  summary by type: outputs/ours_packed_mnist_iid_10r_p2048_s34_p16/communication_summary_by_type.csv
+[INFO] Stopping entities...
+stopped kgc pid=276590
+stopped cs pid=276591
+stopped client_1 pid=276595
+stopped client_2 pid=276597
+stopped client_3 pid=276598
+stopped client_4 pid=276601
+stopped client_5 pid=276602
+[INFO] Result zip: /root/ours_packed_mnist_iid_10r_p2048_s34_p16_results.zip
+[DONE] Combined result zip: /root/ours_packed_packsize_10r_results.zip
